@@ -6,19 +6,15 @@ import ScrollToTop from "react-scroll-to-top";
 
 const Animation = () => {
   useEffect(() => {
-    Aos.init({
-      offset: 0,
-      easing: "ease",
-      once: true,
-      duration: 1200,
-    });
-    Aos.refresh();
+    // Aos.init({
+    //   offset: 0,
+    //   easing: "ease",
+    //   once: true,
+    //   duration: 1200,
+    // });
+    // Aos.refresh();
   }, []);
-  return (
-    <>
-      <ScrollToTop smooth color="#E8092E" />
-    </>
-  );
+  return <>{/* <ScrollToTop smooth color="#E8092E" /> */}</>;
 };
 
 export default Animation;
