@@ -1,3 +1,4 @@
+import AboutOne from "@/components/AboutOne";
 import BannerOne from "@/components/BannerOne";
 import BrandOne from "@/components/BrandOne";
 import ExploreCourseOne from "@/components/ExploreCourseOne";
@@ -27,6 +28,9 @@ const page = () => {
 
       {/* ExploreCourseOne */}
       <ExploreCourseOne />
+
+      {/* AboutOne */}
+      <AboutOne />
     </>
   );
 };
