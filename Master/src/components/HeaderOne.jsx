@@ -1,9 +1,10 @@
 "use client";
 import Link from "next/link";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import $ from "jquery";
 
 const HeaderOne = () => {
+  const [scroll, setScroll] = useState(false);
   useEffect(() => {
     if (typeof window !== "undefined") {
       import("select2").then(() => {
@@ -13,9 +14,18 @@ const HeaderOne = () => {
         }
       });
     }
+
+    window.onscroll = () => {
+      if (window.pageYOffset < 150) {
+        setScroll(false);
+      } else if (window.pageYOffset > 150) {
+        setScroll(true);
+      }
+      return () => (window.onscroll = null);
+    };
   }, []);
   return (
-    <header className='header'>
+    <header className={`header ${scroll ? "fixed-header" : ""}`}>
       <div className='container container--xl'>
         <nav className='header-inner flex-between gap-8'>
           <div className='header-content-wrapper flex-align flex-grow-1'>

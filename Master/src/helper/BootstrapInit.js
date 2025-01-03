@@ -7,7 +7,5 @@ export default function BootstrapInit() {
       require("bootstrap/dist/js/bootstrap.bundle.min.js");
     }
   }, []);
-  return <>
-   <ScrollToTop smooth color="#B94BF0" />
-  </>;
+  return null;
 }
