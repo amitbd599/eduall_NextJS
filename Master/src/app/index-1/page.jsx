@@ -1,6 +1,7 @@
 import AboutOne from "@/components/AboutOne";
 import BannerOne from "@/components/BannerOne";
 import BrandOne from "@/components/BrandOne";
+import CHooseUsOne from "@/components/CHooseUsOne";
 import ExploreCourseOne from "@/components/ExploreCourseOne";
 import FeaturesOne from "@/components/FeaturesOne";
 import HeaderOne from "@/components/HeaderOne";
@@ -35,6 +36,9 @@ const page = () => {
 
       {/* InstructorOne */}
       <InstructorOne />
+
+      {/* CHooseUsOne */}
+      <CHooseUsOne />
     </>
   );
 };

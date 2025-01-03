@@ -1,6 +1,7 @@
 "use client";
 import { useRef } from "react";
-import Slider from "react-slick";
+import dynamic from "next/dynamic";
+const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
 const InstructorOne = () => {
   const sliderRef = useRef(null);
