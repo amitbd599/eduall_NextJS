@@ -1,5 +1,6 @@
 import BannerOne from "@/components/BannerOne";
 import BrandOne from "@/components/BrandOne";
+import ExploreCourseOne from "@/components/ExploreCourseOne";
 import FeaturesOne from "@/components/FeaturesOne";
 import HeaderOne from "@/components/HeaderOne";
 
@@ -23,6 +24,9 @@ const page = () => {
 
       {/* FeaturesOne */}
       <FeaturesOne />
+
+      {/* ExploreCourseOne */}
+      <ExploreCourseOne />
     </>
   );
 };
