@@ -1,4 +1,9 @@
-const CHooseUsOne = () => {
+"use client";
+import { useState } from "react";
+import ModalVideo from "react-modal-video";
+
+const ChooseUsOne = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <section className='choose-us pt-120 position-relative z-1 mash-bg-main mash-bg-main-two'>
       <img
@@ -155,19 +160,27 @@ const CHooseUsOne = () => {
                   className='border border-white rounded-circle border-3'
                   data-tilt=''
                 />
-                <a
-                  href='https://www.youtube.com/watch?v=MFLVmAE4cqg'
+                <span
+                  onClick={() => setIsOpen(true)}
                   className='play-button w-48 h-48 flex-center bg-main-600 text-white rounded-circle text-xl position-absolute top-50 start-50 translate-middle'
                 >
                   <i className='ph-fill ph-play' />
-                </a>
+                </span>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <ModalVideo
+        channel='youtube'
+        autoplay
+        isOpen={isOpen}
+        videoId='XxVg_s8xAms'
+        onClose={() => setIsOpen(false)}
+        allowFullScreen
+      />
     </section>
   );
 };
 
-export default CHooseUsOne;
+export default ChooseUsOne;

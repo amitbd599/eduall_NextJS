@@ -3,6 +3,7 @@ import RouteScrollToTop from "@/helper/RouteScrollToTop";
 import "./font.css";
 import "./globals.scss";
 import LoadPhosphorIcons from "@/helper/LoadPhosphorIcons";
+import CounterUp from "@/helper/CounterUp";
 
 export const metadata = {
   title: "Digital Market Place NEXT Js Template",
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
       <body suppressHydrationWarning={true}>
         <BootstrapInit />
         <LoadPhosphorIcons />
+        <CounterUp />
         <RouteScrollToTop />
         {children}
       </body>
