@@ -1,3 +1,4 @@
+import AboutThree from "@/components/AboutThree";
 import BannerThree from "@/components/BannerThree";
 import HeaderOne from "@/components/HeaderOne";
 import InfoTwo from "@/components/InfoTwo";
@@ -19,6 +20,9 @@ const page = () => {
 
       {/* InfoTwo */}
       <InfoTwo />
+
+      {/* AboutThree */}
+      <AboutThree />
     </>
   );
 };
