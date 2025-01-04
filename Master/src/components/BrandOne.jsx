@@ -1,6 +1,5 @@
 "use client";
-import dynamic from "next/dynamic";
-const Slider = dynamic(() => import("react-slick"), { ssr: false });
+import Slider from "react-slick";
 
 const BrandOne = () => {
   const settings = {

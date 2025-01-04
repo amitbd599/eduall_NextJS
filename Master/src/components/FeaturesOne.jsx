@@ -1,6 +1,5 @@
 "use client";
-import dynamic from "next/dynamic";
-const Slider = dynamic(() => import("react-slick"), { ssr: false });
+import Slider from "react-slick";
 
 const FeaturesOne = () => {
   const settings = {
@@ -11,18 +10,9 @@ const FeaturesOne = () => {
     speed: 900,
     dots: false,
     pauseOnHover: true,
-    arrows: true,
+    arrows: false,
     infinite: true,
-    nextArrow: (
-      <button id='features-next' aria-label='Next'>
-        Next
-      </button>
-    ),
-    prevArrow: (
-      <button id='features-prev' aria-label='Previous'>
-        Prev
-      </button>
-    ),
+
     responsive: [
       {
         breakpoint: 991,

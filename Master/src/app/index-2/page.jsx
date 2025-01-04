@@ -1,4 +1,6 @@
+import AboutTwo from "@/components/AboutTwo";
 import BannerTwo from "@/components/BannerTwo";
+import CategoryOne from "@/components/CategoryOne";
 import HeaderOne from "@/components/HeaderOne";
 import InfoSectionOne from "@/components/InfoSectionOne";
 
@@ -19,6 +21,12 @@ const page = () => {
 
       {/* InfoSectionOne */}
       <InfoSectionOne />
+
+      {/* CategoryOne */}
+      <CategoryOne />
+
+      {/* AboutTwo */}
+      <AboutTwo />
     </>
   );
 };
