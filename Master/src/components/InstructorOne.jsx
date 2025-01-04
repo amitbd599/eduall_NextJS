@@ -1,10 +1,9 @@
 "use client";
 import { useRef } from "react";
-import dynamic from "next/dynamic";
-const Slider = dynamic(() => import("react-slick"), { ssr: false });
+import Slider from "react-slick";
 
 const InstructorOne = () => {
-  const sliderRef = useRef(null);
+  const instructorSliderRef = useRef(null);
   const settings = {
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -60,7 +59,11 @@ const InstructorOne = () => {
             Together, let's shape a brighter future
           </p>
         </div>
-        <Slider {...settings} ref={sliderRef} className='instructor-slider'>
+        <Slider
+          {...settings}
+          ref={instructorSliderRef}
+          className='instructor-slider'
+        >
           <div
             className='instructor-item scale-hover-item bg-white rounded-16 p-12 h-100 border border-neutral-30'
             data-aos='fade-up'
@@ -499,7 +502,7 @@ const InstructorOne = () => {
           <button
             type='button'
             id='instructor-prev'
-            onClick={() => sliderRef.current.slickPrev()}
+            onClick={() => instructorSliderRef.current.slickPrev()}
             className='slick-arrow flex-center rounded-circle border border-gray-100 hover-border-main-600 text-xl hover-bg-main-600 hover-text-white transition-1 w-48 h-48'
           >
             <i className='ph ph-caret-left' />
@@ -507,7 +510,7 @@ const InstructorOne = () => {
           <button
             type='button'
             id='instructor-next'
-            onClick={() => sliderRef.current.slickNext()}
+            onClick={() => instructorSliderRef.current.slickNext()}
             className='slick-arrow flex-center rounded-circle border border-gray-100 hover-border-main-600 text-xl hover-bg-main-600 hover-text-white transition-1 w-48 h-48'
           >
             <i className='ph ph-caret-right' />

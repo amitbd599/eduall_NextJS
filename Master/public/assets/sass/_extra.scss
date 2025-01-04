@@ -1,3 +1,21 @@
 .progress-wrap {
   line-height: 33px;
 }
+
+.nav-menu--mobile .nav-submenu {
+  display: block;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.4s linear;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+}
+
+.nav-menu--mobile .has-submenu.active .nav-submenu {
+  transition: all 0.4s linear;
+  max-height: 1000px;
+  visibility: visible;
+  opacity: 1;
+  height: 100%;
+}

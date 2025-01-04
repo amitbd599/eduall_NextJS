@@ -1,3 +1,7 @@
+"use client";
+import CountUp from "react-countup";
+import VisibilitySensor from "react-visibility-sensor";
+
 const AboutOne = () => {
   return (
     <section className='about py-120 position-relative z-1 mash-bg-main mash-bg-main-two'>
@@ -49,14 +53,32 @@ const AboutOne = () => {
                         className='bg-main-600 rounded-12 text-center py-24 px-2 w-50-percent'
                         data-aos='fade-right'
                       >
-                        <h1 className='mb-0 text-white counter'>16+</h1>
+                        <VisibilitySensor
+                          partialVisibility
+                          offset={{ bottom: 200 }}
+                        >
+                          {({ isVisible }) => (
+                            <h1 className='mb-0 text-white counter'>
+                              {isVisible ? <CountUp end={16} /> : null}K
+                            </h1>
+                          )}
+                        </VisibilitySensor>
                         <span className='text-white'>Years of experience</span>
                       </div>
                       <div
                         className='bg-neutral-700 rounded-12 text-center py-24 px-2 w-50-percent'
                         data-aos='fade-left'
                       >
-                        <h1 className='mb-0 text-white counter'>3.2k</h1>
+                        <VisibilitySensor
+                          partialVisibility
+                          offset={{ bottom: 200 }}
+                        >
+                          {({ isVisible }) => (
+                            <h1 className='mb-0 text-white counter'>
+                              {isVisible ? <CountUp end={3} /> : null}K
+                            </h1>
+                          )}
+                        </VisibilitySensor>
                         <span className='text-white'>Years of experience</span>
                       </div>
                     </div>

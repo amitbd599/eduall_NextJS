@@ -1,3 +1,6 @@
+"use client";
+import CountUp from "react-countup";
+import VisibilitySensor from "react-visibility-sensor";
 const CounterOne = () => {
   return (
     <section className='counter py-120'>
@@ -12,9 +15,14 @@ const CounterOne = () => {
               <span className='w-80 h-80 flex-center d-inline-flex bg-white text-main-600 text-40 rounded-circle box-shadow-md mb-24'>
                 <i className='animate__wobble ph ph-users' />
               </span>
-              <h2 className='display-four mb-16 text-neutral-700 counter'>
-                1.6K
-              </h2>
+
+              <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+                {({ isVisible }) => (
+                  <h2 className='display-four mb-16 text-neutral-700 counter'>
+                    {isVisible ? <CountUp end={10} /> : null}K
+                  </h2>
+                )}
+              </VisibilitySensor>
               <span className='text-neutral-500 text-lg'>
                 Successfully Trained
               </span>
@@ -29,10 +37,13 @@ const CounterOne = () => {
               <span className='w-80 h-80 flex-center d-inline-flex bg-white text-main-two-600 text-40 rounded-circle box-shadow-md mb-24'>
                 <i className='animate__wobble ph ph-video-camera' />
               </span>
-              <h2 className='display-four mb-16 text-neutral-700 counter'>
-                {" "}
-                16.5K
-              </h2>
+              <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+                {({ isVisible }) => (
+                  <h2 className='display-four mb-16 text-neutral-700 counter'>
+                    {isVisible ? <CountUp end={22} /> : null}K
+                  </h2>
+                )}
+              </VisibilitySensor>
               <span className='text-neutral-500 text-lg'>
                 Courses Completed
               </span>
@@ -47,9 +58,13 @@ const CounterOne = () => {
               <span className='w-80 h-80 flex-center d-inline-flex bg-white text-main-600 text-40 rounded-circle box-shadow-md mb-24'>
                 <i className='animate__wobble ph ph-thumbs-up' />
               </span>
-              <h2 className='display-four mb-16 text-neutral-700 counter'>
-                45.8K
-              </h2>
+              <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+                {({ isVisible }) => (
+                  <h2 className='display-four mb-16 text-neutral-700 counter'>
+                    {isVisible ? <CountUp end={45} /> : null}K
+                  </h2>
+                )}
+              </VisibilitySensor>
               <span className='text-neutral-500 text-lg'>
                 Satisfaction Rate
               </span>
@@ -64,9 +79,13 @@ const CounterOne = () => {
               <span className='w-80 h-80 flex-center d-inline-flex bg-white text-main-two-600 text-40 rounded-circle box-shadow-md mb-24'>
                 <i className='animate__wobble ph ph-users-three' />
               </span>
-              <h2 className='display-four mb-16 text-neutral-700 counter'>
-                55.6K
-              </h2>
+              <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+                {({ isVisible }) => (
+                  <h2 className='display-four mb-16 text-neutral-700 counter'>
+                    {isVisible ? <CountUp end={55} /> : null}K
+                  </h2>
+                )}
+              </VisibilitySensor>
               <span className='text-neutral-500 text-lg'>
                 Students Community
               </span>
