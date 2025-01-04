@@ -3,9 +3,12 @@ import BannerTwo from "@/components/BannerTwo";
 import CategoryOne from "@/components/CategoryOne";
 import CertificateTwo from "@/components/CertificateTwo";
 import ExploreCourseTwo from "@/components/ExploreCourseTwo";
+import FaqOne from "@/components/FaqOne";
 import FeaturesTwo from "@/components/FeaturesTwo";
+import FooterTwo from "@/components/FooterTwo";
 import HeaderOne from "@/components/HeaderOne";
 import InfoSectionOne from "@/components/InfoSectionOne";
+import JoinCommunityOne from "@/components/JoinCommunityOne";
 import TestimonialsTwo from "@/components/TestimonialsTwo";
 
 export const metadata = {
@@ -43,6 +46,15 @@ const page = () => {
 
       {/* TestimonialsTwo */}
       <TestimonialsTwo />
+
+      {/* JoinCommunityOne */}
+      <JoinCommunityOne />
+
+      {/* FaqOne */}
+      <FaqOne />
+
+      {/* FooterTwo */}
+      <FooterTwo />
     </>
   );
 };
