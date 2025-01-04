@@ -6,6 +6,7 @@ import ExploreCourseTwo from "@/components/ExploreCourseTwo";
 import FeaturesTwo from "@/components/FeaturesTwo";
 import HeaderOne from "@/components/HeaderOne";
 import InfoSectionOne from "@/components/InfoSectionOne";
+import TestimonialsTwo from "@/components/TestimonialsTwo";
 
 export const metadata = {
   title: "EdullAll - LMS, Tutors, Education & Online Course NEXT JS Template",
@@ -39,6 +40,9 @@ const page = () => {
 
       {/* ExploreCourseTwo */}
       <ExploreCourseTwo />
+
+      {/* TestimonialsTwo */}
+      <TestimonialsTwo />
     </>
   );
 };
