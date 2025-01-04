@@ -1,6 +1,7 @@
 import AboutTwo from "@/components/AboutTwo";
 import BannerTwo from "@/components/BannerTwo";
 import CategoryOne from "@/components/CategoryOne";
+import FeaturesTwo from "@/components/FeaturesTwo";
 import HeaderOne from "@/components/HeaderOne";
 import InfoSectionOne from "@/components/InfoSectionOne";
 
@@ -27,6 +28,9 @@ const page = () => {
 
       {/* AboutTwo */}
       <AboutTwo />
+
+      {/* FeaturesTwo */}
+      <FeaturesTwo />
     </>
   );
 };
