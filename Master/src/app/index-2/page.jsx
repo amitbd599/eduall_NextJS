@@ -1,5 +1,6 @@
 import BannerTwo from "@/components/BannerTwo";
 import HeaderOne from "@/components/HeaderOne";
+import InfoSectionOne from "@/components/InfoSectionOne";
 
 export const metadata = {
   title: "EdullAll - LMS, Tutors, Education & Online Course NEXT JS Template",
@@ -15,6 +16,9 @@ const page = () => {
 
       {/* BannerTwo */}
       <BannerTwo />
+
+      {/* InfoSectionOne */}
+      <InfoSectionOne />
     </>
   );
 };
