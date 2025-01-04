@@ -1,5 +1,6 @@
 import AboutThree from "@/components/AboutThree";
 import BannerThree from "@/components/BannerThree";
+import CounterTwo from "@/components/CounterTwo";
 import HeaderOne from "@/components/HeaderOne";
 import InfoTwo from "@/components/InfoTwo";
 import VideoOne from "@/components/VideoOne";
@@ -27,6 +28,9 @@ const page = () => {
 
       {/* VideoOne */}
       <VideoOne />
+
+      {/* CounterTwo */}
+      <CounterTwo />
     </>
   );
 };
