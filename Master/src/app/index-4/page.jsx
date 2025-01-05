@@ -1,3 +1,4 @@
+import AboutFour from "@/components/AboutFour";
 import BannerFour from "@/components/BannerFour";
 import HeaderTwo from "@/components/HeaderTwo";
 import TuitionTypesOne from "@/components/TuitionTypesOne";
@@ -23,6 +24,9 @@ const page = () => {
 
       {/* TuitionTypesOne */}
       <TuitionTypesOne />
+
+      {/* AboutFour */}
+      <AboutFour />
     </>
   );
 };
