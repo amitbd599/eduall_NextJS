@@ -1,5 +1,6 @@
 import AboutThree from "@/components/AboutThree";
 import BannerThree from "@/components/BannerThree";
+import ChooseUsTwo from "@/components/ChooseUsTwo";
 import CounterTwo from "@/components/CounterTwo";
 import FacultyOne from "@/components/FacultyOne";
 import HeaderOne from "@/components/HeaderOne";
@@ -39,6 +40,9 @@ const page = () => {
 
       {/* FacultyOne */}
       <FacultyOne />
+
+      {/* ChooseUsTwo */}
+      <ChooseUsTwo />
     </>
   );
 };
