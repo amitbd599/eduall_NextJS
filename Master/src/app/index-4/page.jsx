@@ -1,5 +1,6 @@
 import BannerFour from "@/components/BannerFour";
 import HeaderTwo from "@/components/HeaderTwo";
+import TuitionTypesOne from "@/components/TuitionTypesOne";
 import Animation from "@/helper/Animation";
 
 export const metadata = {
@@ -19,6 +20,9 @@ const page = () => {
 
       {/* BannerFour */}
       <BannerFour />
+
+      {/* TuitionTypesOne */}
+      <TuitionTypesOne />
     </>
   );
 };
