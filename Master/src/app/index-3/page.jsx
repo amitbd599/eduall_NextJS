@@ -1,5 +1,6 @@
 import AboutThree from "@/components/AboutThree";
 import BannerThree from "@/components/BannerThree";
+import BlogTwo from "@/components/BlogTwo";
 import ChooseUsTwo from "@/components/ChooseUsTwo";
 import CounterTwo from "@/components/CounterTwo";
 import EventOne from "@/components/EventOne";
@@ -51,6 +52,9 @@ const page = () => {
 
       {/* EventOne */}
       <EventOne />
+
+      {/* BlogTwo */}
+      <BlogTwo />
     </>
   );
 };
