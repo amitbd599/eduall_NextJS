@@ -3,6 +3,7 @@ import BannerFour from "@/components/BannerFour";
 import CounterThree from "@/components/CounterThree";
 import FreeTrailOne from "@/components/FreeTrailOne";
 import HeaderTwo from "@/components/HeaderTwo";
+import HowItWorkOne from "@/components/HowItWorkOne";
 import PopularTeacherOne from "@/components/PopularTeacherOne";
 import ReviewOne from "@/components/ReviewOne";
 import SpecialistOne from "@/components/SpecialistOne";
@@ -51,6 +52,9 @@ const page = () => {
 
       {/* ReviewOne */}
       <ReviewOne />
+
+      {/* HowItWorkOne */}
+      <HowItWorkOne />
     </>
   );
 };
