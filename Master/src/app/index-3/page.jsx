@@ -2,6 +2,7 @@ import AboutThree from "@/components/AboutThree";
 import BannerThree from "@/components/BannerThree";
 import ChooseUsTwo from "@/components/ChooseUsTwo";
 import CounterTwo from "@/components/CounterTwo";
+import EventOne from "@/components/EventOne";
 import FacultyOne from "@/components/FacultyOne";
 import HeaderOne from "@/components/HeaderOne";
 import InfoTwo from "@/components/InfoTwo";
@@ -47,6 +48,9 @@ const page = () => {
 
       {/* TestimonialsThree */}
       <TestimonialsThree />
+
+      {/* EventOne */}
+      <EventOne />
     </>
   );
 };
