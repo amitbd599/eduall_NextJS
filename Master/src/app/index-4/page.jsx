@@ -1,6 +1,8 @@
 import AboutFour from "@/components/AboutFour";
 import BannerFour from "@/components/BannerFour";
+import CertificateThree from "@/components/CertificateThree";
 import CounterThree from "@/components/CounterThree";
+import FooterOne from "@/components/FooterOne";
 import FreeTrailOne from "@/components/FreeTrailOne";
 import HeaderTwo from "@/components/HeaderTwo";
 import HowItWorkOne from "@/components/HowItWorkOne";
@@ -55,6 +57,12 @@ const page = () => {
 
       {/* HowItWorkOne */}
       <HowItWorkOne />
+
+      {/* CertificateThree */}
+      <CertificateThree />
+
+      {/* FooterOne */}
+      <FooterOne />
     </>
   );
 };
