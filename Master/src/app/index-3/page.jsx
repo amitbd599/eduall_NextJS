@@ -5,6 +5,7 @@ import CounterTwo from "@/components/CounterTwo";
 import FacultyOne from "@/components/FacultyOne";
 import HeaderOne from "@/components/HeaderOne";
 import InfoTwo from "@/components/InfoTwo";
+import TestimonialsThree from "@/components/TestimonialsThree";
 import VideoOne from "@/components/VideoOne";
 import Animation from "@/helper/Animation";
 
@@ -43,6 +44,9 @@ const page = () => {
 
       {/* ChooseUsTwo */}
       <ChooseUsTwo />
+
+      {/* TestimonialsThree */}
+      <TestimonialsThree />
     </>
   );
 };
