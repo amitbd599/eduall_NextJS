@@ -2,6 +2,7 @@ import AboutFour from "@/components/AboutFour";
 import BannerFour from "@/components/BannerFour";
 import CounterThree from "@/components/CounterThree";
 import HeaderTwo from "@/components/HeaderTwo";
+import PopularTeacherOne from "@/components/PopularTeacherOne";
 import TuitionTypesOne from "@/components/TuitionTypesOne";
 import Animation from "@/helper/Animation";
 
@@ -31,6 +32,9 @@ const page = () => {
 
       {/* CounterThree */}
       <CounterThree />
+
+      {/* PopularTeacherOne */}
+      <PopularTeacherOne />
     </>
   );
 };
