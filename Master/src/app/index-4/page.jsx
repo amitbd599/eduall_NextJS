@@ -4,6 +4,7 @@ import CounterThree from "@/components/CounterThree";
 import FreeTrailOne from "@/components/FreeTrailOne";
 import HeaderTwo from "@/components/HeaderTwo";
 import PopularTeacherOne from "@/components/PopularTeacherOne";
+import SpecialistOne from "@/components/SpecialistOne";
 import TuitionTypesOne from "@/components/TuitionTypesOne";
 import WorkProcessOne from "@/components/WorkProcessOne";
 import Animation from "@/helper/Animation";
@@ -43,6 +44,9 @@ const page = () => {
 
       {/* FreeTrailOne */}
       <FreeTrailOne />
+
+      {/* SpecialistOne */}
+      <SpecialistOne />
     </>
   );
 };
