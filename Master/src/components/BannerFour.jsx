@@ -209,11 +209,12 @@ const BannerFour = () => {
                   <select
                     className='common-input bg-main-25 rounded-pill border-transparent focus-border-main-600 form-select py-14'
                     id='selectLanguage'
+                    defaultValue={"English"}
                   >
-                    <option value={1}>English</option>
-                    <option value={1}>Bangla</option>
-                    <option value={1}>Hindi</option>
-                    <option value={1}>Urdhu</option>
+                    <option value={"English"}>English</option>
+                    <option value={"Bangla"}>Bangla</option>
+                    <option value={"Hindi"}>Hindi</option>
+                    <option value={"Hindi"}>Hindi</option>
                   </select>
                 </div>
                 <div className='col-sm-12'>
@@ -262,10 +263,11 @@ const BannerFour = () => {
                   <select
                     className='common-input bg-main-25 rounded-pill border-transparent focus-border-main-600 form-select py-14'
                     id='selectDept'
+                    defaultValue={"Humanity"}
                   >
-                    <option value={1}>Humanity</option>
-                    <option value={1}>Science</option>
-                    <option value={1}>Commerce</option>
+                    <option value={"Humanity"}>Humanity</option>
+                    <option value={"Science"}>Science</option>
+                    <option value={"Commerce"}>Commerce</option>
                   </select>
                 </div>
                 <div className='col-sm-6'>
@@ -278,11 +280,12 @@ const BannerFour = () => {
                   <select
                     className='common-input bg-main-25 rounded-pill border-transparent focus-border-main-600 form-select py-14'
                     id='selectSub'
+                    defaultValue={"English"}
                   >
-                    <option value={1}>English</option>
-                    <option value={1}>Physics</option>
-                    <option value={1}>Chemistry</option>
-                    <option value={1}>Biology</option>
+                    <option value={"English"}>English</option>
+                    <option value={"Physics"}>Physics</option>
+                    <option value={"Chemistry"}>Chemistry</option>
+                    <option value={"Biology"}>Biology</option>
                   </select>
                 </div>
                 <div className='col-sm-12'>
@@ -296,13 +299,14 @@ const BannerFour = () => {
                   <select
                     className='common-input bg-main-25 rounded-pill border-transparent focus-border-main-600 form-select py-14'
                     id='selectCountry'
+                    defaultValue={"Bangladesh"}
                   >
-                    <option value=''>Bangladesh</option>
-                    <option value=''>Pakistan</option>
-                    <option value=''>Bhutan</option>
-                    <option value=''>Nepal</option>
-                    <option value=''>Australia</option>
-                    <option value=''>England</option>
+                    <option value='Bangladesh'>Bangladesh</option>
+                    <option value='Pakistan'>Pakistan</option>
+                    <option value='Bhutan'>Bhutan</option>
+                    <option value='Nepal'>Nepal</option>
+                    <option value='Australia'>Australia</option>
+                    <option value='England'>England</option>
                   </select>
                 </div>
               </div>
