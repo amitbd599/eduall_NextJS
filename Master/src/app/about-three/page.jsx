@@ -1,12 +1,11 @@
-import AboutTwo from "@/components/AboutTwo";
+import AboutThreeWhiteBG from "@/components/AboutThreeWhiteBG";
+import BrandTwo from "@/components/BrandTwo";
 import Breadcrumb from "@/components/Breadcrumb";
-import CertificateTwo from "@/components/CertificateTwo";
-import FeaturesTwo from "@/components/FeaturesTwo";
+import CounterOne from "@/components/CounterOne";
 import FooterThree from "@/components/FooterThree";
 import HeaderOne from "@/components/HeaderOne";
-import InfoSectionOne from "@/components/InfoSectionOne";
-import JoinCommunityOne from "@/components/JoinCommunityOne";
-import TestimonialsTwo from "@/components/TestimonialsTwo";
+import TestimonialsThree from "@/components/TestimonialsThree";
+import VideoOneV2 from "@/components/VideoOneV2";
 import Animation from "@/helper/Animation";
 
 export const metadata = {
@@ -25,25 +24,22 @@ const page = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"About Us 02"} />
+      <Breadcrumb title={"About Us 03"} />
 
-      {/* FeaturesTwo */}
-      <FeaturesTwo />
+      {/* AboutThreeWhiteBG */}
+      <AboutThreeWhiteBG />
 
-      {/* InfoSectionOne */}
-      <InfoSectionOne />
+      {/* CounterOne */}
+      <CounterOne />
 
-      {/* AboutTwo */}
-      <AboutTwo />
+      {/* BrandTwo */}
+      <BrandTwo />
 
-      {/* CertificateTwo */}
-      <CertificateTwo />
+      {/* VideoOneV2 */}
+      <VideoOneV2 />
 
-      {/* JoinCommunityOne */}
-      <JoinCommunityOne />
-
-      {/* TestimonialsTwo */}
-      <TestimonialsTwo />
+      {/* TestimonialsThree */}
+      <TestimonialsThree />
 
       {/* FooterThree */}
       <FooterThree />
