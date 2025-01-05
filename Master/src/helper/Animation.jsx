@@ -29,7 +29,7 @@ const Animation = () => {
     Aos.refresh();
   }, []);
 
-  return null; // No visual content, just animations
+  return null;
 };
 
 export default Animation;

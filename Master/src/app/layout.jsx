@@ -1,7 +1,6 @@
 import BootstrapInit from "@/helper/BootstrapInit";
 import RouteScrollToTop from "@/helper/RouteScrollToTop";
 import LoadPhosphorIcons from "@/helper/LoadPhosphorIcons";
-import Animation from "@/helper/Animation";
 import "./font.css";
 import "./globals.scss";
 
@@ -17,7 +16,7 @@ export default function RootLayout({ children }) {
       <body suppressHydrationWarning={true}>
         <BootstrapInit />
         <LoadPhosphorIcons />
-        <Animation />
+
         <RouteScrollToTop />
         {children}
       </body>

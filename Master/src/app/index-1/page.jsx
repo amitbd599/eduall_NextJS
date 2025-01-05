@@ -11,6 +11,7 @@ import FooterOne from "@/components/FooterOne";
 import HeaderOne from "@/components/HeaderOne";
 import InstructorOne from "@/components/InstructorOne";
 import TestimonialsOne from "@/components/TestimonialsOne";
+import Animation from "@/helper/Animation";
 
 export const metadata = {
   title: "EdullAll - LMS, Tutors, Education & Online Course NEXT JS Template",
@@ -23,6 +24,9 @@ const page = () => {
     <>
       {/* HeaderOne */}
       <HeaderOne />
+
+      {/* Animation */}
+      <Animation />
 
       {/* BannerOne */}
       <BannerOne />

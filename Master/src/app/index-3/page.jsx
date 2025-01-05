@@ -1,9 +1,11 @@
 import AboutThree from "@/components/AboutThree";
 import BannerThree from "@/components/BannerThree";
 import CounterTwo from "@/components/CounterTwo";
+import FacultyOne from "@/components/FacultyOne";
 import HeaderOne from "@/components/HeaderOne";
 import InfoTwo from "@/components/InfoTwo";
 import VideoOne from "@/components/VideoOne";
+import Animation from "@/helper/Animation";
 
 export const metadata = {
   title: "EdullAll - LMS, Tutors, Education & Online Course NEXT JS Template",
@@ -16,6 +18,9 @@ const page = () => {
     <>
       {/* HeaderOne */}
       <HeaderOne />
+
+      {/* Animation */}
+      <Animation />
 
       {/* BannerThree */}
       <BannerThree />
@@ -31,6 +36,9 @@ const page = () => {
 
       {/* CounterTwo */}
       <CounterTwo />
+
+      {/* FacultyOne */}
+      <FacultyOne />
     </>
   );
 };
