@@ -1,4 +1,8 @@
+"use client";
+import { useState } from "react";
+import ReactSlider from "react-slider";
 const TutorSectionOne = () => {
+  const [values, setValues] = useState([100, 1000]);
   return (
     <section
       className='course-list-view py-120 background-img bg-img'
@@ -189,16 +193,30 @@ const TutorSectionOne = () => {
                     </div>
                   </div>
                   <div className=''>
-                    <h6 className='text-lg mb-20 fw-medium'>Pricing scale</h6>
-                    <div className='custom--range'>
-                      <div id='slider-range' />
-                      <div className='custom--range__content'>
-                        <input
-                          type='text'
-                          className='custom--range__prices text-neutral-600 text-start text-md fw-medium w-100 text-center bg-transparent border-0 outline-0'
-                          id='amount'
-                          readOnly=''
+                    <div>
+                      <h6 className='text-lg mb-20 fw-medium'>Pricing scale</h6>
+                      <div className='custom--range'>
+                        <ReactSlider
+                          className='horizontal-slider'
+                          thumbClassName='thumb'
+                          trackClassName='track'
+                          defaultValue={[100, 1000]}
+                          min={0}
+                          max={1000}
+                          value={values}
+                          onChange={(newValues) => setValues(newValues)}
+                          pearling
+                          minDistance={10}
                         />
+                        <div className='custom--range__content'>
+                          <input
+                            type='text'
+                            id='amount'
+                            readOnly
+                            className='custom--range__prices text-neutral-600 text-start text-md fw-medium w-100 text-center bg-transparent border-0 outline-0'
+                            value={`$${values[0]} - $${values[1]}`}
+                          />
+                        </div>
                       </div>
                     </div>
                   </div>
