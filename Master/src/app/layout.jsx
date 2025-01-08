@@ -1,6 +1,7 @@
 import BootstrapInit from "@/helper/BootstrapInit";
 import RouteScrollToTop from "@/helper/RouteScrollToTop";
 import LoadPhosphorIcons from "@/helper/LoadPhosphorIcons";
+
 import "./font.css";
 import "./globals.scss";
 
@@ -14,6 +15,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body suppressHydrationWarning={true}>
+        <link
+          href='https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css'
+          rel='stylesheet'
+        ></link>
         <BootstrapInit />
         <LoadPhosphorIcons />
 

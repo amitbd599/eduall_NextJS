@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
 const EventDetailsOne = () => {
@@ -296,13 +297,13 @@ const EventDetailsOne = () => {
                     </div>
                   </div>
                   <span className='d-block border-bottom border-top-0 border-dashed border-main-100 my-32' />
-                  <a
-                    href='contact.html'
+                  <Link
+                    href='/contact'
                     className='btn btn-main rounded-pill flex-center gap-8'
                   >
                     Join Now
                     <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                  </a>
+                  </Link>
                   <ul className='social-list flex-center gap-8 mt-24'>
                     <li className='social-list__item'>
                       <a

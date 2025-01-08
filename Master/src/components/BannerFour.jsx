@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const BannerFour = () => {
   return (
     <>
@@ -65,14 +67,14 @@ const BannerFour = () => {
                     Find Best Tutor
                     <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
                   </button>
-                  <a
-                    href='apply-admission.html'
+                  <Link
+                    href='/apply-admission'
                     className='btn btn-outline-main rounded-pill flex-align gap-8'
                     data-aos='fade-left'
                   >
                     Applying Tutor
                     <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                  </a>
+                  </Link>
                 </div>
                 <div className='mt-40 d-flex align-items-center flex-wrap gap-16'>
                   <h6 className='mb-0 flex-shrink-0'>Location Tutors :</h6>

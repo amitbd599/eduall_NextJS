@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 import ReactSlider from "react-slider";
 const TutorSectionOne = () => {
@@ -412,23 +413,23 @@ const TutorSectionOne = () => {
               <div className='col-sm-6'>
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative'>
-                    <a href='tutor-details.html' className='w-100 h-100'>
+                    <Link href='/tutor-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/instructor-img1.png'
                         alt='Course Image'
                         className='scale-hover-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='pt-32 pb-24 px-16 position-relative'>
                     <div className=''>
                       <h4 className='mb-16'>
-                        <a
-                          href='tutor-details.html'
+                        <Link
+                          href='/tutor-details'
                           className='link text-line-2'
                         >
                           Ronald Richards
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-between gap-8 flex-wrap'>
                         <div className='flex-align gap-12'>
@@ -465,14 +466,14 @@ const TutorSectionOne = () => {
                       </div>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-24 border-dashed border-0'>
-                      <a
-                        href='contact.html'
+                      <Link
+                        href='/contact'
                         className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                         tabIndex={0}
                       >
                         Apply Now
                         <i className='ph ph-arrow-right' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -480,23 +481,23 @@ const TutorSectionOne = () => {
               <div className='col-sm-6'>
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative'>
-                    <a href='tutor-details.html' className='w-100 h-100'>
+                    <Link href='/tutor-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/instructor-img2.png'
                         alt='Course Image'
                         className='scale-hover-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='pt-32 pb-24 px-16 position-relative'>
                     <div className=''>
                       <h4 className='mb-16'>
-                        <a
-                          href='tutor-details.html'
+                        <Link
+                          href='/tutor-details'
                           className='link text-line-2'
                         >
                           Jacob Jones
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-between gap-8 flex-wrap'>
                         <div className='flex-align gap-12'>
@@ -533,14 +534,14 @@ const TutorSectionOne = () => {
                       </div>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-24 border-dashed border-0'>
-                      <a
-                        href='contact.html'
+                      <Link
+                        href='/contact'
                         className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                         tabIndex={0}
                       >
                         Apply Now
                         <i className='ph ph-arrow-right' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -548,23 +549,23 @@ const TutorSectionOne = () => {
               <div className='col-sm-6'>
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative'>
-                    <a href='tutor-details.html' className='w-100 h-100'>
+                    <Link href='/tutor-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/instructor-img3.png'
                         alt='Course Image'
                         className='scale-hover-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='pt-32 pb-24 px-16 position-relative'>
                     <div className=''>
                       <h4 className='mb-16'>
-                        <a
-                          href='tutor-details.html'
+                        <Link
+                          href='/tutor-details'
                           className='link text-line-2'
                         >
                           Darlene Robertson
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-between gap-8 flex-wrap'>
                         <div className='flex-align gap-12'>
@@ -601,14 +602,14 @@ const TutorSectionOne = () => {
                       </div>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-24 border-dashed border-0'>
-                      <a
-                        href='contact.html'
+                      <Link
+                        href='/contact'
                         className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                         tabIndex={0}
                       >
                         Apply Now
                         <i className='ph ph-arrow-right' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -616,23 +617,23 @@ const TutorSectionOne = () => {
               <div className='col-sm-6'>
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative'>
-                    <a href='tutor-details.html' className='w-100 h-100'>
+                    <Link href='/tutor-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/instructor-img4.png'
                         alt='Course Image'
                         className='scale-hover-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='pt-32 pb-24 px-16 position-relative'>
                     <div className=''>
                       <h4 className='mb-16'>
-                        <a
-                          href='tutor-details.html'
+                        <Link
+                          href='/tutor-details'
                           className='link text-line-2'
                         >
                           Esther Howard
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-between gap-8 flex-wrap'>
                         <div className='flex-align gap-12'>
@@ -669,14 +670,14 @@ const TutorSectionOne = () => {
                       </div>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-24 border-dashed border-0'>
-                      <a
-                        href='contact.html'
+                      <Link
+                        href='/contact'
                         className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                         tabIndex={0}
                       >
                         Apply Now
                         <i className='ph ph-arrow-right' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -684,23 +685,23 @@ const TutorSectionOne = () => {
               <div className='col-sm-6'>
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative'>
-                    <a href='tutor-details.html' className='w-100 h-100'>
+                    <Link href='/tutor-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/instructor-img5.png'
                         alt='Course Image'
                         className='scale-hover-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='pt-32 pb-24 px-16 position-relative'>
                     <div className=''>
                       <h4 className='mb-16'>
-                        <a
-                          href='tutor-details.html'
+                        <Link
+                          href='/tutor-details'
                           className='link text-line-2'
                         >
                           Wade Warren
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-between gap-8 flex-wrap'>
                         <div className='flex-align gap-12'>
@@ -737,14 +738,14 @@ const TutorSectionOne = () => {
                       </div>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-24 border-dashed border-0'>
-                      <a
-                        href='contact.html'
+                      <Link
+                        href='/contact'
                         className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                         tabIndex={0}
                       >
                         Apply Now
                         <i className='ph ph-arrow-right' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -752,23 +753,23 @@ const TutorSectionOne = () => {
               <div className='col-sm-6'>
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative'>
-                    <a href='tutor-details.html' className='w-100 h-100'>
+                    <Link href='/tutor-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/instructor-img6.png'
                         alt='Course Image'
                         className='scale-hover-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='pt-32 pb-24 px-16 position-relative'>
                     <div className=''>
                       <h4 className='mb-16'>
-                        <a
-                          href='tutor-details.html'
+                        <Link
+                          href='/tutor-details'
                           className='link text-line-2'
                         >
                           Dianne Russell
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-between gap-8 flex-wrap'>
                         <div className='flex-align gap-12'>
@@ -805,14 +806,14 @@ const TutorSectionOne = () => {
                       </div>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-24 border-dashed border-0'>
-                      <a
-                        href='contact.html'
+                      <Link
+                        href='/contact'
                         className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                         tabIndex={0}
                       >
                         Apply Now
                         <i className='ph ph-arrow-right' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

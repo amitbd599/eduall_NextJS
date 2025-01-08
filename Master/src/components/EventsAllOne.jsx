@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const EventsAllOne = () => {
   return (
     <section className='course-list-view py-120 bg-white'>
@@ -19,8 +21,8 @@ const EventsAllOne = () => {
           <div className='col-xl-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <a
-                  href='event-details.html'
+                <Link
+                  href='/event-details'
                   className='w-100 h-100'
                   tabIndex={0}
                 >
@@ -29,7 +31,7 @@ const EventsAllOne = () => {
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className='position-absolute inset-inline-end-0 inset-block-end-0 me-16 mb-16 py-12 px-24 rounded-8 bg-main-two-600 text-white fw-medium'>
                   <h3 className='mb-0 text-white fw-medium'>21</h3>
                   DEC
@@ -40,13 +42,13 @@ const EventsAllOne = () => {
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
-                  <a
-                    href='event-details.html'
+                  <Link
+                    href='/event-details'
                     className='link text-line-2'
                     tabIndex={0}
                   >
                     Career Guidance Workshops for Students
-                  </a>
+                  </Link>
                 </h4>
                 <div className='flex-align gap-8'>
                   <span className='text-neutral-500 text-2xl d-flex'>
@@ -58,14 +60,14 @@ const EventsAllOne = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <h4 className='text-main-two-600 mb-0'>$99</h4>
-                  <a
-                    href='event-details.html'
+                  <Link
+                    href='/event-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Join Now
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -73,8 +75,8 @@ const EventsAllOne = () => {
           <div className='col-xl-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <a
-                  href='event-details.html'
+                <Link
+                  href='/event-details'
                   className='w-100 h-100'
                   tabIndex={0}
                 >
@@ -83,7 +85,7 @@ const EventsAllOne = () => {
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className='position-absolute inset-inline-end-0 inset-block-end-0 me-16 mb-16 py-12 px-24 rounded-8 bg-main-two-600 text-white fw-medium'>
                   <h3 className='mb-0 text-white fw-medium'>16</h3>
                   DEC
@@ -94,13 +96,13 @@ const EventsAllOne = () => {
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
-                  <a
-                    href='event-details.html'
+                  <Link
+                    href='/event-details'
                     className='link text-line-2'
                     tabIndex={0}
                   >
                     Intensive Coding Bootcamps for Beginners
-                  </a>
+                  </Link>
                 </h4>
                 <div className='flex-align gap-8'>
                   <span className='text-neutral-500 text-2xl d-flex'>
@@ -112,14 +114,14 @@ const EventsAllOne = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <h4 className='text-main-two-600 mb-0'>$199</h4>
-                  <a
-                    href='event-details.html'
+                  <Link
+                    href='/event-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Join Now
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -127,8 +129,8 @@ const EventsAllOne = () => {
           <div className='col-xl-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <a
-                  href='event-details.html'
+                <Link
+                  href='/event-details'
                   className='w-100 h-100'
                   tabIndex={0}
                 >
@@ -137,7 +139,7 @@ const EventsAllOne = () => {
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className='position-absolute inset-inline-end-0 inset-block-end-0 me-16 mb-16 py-12 px-24 rounded-8 bg-main-two-600 text-white fw-medium'>
                   <h3 className='mb-0 text-white fw-medium'>26</h3>
                   DEC
@@ -148,13 +150,13 @@ const EventsAllOne = () => {
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
-                  <a
-                    href='event-details.html'
+                  <Link
+                    href='/event-details'
                     className='link text-line-2'
                     tabIndex={0}
                   >
                     Interactive Science Fair and Competition
-                  </a>
+                  </Link>
                 </h4>
                 <div className='flex-align gap-8'>
                   <span className='text-neutral-500 text-2xl d-flex'>
@@ -166,14 +168,14 @@ const EventsAllOne = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <h4 className='text-main-two-600 mb-0'>$68</h4>
-                  <a
-                    href='event-details.html'
+                  <Link
+                    href='/event-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Join Now
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -181,8 +183,8 @@ const EventsAllOne = () => {
           <div className='col-xl-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <a
-                  href='event-details.html'
+                <Link
+                  href='/event-details'
                   className='w-100 h-100'
                   tabIndex={0}
                 >
@@ -191,7 +193,7 @@ const EventsAllOne = () => {
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className='position-absolute inset-inline-end-0 inset-block-end-0 me-16 mb-16 py-12 px-24 rounded-8 bg-main-two-600 text-white fw-medium'>
                   <h3 className='mb-0 text-white fw-medium'>08</h3>
                   DEC
@@ -202,13 +204,13 @@ const EventsAllOne = () => {
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
-                  <a
-                    href='event-details.html'
+                  <Link
+                    href='/event-details'
                     className='link text-line-2'
                     tabIndex={0}
                   >
                     Mathematics Olympiad for Young Mathematicians
-                  </a>
+                  </Link>
                 </h4>
                 <div className='flex-align gap-8'>
                   <span className='text-neutral-500 text-2xl d-flex'>
@@ -220,14 +222,14 @@ const EventsAllOne = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <h4 className='text-main-two-600 mb-0'>$60</h4>
-                  <a
-                    href='event-details.html'
+                  <Link
+                    href='/event-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Join Now
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -235,8 +237,8 @@ const EventsAllOne = () => {
           <div className='col-xl-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <a
-                  href='event-details.html'
+                <Link
+                  href='/event-details'
                   className='w-100 h-100'
                   tabIndex={0}
                 >
@@ -245,7 +247,7 @@ const EventsAllOne = () => {
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className='position-absolute inset-inline-end-0 inset-block-end-0 me-16 mb-16 py-12 px-24 rounded-8 bg-main-two-600 text-white fw-medium'>
                   <h3 className='mb-0 text-white fw-medium'>01</h3>
                   DEC
@@ -256,13 +258,13 @@ const EventsAllOne = () => {
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
-                  <a
-                    href='event-details.html'
+                  <Link
+                    href='/event-details'
                     className='link text-line-2'
                     tabIndex={0}
                   >
                     The Importance of Diversity in Higher Education
-                  </a>
+                  </Link>
                 </h4>
                 <div className='flex-align gap-8'>
                   <span className='text-neutral-500 text-2xl d-flex'>
@@ -274,14 +276,14 @@ const EventsAllOne = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <h4 className='text-main-two-600 mb-0'>$45</h4>
-                  <a
-                    href='event-details.html'
+                  <Link
+                    href='/event-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Join Now
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -289,8 +291,8 @@ const EventsAllOne = () => {
           <div className='col-xl-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <a
-                  href='event-details.html'
+                <Link
+                  href='/event-details'
                   className='w-100 h-100'
                   tabIndex={0}
                 >
@@ -299,7 +301,7 @@ const EventsAllOne = () => {
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className='position-absolute inset-inline-end-0 inset-block-end-0 me-16 mb-16 py-12 px-24 rounded-8 bg-main-two-600 text-white fw-medium'>
                   <h3 className='mb-0 text-white fw-medium'>13</h3>
                   DEC
@@ -310,13 +312,13 @@ const EventsAllOne = () => {
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
-                  <a
-                    href='event-details.html'
+                  <Link
+                    href='/event-details'
                     className='link text-line-2'
                     tabIndex={0}
                   >
                     Virtual Open House for New Students
-                  </a>
+                  </Link>
                 </h4>
                 <div className='flex-align gap-8'>
                   <span className='text-neutral-500 text-2xl d-flex'>
@@ -328,14 +330,14 @@ const EventsAllOne = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <h4 className='text-main-two-600 mb-0'>$77</h4>
-                  <a
-                    href='event-details.html'
+                  <Link
+                    href='/event-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Join Now
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -343,52 +345,52 @@ const EventsAllOne = () => {
         </div>
         <ul className='pagination mt-40 flex-align gap-12 flex-wrap justify-content-center'>
           <li className='page-item'>
-            <a
+            <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
               href='#'
             >
               <i className='ph-bold ph-caret-left' />
-            </a>
+            </Link>
           </li>
           <li className='page-item'>
-            <a
+            <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
               href='#'
             >
               1
-            </a>
+            </Link>
           </li>
           <li className='page-item'>
-            <a
+            <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
               href='#'
             >
               2
-            </a>
+            </Link>
           </li>
           <li className='page-item'>
-            <a
+            <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
               href='#'
             >
               3
-            </a>
+            </Link>
           </li>
           <li className='page-item'>
-            <a
+            <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
               href='#'
             >
               ...
-            </a>
+            </Link>
           </li>
           <li className='page-item'>
-            <a
+            <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
               href='#'
             >
               <i className='ph-bold ph-caret-right' />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

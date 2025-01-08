@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const FooterOne = () => {
   return (
     <footer className='footer bg-main-25 position-relative z-1'>
@@ -17,10 +19,10 @@ const FooterOne = () => {
             <div className='col' data-aos='fade-up' data-aos-duration={300}>
               <div className='footer-item'>
                 <div className='footer-item__logo'>
-                  <a href='index.html'>
+                  <Link href='/index-1'>
                     {" "}
                     <img src='assets/images/logo/logo.png' alt='' />
-                  </a>
+                  </Link>
                 </div>
                 <p className='my-32'>
                   EduAll exceeded all my expectations! The instructors were not
@@ -28,37 +30,37 @@ const FooterOne = () => {
                 </p>
                 <ul className='social-list flex-align gap-24'>
                   <li className='social-list__item'>
-                    <a
+                    <Link
                       href='https://www.facebook.com'
                       className='text-main-600 text-2xl hover-text-main-two-600'
                     >
                       <i className='ph-bold ph-facebook-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li className='social-list__item'>
-                    <a
+                    <Link
                       href='https://www.twitter.com'
                       className='text-main-600 text-2xl hover-text-main-two-600'
                     >
                       {" "}
                       <i className='ph-bold ph-twitter-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li className='social-list__item'>
-                    <a
+                    <Link
                       href='https://www.linkedin.com'
                       className='text-main-600 text-2xl hover-text-main-two-600'
                     >
                       <i className='ph-bold ph-instagram-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li className='social-list__item'>
-                    <a
+                    <Link
                       href='https://www.pinterest.com'
                       className='text-main-600 text-2xl hover-text-main-two-600'
                     >
                       <i className='ph-bold ph-pinterest-logo' />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -68,44 +70,44 @@ const FooterOne = () => {
                 <h4 className='footer-item__title mb-32'>Navigation</h4>
                 <ul className='footer-menu'>
                   <li className='mb-16'>
-                    <a
-                      href='about.html'
+                    <Link
+                      href='/about'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       About us
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-16'>
-                    <a
-                      href='courses.html'
+                    <Link
+                      href='/courses'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       Courses
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-16'>
-                    <a
-                      href='instructor.html'
+                    <Link
+                      href='/instructor'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       Instructor
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-16'>
-                    <a
-                      href='faq.html'
+                    <Link
+                      href='/faq'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       FAQs
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='blog.html'
+                    <Link
+                      href='/blog'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       Blogs
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -115,44 +117,44 @@ const FooterOne = () => {
                 <h4 className='footer-item__title mb-32'>Category</h4>
                 <ul className='footer-menu'>
                   <li className='mb-16'>
-                    <a
-                      href='courses.html'
+                    <Link
+                      href='/courses'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       UI/UX Design
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-16'>
-                    <a
-                      href='courses.html'
+                    <Link
+                      href='/courses'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       Web Development
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-16'>
-                    <a
-                      href='courses.html'
+                    <Link
+                      href='/courses'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       Python Development
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-16'>
-                    <a
-                      href='courses.html'
+                    <Link
+                      href='/courses'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       Digital Marketing
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-16'>
-                    <a
-                      href='courses.html'
+                    <Link
+                      href='/courses'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       Graphic Design
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -165,18 +167,18 @@ const FooterOne = () => {
                     <i className='ph ph-phone' />
                   </span>
                   <div className=''>
-                    <a
-                      href='tel:(207)555-0119'
+                    <Link
+                      href='/tel:(207)555-0119'
                       className='text-neutral-500 d-block hover-text-main-600 mb-4'
                     >
                       (207) 555-0119
-                    </a>
-                    <a
-                      href='tel:(704)555-0127'
+                    </Link>
+                    <Link
+                      href='/tel:(704)555-0127'
                       className='text-neutral-500 d-block hover-text-main-600 mb-0'
                     >
                       (704) 555-0127
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className='flex-align gap-20 mb-24'>
@@ -184,18 +186,18 @@ const FooterOne = () => {
                     <i className='ph ph-envelope-open' />
                   </span>
                   <div className=''>
-                    <a
-                      href='mailto:dwallo@gmail.com'
+                    <Link
+                      href='/mailto:dwallo@gmail.com'
                       className='text-neutral-500 d-block hover-text-main-600 mb-4'
                     >
                       dwallo@gmail.com
-                    </a>
-                    <a
-                      href='mailto:eduAll@gmail.com'
+                    </Link>
+                    <Link
+                      href='/mailto:eduAll@gmail.com'
                       className='text-neutral-500 d-block hover-text-main-600 mb-0'
                     >
                       eduAll@gmail.com
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className='flex-align gap-20 mb-24'>
@@ -249,18 +251,18 @@ const FooterOne = () => {
                 All Rights Reserved.
               </p>
               <div className='footer-links'>
-                <a
+                <Link
                   href='#'
                   className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                 >
                   Privacy Policy
-                </a>
-                <a
+                </Link>
+                <Link
                   href='#'
                   className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                 >
                   Terms &amp; Conditions
-                </a>
+                </Link>
               </div>
             </div>
           </div>

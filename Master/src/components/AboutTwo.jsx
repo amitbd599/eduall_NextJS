@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const AboutTwo = () => {
   return (
     <section className='about-two py-120 position-relative z-1 bg-main-25'>
@@ -166,13 +168,13 @@ const AboutTwo = () => {
                   </div>
                 </div>
                 <div className='pt-40 border-top border-neutral-50 mt-40 border-dashed border-0'>
-                  <a
-                    href='course.html'
+                  <Link
+                    href='/course'
                     className='btn btn-main rounded-pill flex-align d-inline-flex gap-8'
                   >
                     Read More
                     <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

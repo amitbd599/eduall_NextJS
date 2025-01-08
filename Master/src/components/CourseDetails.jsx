@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const CourseDetails = () => {
   return (
     <section className='course-details py-120'>
@@ -161,7 +163,7 @@ const CourseDetails = () => {
                   >
                     <div className='accordion-body p-0'>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -174,7 +176,7 @@ const CourseDetails = () => {
                         </span>
                       </a>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -189,7 +191,7 @@ const CourseDetails = () => {
                         </span>
                       </a>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -204,7 +206,7 @@ const CourseDetails = () => {
                         </span>
                       </a>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -241,7 +243,7 @@ const CourseDetails = () => {
                   >
                     <div className='accordion-body p-0'>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -254,7 +256,7 @@ const CourseDetails = () => {
                         </span>
                       </a>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -269,7 +271,7 @@ const CourseDetails = () => {
                         </span>
                       </a>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -284,7 +286,7 @@ const CourseDetails = () => {
                         </span>
                       </a>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -321,7 +323,7 @@ const CourseDetails = () => {
                   >
                     <div className='accordion-body p-0'>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -334,7 +336,7 @@ const CourseDetails = () => {
                         </span>
                       </a>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -349,7 +351,7 @@ const CourseDetails = () => {
                         </span>
                       </a>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -364,7 +366,7 @@ const CourseDetails = () => {
                         </span>
                       </a>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -401,7 +403,7 @@ const CourseDetails = () => {
                   >
                     <div className='accordion-body p-0'>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -414,7 +416,7 @@ const CourseDetails = () => {
                         </span>
                       </a>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -429,7 +431,7 @@ const CourseDetails = () => {
                         </span>
                       </a>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -444,7 +446,7 @@ const CourseDetails = () => {
                         </span>
                       </a>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -482,7 +484,7 @@ const CourseDetails = () => {
                   >
                     <div className='accordion-body p-0'>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -495,7 +497,7 @@ const CourseDetails = () => {
                         </span>
                       </a>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -510,7 +512,7 @@ const CourseDetails = () => {
                         </span>
                       </a>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -525,7 +527,7 @@ const CourseDetails = () => {
                         </span>
                       </a>
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -1583,13 +1585,13 @@ const CourseDetails = () => {
                     Denial Lie
                   </span>
                 </div>
-                <a
-                  href='contact.html'
+                <Link
+                  href='/contact'
                   className='btn btn-main rounded-pill flex-center gap-8 mt-40'
                 >
                   See All Reviews
                   <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                </a>
+                </Link>
                 <div className='mt-24 flex-center gap-24'>
                   <button
                     type='button'

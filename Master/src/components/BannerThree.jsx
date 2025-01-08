@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import Slider from "react-slick";
 import ModalVideo from "react-modal-video";
+import Link from "next/link";
 const BannerThree = () => {
   const sliderRef = useRef();
   const [isOpen, setIsOpen] = useState(false);
@@ -110,15 +111,15 @@ const BannerThree = () => {
                     </p>
                   </div>
                   <div className='buttons-wrapper flex-align flex-wrap gap-24 mt-40'>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      href='/sign-in'
                       className='btn btn-main rounded-pill flex-align gap-8  wow bounceInLeft'
                       data-wow-duration='1s'
                       data-wow-delay='.5s'
                     >
                       Apply Now
                       <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                    </a>
+                    </Link>
                     <div
                       className='flex-align gap-16  wow bounceInRight'
                       data-wow-duration='1s'
@@ -130,12 +131,12 @@ const BannerThree = () => {
                       >
                         <i className='ph-fill ph-play' />
                       </span>
-                      <a
-                        href='course.html'
+                      <Link
+                        href='/course'
                         className='text-white hover-text-decoration-underline hover-text-main-two-600'
                       >
                         See All University
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -180,15 +181,15 @@ const BannerThree = () => {
                     </p>
                   </div>
                   <div className='buttons-wrapper flex-align flex-wrap gap-24 mt-40'>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      href='/sign-in'
                       className='btn btn-main rounded-pill flex-align gap-8  wow bounceInLeft'
                       data-wow-duration='1s'
                       data-wow-delay='.5s'
                     >
                       Apply Now
                       <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                    </a>
+                    </Link>
                     <div
                       className='flex-align gap-16  wow bounceInRight'
                       data-wow-duration='1s'
@@ -200,12 +201,12 @@ const BannerThree = () => {
                       >
                         <i className='ph-fill ph-play' />
                       </span>
-                      <a
-                        href='course.html'
+                      <Link
+                        href='/course'
                         className='text-white hover-text-decoration-underline hover-text-main-two-600'
                       >
                         See All University
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -251,15 +252,15 @@ const BannerThree = () => {
                     </p>
                   </div>
                   <div className='buttons-wrapper flex-align flex-wrap gap-24 mt-40'>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      href='/sign-in'
                       className='btn btn-main rounded-pill flex-align gap-8  wow bounceInLeft'
                       data-wow-duration='1s'
                       data-wow-delay='.5s'
                     >
                       Apply Now
                       <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                    </a>
+                    </Link>
                     <div
                       className='flex-align gap-16  wow bounceInRight'
                       data-wow-duration='1s'
@@ -271,12 +272,12 @@ const BannerThree = () => {
                       >
                         <i className='ph-fill ph-play' />
                       </span>
-                      <a
-                        href='course.html'
+                      <Link
+                        href='/course'
                         className='text-white hover-text-decoration-underline hover-text-main-two-600'
                       >
                         See All University
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const SubscriptionPlanOne = () => {
   return (
     <section className='favorite-course py-120'>
@@ -109,13 +111,13 @@ const SubscriptionPlanOne = () => {
                   </li>
                 </ul>
                 <div className='mt-40'>
-                  <a
-                    href='sign-in.html'
+                  <Link
+                    href='/sign-in'
                     className='btn btn-main rounded-pill flex-align gap-8'
                   >
                     Get Started
                     <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -200,13 +202,13 @@ const SubscriptionPlanOne = () => {
                   </li>
                 </ul>
                 <div className='mt-40'>
-                  <a
-                    href='sign-in.html'
+                  <Link
+                    href='/sign-in'
                     className='btn btn-main rounded-pill flex-align gap-8'
                   >
                     Get Started
                     <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -291,13 +293,13 @@ const SubscriptionPlanOne = () => {
                   </li>
                 </ul>
                 <div className='mt-40'>
-                  <a
-                    href='sign-in.html'
+                  <Link
+                    href='/sign-in'
                     className='btn btn-main rounded-pill flex-align gap-8'
                   >
                     Get Started
                     <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

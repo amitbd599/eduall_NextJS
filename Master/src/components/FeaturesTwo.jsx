@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const FeaturesTwo = () => {
   return (
     <section className='features-two half-bg py-120 position-relative overflow-hidden'>
@@ -23,13 +25,13 @@ const FeaturesTwo = () => {
               Explore new skills, deepen existing passions, and get lost in
               creativity. What you find just might...
             </p>
-            <a
-              href='course-list-view.html'
+            <Link
+              href='/course-list-view'
               className='item-hover__text flex-align d-inline-flex gap-8 text-main-600 mt-24 hover-text-decoration-underline transition-1 fw-semibold'
             >
               Read More
               <i className='ph ph-arrow-right' />
-            </a>
+            </Link>
           </div>
         </div>
         <div className='row gy-4'>

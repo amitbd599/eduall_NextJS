@@ -1,4 +1,10 @@
+"use client";
+import { useState } from "react";
+import ReactSlider from "react-slider";
+import Link from "next/link";
+
 const CourseListView = () => {
+  const [values, setValues] = useState([100, 1000]);
   return (
     <section className='course-list-view py-120'>
       <div className='container'>
@@ -202,25 +208,39 @@ const CourseListView = () => {
                     <span className='text-neutral-500'>4955</span>
                   </div>
                 </div>
-                <a
-                  href='course.html'
+                <Link
+                  href='/course'
                   className='text-sm text-main-600 fw-semibold mt-24 hover-text-decoration-underline'
                 >
                   See All
-                </a>
+                </Link>
                 <span className='d-block border border-neutral-30 border-dashed my-24' />
-                <h6 className='text-lg mb-24 fw-medium'>Pricing scale</h6>
-                <div className='custom--range'>
-                  <div id='slider-range' />
-                  <div className='custom--range__content'>
-                    <input
-                      type='text'
-                      className='custom--range__prices text-neutral-600 text-start text-md fw-medium w-100 text-center bg-transparent border-0 outline-0'
-                      id='amount'
-                      readOnly=''
-                    />
-                  </div>
-                </div>
+                <div>
+                      <h6 className='text-lg mb-20 fw-medium'>Pricing scale</h6>
+                      <div className='custom--range'>
+                        <ReactSlider
+                          className='horizontal-slider'
+                          thumbClassName='thumb'
+                          trackClassName='track'
+                          defaultValue={[100, 1000]}
+                          min={0}
+                          max={1000}
+                          value={values}
+                          onChange={(newValues) => setValues(newValues)}
+                          pearling
+                          minDistance={10}
+                        />
+                        <div className='custom--range__content'>
+                          <input
+                            type='text'
+                            id='amount'
+                            readOnly
+                            className='custom--range__prices text-neutral-600 text-start text-md fw-medium w-100 text-center bg-transparent border-0 outline-0'
+                            value={`$${values[0]} - $${values[1]}`}
+                          />
+                        </div>
+                      </div>
+                    </div>
                 <span className='d-block border border-neutral-30 border-dashed my-24' />
                 <h6 className='text-lg mb-24 fw-medium'>Star Category</h6>
                 <div className='d-flex flex-column gap-16'>
@@ -328,55 +348,55 @@ const CourseListView = () => {
                 <span className='d-block border border-neutral-30 border-dashed my-24' />
                 <h6 className='text-lg mb-24 fw-medium'>Popular Tags</h6>
                 <div className='flex-align flex-wrap gap-12'>
-                  <a
-                    href='course.html'
+                  <Link
+                    href='/course'
                     className='border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                   >
                     UI/UX Design
-                  </a>
-                  <a
-                    href='course.html'
+                  </Link>
+                  <Link
+                    href='/course'
                     className='border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                   >
                     Web Development
-                  </a>
-                  <a
-                    href='course.html'
+                  </Link>
+                  <Link
+                    href='/course'
                     className='border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                   >
                     Wordpress
-                  </a>
-                  <a
-                    href='course.html'
+                  </Link>
+                  <Link
+                    href='/course'
                     className='border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                   >
                     Machine Learning
-                  </a>
-                  <a
-                    href='course.html'
+                  </Link>
+                  <Link
+                    href='/course'
                     className='border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                   >
                     AI
-                  </a>
-                  <a
-                    href='course.html'
+                  </Link>
+                  <Link
+                    href='/course'
                     className='border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                   >
                     Laravel
-                  </a>
-                  <a
-                    href='course.html'
+                  </Link>
+                  <Link
+                    href='/course'
                     className='border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                   >
                     Python
-                  </a>
+                  </Link>
                 </div>
-                <a
-                  href='course.html'
+                <Link
+                  href='/course'
                   className='text-sm text-main-600 fw-semibold mt-24 hover-text-decoration-underline'
                 >
                   More Tags{" "}
-                </a>
+                </Link>
                 <span className='d-block border border-neutral-30 border-dashed my-24' />
                 <h6 className='text-lg mb-24 fw-medium'>Level</h6>
                 <div className='d-flex flex-column gap-16'>
@@ -477,13 +497,13 @@ const CourseListView = () => {
                 <div className='col-12'>
                   <div className='course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view'>
                     <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                      <a href='course-details.html' className='w-100 h-100'>
+                      <Link href='/course-details' className='w-100 h-100'>
                         <img
                           src='assets/images/thumbs/course-img1.png'
                           alt='Course Image'
                           className='course-item__img rounded-12 cover-img transition-2'
                         />
-                      </a>
+                      </Link>
                       <div className='flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1'>
                         <span className='text-2xl d-flex'>
                           <i className='ph ph-clock' />
@@ -500,12 +520,12 @@ const CourseListView = () => {
                     <div className='course-item__content flex-grow-1'>
                       <div className=''>
                         <h4 className='mb-28'>
-                          <a
-                            href='course-details.html'
+                          <Link
+                            href='/course-details'
                             className='link text-line-2'
                           >
                             Introduction to Digital Marketing
-                          </a>
+                          </Link>
                         </h4>
                         <div className='flex-between gap-8 flex-wrap mb-16'>
                           <div className='flex-align gap-8'>
@@ -551,14 +571,14 @@ const CourseListView = () => {
                       </div>
                       <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                         <h4 className='mb-0 text-main-two-600'>$148</h4>
-                        <a
-                          href='apply-admission.html'
+                        <Link
+                          href='/apply-admission'
                           className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                           tabIndex={0}
                         >
                           Enroll Now
                           <i className='ph ph-arrow-right' />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -566,13 +586,13 @@ const CourseListView = () => {
                 <div className='col-12'>
                   <div className='course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view'>
                     <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                      <a href='course-details.html' className='w-100 h-100'>
+                      <Link href='/course-details' className='w-100 h-100'>
                         <img
                           src='assets/images/thumbs/course-img2.png'
                           alt='Course Image'
                           className='course-item__img rounded-12 cover-img transition-2'
                         />
-                      </a>
+                      </Link>
                       <div className='flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1'>
                         <span className='text-2xl d-flex'>
                           <i className='ph ph-clock' />
@@ -589,12 +609,12 @@ const CourseListView = () => {
                     <div className='course-item__content flex-grow-1'>
                       <div className=''>
                         <h4 className='mb-28'>
-                          <a
-                            href='course-details.html'
+                          <Link
+                            href='/course-details'
                             className='link text-line-2'
                           >
                             Introduction to Python Programming
-                          </a>
+                          </Link>
                         </h4>
                         <div className='flex-between gap-8 flex-wrap mb-16'>
                           <div className='flex-align gap-8'>
@@ -640,14 +660,14 @@ const CourseListView = () => {
                       </div>
                       <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                         <h4 className='mb-0 text-main-two-600'>$499</h4>
-                        <a
-                          href='apply-admission.html'
+                        <Link
+                          href='/apply-admission'
                           className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                           tabIndex={0}
                         >
                           Enroll Now
                           <i className='ph ph-arrow-right' />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -655,13 +675,13 @@ const CourseListView = () => {
                 <div className='col-12'>
                   <div className='course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view'>
                     <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                      <a href='course-details.html' className='w-100 h-100'>
+                      <Link href='/course-details' className='w-100 h-100'>
                         <img
                           src='assets/images/thumbs/course-img3.png'
                           alt='Course Image'
                           className='course-item__img rounded-12 cover-img transition-2'
                         />
-                      </a>
+                      </Link>
                       <div className='flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1'>
                         <span className='text-2xl d-flex'>
                           <i className='ph ph-clock' />
@@ -678,12 +698,12 @@ const CourseListView = () => {
                     <div className='course-item__content flex-grow-1'>
                       <div className=''>
                         <h4 className='mb-28'>
-                          <a
-                            href='course-details.html'
+                          <Link
+                            href='/course-details'
                             className='link text-line-2'
                           >
                             Introduction to Photography Masterclass
-                          </a>
+                          </Link>
                         </h4>
                         <div className='flex-between gap-8 flex-wrap mb-16'>
                           <div className='flex-align gap-8'>
@@ -729,14 +749,14 @@ const CourseListView = () => {
                       </div>
                       <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                         <h4 className='mb-0 text-main-two-600'>$457</h4>
-                        <a
-                          href='apply-admission.html'
+                        <Link
+                          href='/apply-admission'
                           className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                           tabIndex={0}
                         >
                           Enroll Now
                           <i className='ph ph-arrow-right' />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -744,13 +764,13 @@ const CourseListView = () => {
                 <div className='col-12'>
                   <div className='course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view'>
                     <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                      <a href='course-details.html' className='w-100 h-100'>
+                      <Link href='/course-details' className='w-100 h-100'>
                         <img
                           src='assets/images/thumbs/course-img4.png'
                           alt='Course Image'
                           className='course-item__img rounded-12 cover-img transition-2'
                         />
-                      </a>
+                      </Link>
                       <div className='flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1'>
                         <span className='text-2xl d-flex'>
                           <i className='ph ph-clock' />
@@ -767,12 +787,12 @@ const CourseListView = () => {
                     <div className='course-item__content flex-grow-1'>
                       <div className=''>
                         <h4 className='mb-28'>
-                          <a
-                            href='course-details.html'
+                          <Link
+                            href='/course-details'
                             className='link text-line-2'
                           >
                             Spanish Language Mastery: Beginner to Fluent
-                          </a>
+                          </Link>
                         </h4>
                         <div className='flex-between gap-8 flex-wrap mb-16'>
                           <div className='flex-align gap-8'>
@@ -818,14 +838,14 @@ const CourseListView = () => {
                       </div>
                       <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                         <h4 className='mb-0 text-main-two-600'>$148</h4>
-                        <a
-                          href='apply-admission.html'
+                        <Link
+                          href='/apply-admission'
                           className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                           tabIndex={0}
                         >
                           Enroll Now
                           <i className='ph ph-arrow-right' />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -833,13 +853,13 @@ const CourseListView = () => {
                 <div className='col-12'>
                   <div className='course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view'>
                     <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                      <a href='course-details.html' className='w-100 h-100'>
+                      <Link href='/course-details' className='w-100 h-100'>
                         <img
                           src='assets/images/thumbs/course-img5.png'
                           alt='Course Image'
                           className='course-item__img rounded-12 cover-img transition-2'
                         />
-                      </a>
+                      </Link>
                       <div className='flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1'>
                         <span className='text-2xl d-flex'>
                           <i className='ph ph-clock' />
@@ -856,12 +876,12 @@ const CourseListView = () => {
                     <div className='course-item__content flex-grow-1'>
                       <div className=''>
                         <h4 className='mb-28'>
-                          <a
-                            href='course-details.html'
+                          <Link
+                            href='/course-details'
                             className='link text-line-2'
                           >
                             Financial Planning for Millennials
-                          </a>
+                          </Link>
                         </h4>
                         <div className='flex-between gap-8 flex-wrap mb-16'>
                           <div className='flex-align gap-8'>
@@ -907,14 +927,14 @@ const CourseListView = () => {
                       </div>
                       <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                         <h4 className='mb-0 text-main-two-600'>$546</h4>
-                        <a
-                          href='apply-admission.html'
+                        <Link
+                          href='/apply-admission'
                           className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                           tabIndex={0}
                         >
                           Enroll Now
                           <i className='ph ph-arrow-right' />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -922,13 +942,13 @@ const CourseListView = () => {
                 <div className='col-12'>
                   <div className='course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view'>
                     <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                      <a href='course-details.html' className='w-100 h-100'>
+                      <Link href='/course-details' className='w-100 h-100'>
                         <img
                           src='assets/images/thumbs/course-img6.png'
                           alt='Course Image'
                           className='course-item__img rounded-12 cover-img transition-2'
                         />
-                      </a>
+                      </Link>
                       <div className='flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1'>
                         <span className='text-2xl d-flex'>
                           <i className='ph ph-clock' />
@@ -945,12 +965,12 @@ const CourseListView = () => {
                     <div className='course-item__content flex-grow-1'>
                       <div className=''>
                         <h4 className='mb-28'>
-                          <a
-                            href='course-details.html'
+                          <Link
+                            href='/course-details'
                             className='link text-line-2'
                           >
                             Nutrition Essentials for Healthy Living
-                          </a>
+                          </Link>
                         </h4>
                         <div className='flex-between gap-8 flex-wrap mb-16'>
                           <div className='flex-align gap-8'>
@@ -996,14 +1016,14 @@ const CourseListView = () => {
                       </div>
                       <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                         <h4 className='mb-0 text-main-two-600'>$345</h4>
-                        <a
-                          href='apply-admission.html'
+                        <Link
+                          href='/apply-admission'
                           className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                           tabIndex={0}
                         >
                           Enroll Now
                           <i className='ph ph-arrow-right' />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1011,13 +1031,13 @@ const CourseListView = () => {
                 <div className='col-12'>
                   <div className='course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view'>
                     <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                      <a href='course-details.html' className='w-100 h-100'>
+                      <Link href='/course-details' className='w-100 h-100'>
                         <img
                           src='assets/images/thumbs/course-img7.png'
                           alt='Course Image'
                           className='course-item__img rounded-12 cover-img transition-2'
                         />
-                      </a>
+                      </Link>
                       <div className='flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1'>
                         <span className='text-2xl d-flex'>
                           <i className='ph ph-clock' />
@@ -1034,12 +1054,12 @@ const CourseListView = () => {
                     <div className='course-item__content flex-grow-1'>
                       <div className=''>
                         <h4 className='mb-28'>
-                          <a
-                            href='course-details.html'
+                          <Link
+                            href='/course-details'
                             className='link text-line-2'
                           >
                             Nutrition Essentials for Healthy Living
-                          </a>
+                          </Link>
                         </h4>
                         <div className='flex-between gap-8 flex-wrap mb-16'>
                           <div className='flex-align gap-8'>
@@ -1085,14 +1105,14 @@ const CourseListView = () => {
                       </div>
                       <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                         <h4 className='mb-0 text-main-two-600'>$345</h4>
-                        <a
-                          href='apply-admission.html'
+                        <Link
+                          href='/apply-admission'
                           className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                           tabIndex={0}
                         >
                           Enroll Now
                           <i className='ph ph-arrow-right' />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1100,13 +1120,13 @@ const CourseListView = () => {
                 <div className='col-12'>
                   <div className='course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view'>
                     <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                      <a href='course-details.html' className='w-100 h-100'>
+                      <Link href='/course-details' className='w-100 h-100'>
                         <img
                           src='assets/images/thumbs/course-img9.png'
                           alt='Course Image'
                           className='course-item__img rounded-12 cover-img transition-2'
                         />
-                      </a>
+                      </Link>
                       <div className='flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1'>
                         <span className='text-2xl d-flex'>
                           <i className='ph ph-clock' />
@@ -1123,12 +1143,12 @@ const CourseListView = () => {
                     <div className='course-item__content flex-grow-1'>
                       <div className=''>
                         <h4 className='mb-28'>
-                          <a
-                            href='course-details.html'
+                          <Link
+                            href='/course-details'
                             className='link text-line-2'
                           >
                             Nutrition Essentials for Healthy Living
-                          </a>
+                          </Link>
                         </h4>
                         <div className='flex-between gap-8 flex-wrap mb-16'>
                           <div className='flex-align gap-8'>
@@ -1174,14 +1194,14 @@ const CourseListView = () => {
                       </div>
                       <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                         <h4 className='mb-0 text-main-two-600'>$345</h4>
-                        <a
-                          href='apply-admission.html'
+                        <Link
+                          href='/apply-admission'
                           className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                           tabIndex={0}
                         >
                           Enroll Now
                           <i className='ph ph-arrow-right' />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1189,13 +1209,13 @@ const CourseListView = () => {
                 <div className='col-12'>
                   <div className='course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view'>
                     <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                      <a href='course-details.html' className='w-100 h-100'>
+                      <Link href='/course-details' className='w-100 h-100'>
                         <img
                           src='assets/images/thumbs/course-img8.png'
                           alt='Course Image'
                           className='course-item__img rounded-12 cover-img transition-2'
                         />
-                      </a>
+                      </Link>
                       <div className='flex-align gap-8 bg-main-600 rounded-pill px-24 py-12 text-white position-absolute inset-block-start-0 inset-inline-start-0 mt-20 ms-20 z-1'>
                         <span className='text-2xl d-flex'>
                           <i className='ph ph-clock' />
@@ -1212,12 +1232,12 @@ const CourseListView = () => {
                     <div className='course-item__content flex-grow-1'>
                       <div className=''>
                         <h4 className='mb-28'>
-                          <a
-                            href='course-details.html'
+                          <Link
+                            href='/course-details'
                             className='link text-line-2'
                           >
                             Nutrition Essentials for Healthy Living
-                          </a>
+                          </Link>
                         </h4>
                         <div className='flex-between gap-8 flex-wrap mb-16'>
                           <div className='flex-align gap-8'>
@@ -1263,14 +1283,14 @@ const CourseListView = () => {
                       </div>
                       <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                         <h4 className='mb-0 text-main-two-600'>$345</h4>
-                        <a
-                          href='apply-admission.html'
+                        <Link
+                          href='/apply-admission'
                           className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                           tabIndex={0}
                         >
                           Enroll Now
                           <i className='ph ph-arrow-right' />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1279,52 +1299,52 @@ const CourseListView = () => {
             </div>
             <ul className='pagination mt-40 flex-align gap-12 flex-wrap justify-content-center'>
               <li className='page-item'>
-                <a
+                <Link
                   className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
                   href='#'
                 >
                   <i className='ph-bold ph-caret-left' />
-                </a>
+                </Link>
               </li>
               <li className='page-item'>
-                <a
+                <Link
                   className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
                   href='#'
                 >
                   1
-                </a>
+                </Link>
               </li>
               <li className='page-item'>
-                <a
+                <Link
                   className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
                   href='#'
                 >
                   2
-                </a>
+                </Link>
               </li>
               <li className='page-item'>
-                <a
+                <Link
                   className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
                   href='#'
                 >
                   3
-                </a>
+                </Link>
               </li>
               <li className='page-item'>
-                <a
+                <Link
                   className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
                   href='#'
                 >
                   ...
-                </a>
+                </Link>
               </li>
               <li className='page-item'>
-                <a
+                <Link
                   className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
                   href='#'
                 >
                   <i className='ph-bold ph-caret-right' />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

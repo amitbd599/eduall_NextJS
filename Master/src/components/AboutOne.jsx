@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
@@ -149,13 +150,13 @@ const AboutOne = () => {
                   data-aos='fade-left'
                   data-aos-duration={600}
                 >
-                  <a
-                    href='course.html'
+                  <Link
+                    href='/course'
                     className='btn btn-main rounded-pill flex-align gap-8'
                   >
                     Read More
                     <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                  </a>
+                  </Link>
                   <div className='flex-align gap-20'>
                     <img
                       src='assets/images/thumbs/ceo-img.png'

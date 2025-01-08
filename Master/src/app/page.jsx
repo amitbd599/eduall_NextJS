@@ -1,14 +1,16 @@
+import DemoLayer from "@/demo/DemoLayer";
+
 export const metadata = {
-  title: "Digital Market Place NEXT Js Template",
+  title: "EdullAll - LMS, Tutors, Education & Online Course NEXT JS Template",
   description:
-    "DpMarket – Digital Products Marketplace NEXT JS Template – A versatile and meticulously designed set of templates crafted to elevate your Digital Products Marketplace content and experiences.",
+    "EduAll is a comprehensive and modern NEXT JS template designed for online education platforms, learning management systems (LMS), tutors, educational institutions, and online courses. It’s the perfect solution for creating an engaging and interactive online learning experience for students, educators, and institutions. Whether you’re offering online courses, running a tutoring platform, or managing an educational website, EduAll provides the tools to help you succeed. This template is tailored to meet the needs of educators, administrators, and students, providing a seamless and engaging user experience.",
 };
 
 const page = () => {
   return (
-    <section>
-      <h1>Demo</h1>
-    </section>
+    <>
+      <DemoLayer />
+    </>
   );
 };
 

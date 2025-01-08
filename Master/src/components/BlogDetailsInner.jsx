@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const BlogDetailsInner = () => {
   return (
     <div className='blog-page-section py-120'>
@@ -657,173 +659,173 @@ const BlogDetailsInner = () => {
               <h4 className='mb-16'>More Related Blogs</h4>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
               <div className='flex-align gap-16'>
-                <a href='blog.html' className='flex-shrink-0'>
+                <Link href='/blog' className='flex-shrink-0'>
                   <img
                     src='assets/images/thumbs/blog-two-img1.png'
                     alt=''
                     className='w-80 h-80 rounded-8 object-fit-cover'
                   />
-                </a>
+                </Link>
                 <div className='flex-grow-1'>
                   <h6 className='text-xl mb-10'>
-                    <a
-                      href='blog.html'
+                    <Link
+                      href='/blog'
                       className='hover-text-main-600 text-line-2'
                     >
                       The Role of Emotional Intelligence{" "}
-                    </a>
+                    </Link>
                   </h6>
                   <span className='text-neutral-500'>23/10/24</span>
                 </div>
               </div>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
               <div className='flex-align gap-16'>
-                <a href='blog.html' className='flex-shrink-0'>
+                <Link href='/blog' className='flex-shrink-0'>
                   <img
                     src='assets/images/thumbs/blog-two-img2.png'
                     alt=''
                     className='w-80 h-80 rounded-8 object-fit-cover'
                   />
-                </a>
+                </Link>
                 <div className='flex-grow-1'>
                   <h6 className='text-xl mb-10'>
-                    <a
-                      href='blog.html'
+                    <Link
+                      href='/blog'
                       className='hover-text-main-600 text-line-2'
                     >
                       The Psychology of Learning: How Cognitive{" "}
-                    </a>
+                    </Link>
                   </h6>
                   <span className='text-neutral-500'>23/10/24</span>
                 </div>
               </div>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
               <div className='flex-align gap-16'>
-                <a href='blog.html' className='flex-shrink-0'>
+                <Link href='/blog' className='flex-shrink-0'>
                   <img
                     src='assets/images/thumbs/blog-two-img3.png'
                     alt=''
                     className='w-80 h-80 rounded-8 object-fit-cover'
                   />
-                </a>
+                </Link>
                 <div className='flex-grow-1'>
                   <h6 className='text-xl mb-10'>
-                    <a
-                      href='blog.html'
+                    <Link
+                      href='/blog'
                       className='hover-text-main-600 text-line-2'
                     >
                       The Future of Remote Work: Trends{" "}
-                    </a>
+                    </Link>
                   </h6>
                   <span className='text-neutral-500'>23/10/24</span>
                 </div>
               </div>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
               <div className='flex-align gap-16'>
-                <a href='blog.html' className='flex-shrink-0'>
+                <Link href='/blog' className='flex-shrink-0'>
                   <img
                     src='assets/images/thumbs/blog-two-img4.png'
                     alt=''
                     className='w-80 h-80 rounded-8 object-fit-cover'
                   />
-                </a>
+                </Link>
                 <div className='flex-grow-1'>
                   <h6 className='text-xl mb-10'>
-                    <a
-                      href='blog.html'
+                    <Link
+                      href='/blog'
                       className='hover-text-main-600 text-line-2'
                     >
                       Crafting Compelling Presentations
-                    </a>
+                    </Link>
                   </h6>
                   <span className='text-neutral-500'>23/10/24</span>
                 </div>
               </div>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
               <div className='flex-align gap-16'>
-                <a href='blog.html' className='flex-shrink-0'>
+                <Link href='/blog' className='flex-shrink-0'>
                   <img
                     src='assets/images/thumbs/blog-two-img5.png'
                     alt=''
                     className='w-80 h-80 rounded-8 object-fit-cover'
                   />
-                </a>
+                </Link>
                 <div className='flex-grow-1'>
                   <h6 className='text-xl mb-10'>
-                    <a
-                      href='blog.html'
+                    <Link
+                      href='/blog'
                       className='hover-text-main-600 text-line-2'
                     >
                       Demystifying Data Science
-                    </a>
+                    </Link>
                   </h6>
                   <span className='text-neutral-500'>23/10/24</span>
                 </div>
               </div>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
-              <a
-                href='blog.html'
+              <Link
+                href='/blog'
                 className='h6 mb-0 text-main-600 fw-semibold hover-text-decoration-underline'
               >
                 See All
                 <i className='ph-bold ph-arrow-right' />
-              </a>
+              </Link>
             </div>
             <div className='border border-neutral-30 rounded-12 bg-main-25 p-32 bg-main-25 mt-24'>
               <h4 className='mb-16'>Popular Tag</h4>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
               <div className='flex-align flex-wrap gap-8'>
-                <a
-                  href='blog.html'
+                <Link
+                  href='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   Machine Learning
-                </a>
-                <a
-                  href='blog.html'
+                </Link>
+                <Link
+                  href='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   Web Development
-                </a>
-                <a
-                  href='blog.html'
+                </Link>
+                <Link
+                  href='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   Python
-                </a>
-                <a
-                  href='blog.html'
+                </Link>
+                <Link
+                  href='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   Laravel
-                </a>
-                <a
-                  href='blog.html'
+                </Link>
+                <Link
+                  href='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   Wordpress
-                </a>
-                <a
-                  href='blog.html'
+                </Link>
+                <Link
+                  href='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   UI/UX Design
-                </a>
-                <a
-                  href='blog.html'
+                </Link>
+                <Link
+                  href='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   AI
-                </a>
+                </Link>
               </div>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
-              <a
-                href='blog.html'
+              <Link
+                href='/blog'
                 className='h6 mb-0 text-main-600 fw-semibold hover-text-decoration-underline'
               >
                 See All
                 <i className='ph-bold ph-arrow-right' />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

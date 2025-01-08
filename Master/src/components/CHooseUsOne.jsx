@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
 
@@ -74,13 +75,13 @@ const ChooseUsOne = () => {
                 </li>
               </ul>
               <div className='pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                <a
-                  href='about.html'
+                <Link
+                  href='/about'
                   className='btn btn-main rounded-pill flex-align d-inline-flex gap-8'
                 >
                   Read More
                   <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

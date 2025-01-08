@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 
 export const CartCount = () => {
@@ -277,14 +278,14 @@ const CartInner = () => {
                     </tr>
                   </tbody>
                 </table>
-                <a
-                  href='apply-admission.html'
+                <Link
+                  href='/apply-admission'
                   className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold mt-24'
                   tabIndex={0}
                 >
                   <i className='ph ph-arrow-left' />
                   Continue Shopping
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -348,12 +349,12 @@ const CartInner = () => {
                 <span className='text-main-600 fw-medium'>$35.99</span>
               </div>
               <span className='d-block border border-neutral-30 mt-24 border-dashed' />
-              <a
-                href='checkout.html'
+              <Link
+                href='/checkout'
                 className='btn btn-main rounded-pill w-100 mt-40'
               >
                 Check Out
-              </a>
+              </Link>
             </div>
           </div>
         </div>

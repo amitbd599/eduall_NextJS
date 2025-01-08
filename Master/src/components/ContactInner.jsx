@@ -28,7 +28,7 @@ const ContactInner = () => {
                     2972 Westheimer Rd. Santa Ana, Illinois 85486{" "}
                   </p>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='text-main-600 fw-semibold text-decoration-underline mt-16'
                   >
                     Find Location

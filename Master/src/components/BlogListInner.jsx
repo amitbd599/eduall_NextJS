@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const BlogListInner = () => {
   return (
     <div className='blog-page-section py-120'>
@@ -25,13 +27,13 @@ const BlogListInner = () => {
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
-                <a href='blog-details.html' className='w-100 h-100'>
+                <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img1.png'
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className='position-absolute inset-inline-start-0 inset-block-start-0 ms-16 mt-16 py-12 px-24 rounded-8 bg-main-two-600 text-white fw-medium'>
                   <h3 className='mb-0 text-white fw-medium'>21</h3>
                   DEC
@@ -54,19 +56,19 @@ const BlogListInner = () => {
                   </div>
                 </div>
                 <h4 className='mb-28'>
-                  <a href='blog-details.html' className='link text-line-3 '>
+                  <Link href='/blog-details' className='link text-line-3 '>
                     Navigating the Job Market: Advice for Graduates
-                  </a>
+                  </Link>
                 </h4>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='blog-details.html'
+                  <Link
+                    href='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Read More
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -74,13 +76,13 @@ const BlogListInner = () => {
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
-                <a href='blog-details.html' className='w-100 h-100'>
+                <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img2.png'
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className='position-absolute inset-inline-start-0 inset-block-start-0 ms-16 mt-16 py-12 px-24 rounded-8 bg-main-two-600 text-white fw-medium'>
                   <h3 className='mb-0 text-white fw-medium'>21</h3>
                   DEC
@@ -103,19 +105,19 @@ const BlogListInner = () => {
                   </div>
                 </div>
                 <h4 className='mb-28'>
-                  <a href='blog-details.html' className='link text-line-3 '>
+                  <Link href='/blog-details' className='link text-line-3 '>
                     The Importance of Diversity in Higher Education
-                  </a>
+                  </Link>
                 </h4>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='blog-details.html'
+                  <Link
+                    href='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Read More
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -123,13 +125,13 @@ const BlogListInner = () => {
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
-                <a href='blog-details.html' className='w-100 h-100'>
+                <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img3.png'
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className='position-absolute inset-inline-start-0 inset-block-start-0 ms-16 mt-16 py-12 px-24 rounded-8 bg-main-two-600 text-white fw-medium'>
                   <h3 className='mb-0 text-white fw-medium'>21</h3>
                   DEC
@@ -152,19 +154,19 @@ const BlogListInner = () => {
                   </div>
                 </div>
                 <h4 className='mb-28'>
-                  <a href='blog-details.html' className='link text-line-3 '>
+                  <Link href='/blog-details' className='link text-line-3 '>
                     10 Tips for Successful Online Learning
-                  </a>
+                  </Link>
                 </h4>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='blog-details.html'
+                  <Link
+                    href='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Read More
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -172,13 +174,13 @@ const BlogListInner = () => {
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
-                <a href='blog-details.html' className='w-100 h-100'>
+                <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img4.png'
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className='position-absolute inset-inline-start-0 inset-block-start-0 ms-16 mt-16 py-12 px-24 rounded-8 bg-main-two-600 text-white fw-medium'>
                   <h3 className='mb-0 text-white fw-medium'>21</h3>
                   DEC
@@ -201,19 +203,19 @@ const BlogListInner = () => {
                   </div>
                 </div>
                 <h4 className='mb-28'>
-                  <a href='blog-details.html' className='link text-line-3 '>
+                  <Link href='/blog-details' className='link text-line-3 '>
                     How to Stay Motivated While Studying from Home
-                  </a>
+                  </Link>
                 </h4>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='blog-details.html'
+                  <Link
+                    href='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Read More
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -221,13 +223,13 @@ const BlogListInner = () => {
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
-                <a href='blog-details.html' className='w-100 h-100'>
+                <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img5.png'
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className='position-absolute inset-inline-start-0 inset-block-start-0 ms-16 mt-16 py-12 px-24 rounded-8 bg-main-two-600 text-white fw-medium'>
                   <h3 className='mb-0 text-white fw-medium'>21</h3>
                   DEC
@@ -250,19 +252,19 @@ const BlogListInner = () => {
                   </div>
                 </div>
                 <h4 className='mb-28'>
-                  <a href='blog-details.html' className='link text-line-3 '>
+                  <Link href='/blog-details' className='link text-line-3 '>
                     Mastering Python: Beginner to Advanced Tips
-                  </a>
+                  </Link>
                 </h4>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='blog-details.html'
+                  <Link
+                    href='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Read More
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -270,13 +272,13 @@ const BlogListInner = () => {
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
-                <a href='blog-details.html' className='w-100 h-100'>
+                <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img6.png'
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className='position-absolute inset-inline-start-0 inset-block-start-0 ms-16 mt-16 py-12 px-24 rounded-8 bg-main-two-600 text-white fw-medium'>
                   <h3 className='mb-0 text-white fw-medium'>21</h3>
                   DEC
@@ -299,19 +301,19 @@ const BlogListInner = () => {
                   </div>
                 </div>
                 <h4 className='mb-28'>
-                  <a href='blog-details.html' className='link text-line-3 '>
+                  <Link href='/blog-details' className='link text-line-3 '>
                     Balancing Work and Study: Strategies for Success
-                  </a>
+                  </Link>
                 </h4>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='blog-details.html'
+                  <Link
+                    href='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Read More
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -319,13 +321,13 @@ const BlogListInner = () => {
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
-                <a href='blog-details.html' className='w-100 h-100'>
+                <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img7.png'
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className='position-absolute inset-inline-start-0 inset-block-start-0 ms-16 mt-16 py-12 px-24 rounded-8 bg-main-two-600 text-white fw-medium'>
                   <h3 className='mb-0 text-white fw-medium'>21</h3>
                   DEC
@@ -348,19 +350,19 @@ const BlogListInner = () => {
                   </div>
                 </div>
                 <h4 className='mb-28'>
-                  <a href='blog-details.html' className='link text-line-3 '>
+                  <Link href='/blog-details' className='link text-line-3 '>
                     The Importance of Lifelong Learning in Today's World
-                  </a>
+                  </Link>
                 </h4>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='blog-details.html'
+                  <Link
+                    href='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Read More
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -368,13 +370,13 @@ const BlogListInner = () => {
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
-                <a href='blog-details.html' className='w-100 h-100'>
+                <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img8.png'
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className='position-absolute inset-inline-start-0 inset-block-start-0 ms-16 mt-16 py-12 px-24 rounded-8 bg-main-two-600 text-white fw-medium'>
                   <h3 className='mb-0 text-white fw-medium'>21</h3>
                   DEC
@@ -397,19 +399,19 @@ const BlogListInner = () => {
                   </div>
                 </div>
                 <h4 className='mb-28'>
-                  <a href='blog-details.html' className='link text-line-3 '>
+                  <Link href='/blog-details' className='link text-line-3 '>
                     Effective Time Management for Students
-                  </a>
+                  </Link>
                 </h4>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='blog-details.html'
+                  <Link
+                    href='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Read More
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -417,13 +419,13 @@ const BlogListInner = () => {
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
-                <a href='blog-details.html' className='w-100 h-100'>
+                <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img9.png'
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className='position-absolute inset-inline-start-0 inset-block-start-0 ms-16 mt-16 py-12 px-24 rounded-8 bg-main-two-600 text-white fw-medium'>
                   <h3 className='mb-0 text-white fw-medium'>21</h3>
                   DEC
@@ -446,19 +448,19 @@ const BlogListInner = () => {
                   </div>
                 </div>
                 <h4 className='mb-28'>
-                  <a href='blog-details.html' className='link text-line-3 '>
+                  <Link href='/blog-details' className='link text-line-3 '>
                     The Benefits of Learning a New Language Online
-                  </a>
+                  </Link>
                 </h4>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='blog-details.html'
+                  <Link
+                    href='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Read More
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -466,13 +468,13 @@ const BlogListInner = () => {
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
-                <a href='blog-details.html' className='w-100 h-100'>
+                <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img3.png'
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className='position-absolute inset-inline-start-0 inset-block-start-0 ms-16 mt-16 py-12 px-24 rounded-8 bg-main-two-600 text-white fw-medium'>
                   <h3 className='mb-0 text-white fw-medium'>21</h3>
                   DEC
@@ -495,19 +497,19 @@ const BlogListInner = () => {
                   </div>
                 </div>
                 <h4 className='mb-28'>
-                  <a href='blog-details.html' className='link text-line-3 '>
+                  <Link href='/blog-details' className='link text-line-3 '>
                     10 Tips for Successful Online Learning
-                  </a>
+                  </Link>
                 </h4>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='blog-details.html'
+                  <Link
+                    href='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Read More
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const HowItWorkOne = () => {
   return (
     <section className='how-it-work py-120 position-relative z-1 overflow-hidden'>
@@ -117,13 +119,13 @@ const HowItWorkOne = () => {
                 area.
               </p>
               <div className='pt-40 border-top border-neutral-50 mt-40 border-dashed border-0'>
-                <a
-                  href='sign-up.html'
+                <Link
+                  href='/sign-up'
                   className='btn btn-main rounded-pill flex-align d-inline-flex gap-8'
                 >
                   Register Now
                   <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const LessonDetails = () => {
   return (
     <section className='course-details py-120 '>
@@ -749,24 +751,24 @@ const LessonDetails = () => {
                   >
                     <div className='accordion-body p-0 bg-main-25'>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
                             <i className='text-xl d-flex ph-bold ph-video-camera' />
                             <span className='text-line-1'>What is Python?</span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -774,8 +776,8 @@ const LessonDetails = () => {
                         </div>
                       </div>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -784,16 +786,16 @@ const LessonDetails = () => {
                               Setting up your Python environment
                             </span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -801,8 +803,8 @@ const LessonDetails = () => {
                         </div>
                       </div>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -811,16 +813,16 @@ const LessonDetails = () => {
                               Writing your first Python program
                             </span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -828,8 +830,8 @@ const LessonDetails = () => {
                         </div>
                       </div>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -838,16 +840,16 @@ const LessonDetails = () => {
                               Understanding Python syntax and structure
                             </span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -877,24 +879,24 @@ const LessonDetails = () => {
                   >
                     <div className='accordion-body p-0 bg-main-25'>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
                             <i className='text-xl d-flex ph-bold ph-video-camera' />
                             <span className='text-line-1'>What is Python?</span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -902,8 +904,8 @@ const LessonDetails = () => {
                         </div>
                       </div>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -912,16 +914,16 @@ const LessonDetails = () => {
                               Setting up your Python environment
                             </span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -929,8 +931,8 @@ const LessonDetails = () => {
                         </div>
                       </div>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -939,16 +941,16 @@ const LessonDetails = () => {
                               Writing your first Python program
                             </span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -956,8 +958,8 @@ const LessonDetails = () => {
                         </div>
                       </div>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -966,16 +968,16 @@ const LessonDetails = () => {
                               Understanding Python syntax and structure
                             </span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -1005,24 +1007,24 @@ const LessonDetails = () => {
                   >
                     <div className='accordion-body p-0 bg-main-25'>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
                             <i className='text-xl d-flex ph-bold ph-video-camera' />
                             <span className='text-line-1'>What is Python?</span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -1030,8 +1032,8 @@ const LessonDetails = () => {
                         </div>
                       </div>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1040,16 +1042,16 @@ const LessonDetails = () => {
                               Setting up your Python environment
                             </span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -1057,8 +1059,8 @@ const LessonDetails = () => {
                         </div>
                       </div>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1067,16 +1069,16 @@ const LessonDetails = () => {
                               Writing your first Python program
                             </span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -1084,8 +1086,8 @@ const LessonDetails = () => {
                         </div>
                       </div>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1094,16 +1096,16 @@ const LessonDetails = () => {
                               Understanding Python syntax and structure
                             </span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -1133,24 +1135,24 @@ const LessonDetails = () => {
                   >
                     <div className='accordion-body p-0 bg-main-25'>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
                             <i className='text-xl d-flex ph-bold ph-video-camera' />
                             <span className='text-line-1'>What is Python?</span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -1158,8 +1160,8 @@ const LessonDetails = () => {
                         </div>
                       </div>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1168,16 +1170,16 @@ const LessonDetails = () => {
                               Setting up your Python environment
                             </span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -1185,8 +1187,8 @@ const LessonDetails = () => {
                         </div>
                       </div>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1195,16 +1197,16 @@ const LessonDetails = () => {
                               Writing your first Python program
                             </span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -1212,8 +1214,8 @@ const LessonDetails = () => {
                         </div>
                       </div>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1222,16 +1224,16 @@ const LessonDetails = () => {
                               Understanding Python syntax and structure
                             </span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -1261,24 +1263,24 @@ const LessonDetails = () => {
                   >
                     <div className='accordion-body p-0 bg-main-25'>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
                             <i className='text-xl d-flex ph-bold ph-video-camera' />
                             <span className='text-line-1'>What is Python?</span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -1286,8 +1288,8 @@ const LessonDetails = () => {
                         </div>
                       </div>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1296,16 +1298,16 @@ const LessonDetails = () => {
                               Setting up your Python environment
                             </span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -1313,8 +1315,8 @@ const LessonDetails = () => {
                         </div>
                       </div>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1323,16 +1325,16 @@ const LessonDetails = () => {
                               Writing your first Python program
                             </span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -1340,8 +1342,8 @@ const LessonDetails = () => {
                         </div>
                       </div>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1350,16 +1352,16 @@ const LessonDetails = () => {
                               Understanding Python syntax and structure
                             </span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -1389,24 +1391,24 @@ const LessonDetails = () => {
                   >
                     <div className='accordion-body p-0 bg-main-25'>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
                             <i className='text-xl d-flex ph-bold ph-video-camera' />
                             <span className='text-line-1'>What is Python?</span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -1414,8 +1416,8 @@ const LessonDetails = () => {
                         </div>
                       </div>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1424,16 +1426,16 @@ const LessonDetails = () => {
                               Setting up your Python environment
                             </span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -1441,8 +1443,8 @@ const LessonDetails = () => {
                         </div>
                       </div>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1451,16 +1453,16 @@ const LessonDetails = () => {
                               Writing your first Python program
                             </span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />
@@ -1468,8 +1470,8 @@ const LessonDetails = () => {
                         </div>
                       </div>
                       <div className='curriculam-item'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1478,16 +1480,16 @@ const LessonDetails = () => {
                               Understanding Python syntax and structure
                             </span>
                           </span>
-                        </a>
+                        </Link>
                         <div className='flex-between gap-8 mt-24'>
-                          <a
-                            href='lesson-details.html'
+                          <Link
+                href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
                             View Profile
                             <i className='ph ph-arrow-right' />
-                          </a>
+                          </Link>
                           <span className='flex-align gap-12 flex-shrink-0'>
                             30:25
                             <i className='text-xl d-flex ph ph-lock-key' />

@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 import ReactSlider from "react-slider";
 
@@ -364,8 +365,8 @@ const ProductsInner = () => {
               <div className='col-md-4 col-sm-6 col-xs-6'>
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
-                    <a
-                      href='product-details.html'
+                    <Link
+                      href='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -373,7 +374,7 @@ const ProductsInner = () => {
                         alt='Course Image'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
-                    </a>
+                    </Link>
                     <div className='position-absolute inset-block-start-0 inset-inline-start-0 w-100 d-flex align-items-center justify-content-between p-16'>
                       <button className='add-to-cart active-scale-08 w-40 h-40 rounded-8 d-flex justify-content-center align-items-center bg-white box-shadow-md text-neutral-500 text-lg hover-bg-main-100 hover-text-main-600 transition-2 ms-auto'>
                         <i className='ph ph-shopping-cart' />
@@ -384,12 +385,12 @@ const ProductsInner = () => {
                     <div className=''>
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
-                          <a
-                            href='product-details.html'
+                          <Link
+                            href='/product-details'
                             className='link text-line-1'
                           >
                             Nike Air Force
-                          </a>
+                          </Link>
                         </h5>
                         <div className='flex-shrink-0 d-flex gap-4'>
                           <div className='d-flex flex-wrap align-items-center'>
@@ -425,8 +426,8 @@ const ProductsInner = () => {
               <div className='col-md-4 col-sm-6 col-xs-6'>
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
-                    <a
-                      href='product-details.html'
+                    <Link
+                      href='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -434,7 +435,7 @@ const ProductsInner = () => {
                         alt='Course Image'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
-                    </a>
+                    </Link>
                     <div className='position-absolute inset-block-start-0 inset-inline-start-0 w-100 d-flex align-items-center justify-content-between p-16'>
                       <span className='py-8 px-16 bg-main-two-600 rounded-8 text-white'>
                         Sale
@@ -448,12 +449,12 @@ const ProductsInner = () => {
                     <div className=''>
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
-                          <a
-                            href='product-details.html'
+                          <Link
+                            href='/product-details'
                             className='link text-line-1'
                           >
                             Athletic Sneaker
-                          </a>
+                          </Link>
                         </h5>
                         <div className='flex-shrink-0 d-flex gap-4'>
                           <div className='d-flex flex-wrap align-items-center'>
@@ -489,8 +490,8 @@ const ProductsInner = () => {
               <div className='col-md-4 col-sm-6 col-xs-6'>
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
-                    <a
-                      href='product-details.html'
+                    <Link
+                      href='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -498,7 +499,7 @@ const ProductsInner = () => {
                         alt='Course Image'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
-                    </a>
+                    </Link>
                     <div className='position-absolute inset-block-start-0 inset-inline-start-0 w-100 d-flex align-items-center justify-content-between p-16'>
                       <button className='add-to-cart active-scale-08 w-40 h-40 rounded-8 d-flex justify-content-center align-items-center bg-white box-shadow-md text-neutral-500 text-lg hover-bg-main-100 hover-text-main-600 transition-2 ms-auto'>
                         <i className='ph ph-shopping-cart' />
@@ -509,12 +510,12 @@ const ProductsInner = () => {
                     <div className=''>
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
-                          <a
-                            href='product-details.html'
+                          <Link
+                            href='/product-details'
                             className='link text-line-1'
                           >
                             Dressy Boots
-                          </a>
+                          </Link>
                         </h5>
                         <div className='flex-shrink-0 d-flex gap-4'>
                           <div className='d-flex flex-wrap align-items-center'>
@@ -550,8 +551,8 @@ const ProductsInner = () => {
               <div className='col-md-4 col-sm-6 col-xs-6'>
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
-                    <a
-                      href='product-details.html'
+                    <Link
+                      href='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -559,7 +560,7 @@ const ProductsInner = () => {
                         alt='Course Image'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
-                    </a>
+                    </Link>
                     <div className='position-absolute inset-block-start-0 inset-inline-start-0 w-100 d-flex align-items-center justify-content-between p-16'>
                       <span className='py-8 px-16 bg-success-600 rounded-8 text-white'>
                         New
@@ -573,12 +574,12 @@ const ProductsInner = () => {
                     <div className=''>
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
-                          <a
-                            href='product-details.html'
+                          <Link
+                            href='/product-details'
                             className='link text-line-1'
                           >
                             Popular Loafers
-                          </a>
+                          </Link>
                         </h5>
                         <div className='flex-shrink-0 d-flex gap-4'>
                           <div className='d-flex flex-wrap align-items-center'>
@@ -614,8 +615,8 @@ const ProductsInner = () => {
               <div className='col-md-4 col-sm-6 col-xs-6'>
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
-                    <a
-                      href='product-details.html'
+                    <Link
+                      href='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -623,7 +624,7 @@ const ProductsInner = () => {
                         alt='Course Image'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
-                    </a>
+                    </Link>
                     <div className='position-absolute inset-block-start-0 inset-inline-start-0 w-100 d-flex align-items-center justify-content-between p-16'>
                       <span className='py-8 px-16 bg-success-600 rounded-8 text-white'>
                         New
@@ -637,12 +638,12 @@ const ProductsInner = () => {
                     <div className=''>
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
-                          <a
-                            href='product-details.html'
+                          <Link
+                            href='/product-details'
                             className='link text-line-1'
                           >
                             Oxfords leather
-                          </a>
+                          </Link>
                         </h5>
                         <div className='flex-shrink-0 d-flex gap-4'>
                           <div className='d-flex flex-wrap align-items-center'>
@@ -678,8 +679,8 @@ const ProductsInner = () => {
               <div className='col-md-4 col-sm-6 col-xs-6'>
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
-                    <a
-                      href='product-details.html'
+                    <Link
+                      href='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -687,7 +688,7 @@ const ProductsInner = () => {
                         alt='Course Image'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
-                    </a>
+                    </Link>
                     <div className='position-absolute inset-block-start-0 inset-inline-start-0 w-100 d-flex align-items-center justify-content-between p-16'>
                       <button className='add-to-cart active-scale-08 w-40 h-40 rounded-8 d-flex justify-content-center align-items-center bg-white box-shadow-md text-neutral-500 text-lg hover-bg-main-100 hover-text-main-600 transition-2 ms-auto'>
                         <i className='ph ph-shopping-cart' />
@@ -698,12 +699,12 @@ const ProductsInner = () => {
                     <div className=''>
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
-                          <a
-                            href='product-details.html'
+                          <Link
+                            href='/product-details'
                             className='link text-line-1'
                           >
                             Dressy Boots
-                          </a>
+                          </Link>
                         </h5>
                         <div className='flex-shrink-0 d-flex gap-4'>
                           <div className='d-flex flex-wrap align-items-center'>
@@ -739,8 +740,8 @@ const ProductsInner = () => {
               <div className='col-md-4 col-sm-6 col-xs-6'>
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
-                    <a
-                      href='product-details.html'
+                    <Link
+                      href='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -748,7 +749,7 @@ const ProductsInner = () => {
                         alt='Course Image'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
-                    </a>
+                    </Link>
                     <div className='position-absolute inset-block-start-0 inset-inline-start-0 w-100 d-flex align-items-center justify-content-between p-16'>
                       <span className='py-8 px-16 bg-main-two-600 rounded-8 text-white'>
                         Sale
@@ -762,12 +763,12 @@ const ProductsInner = () => {
                     <div className=''>
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
-                          <a
-                            href='product-details.html'
+                          <Link
+                            href='/product-details'
                             className='link text-line-1'
                           >
                             Heeled Flats
-                          </a>
+                          </Link>
                         </h5>
                         <div className='flex-shrink-0 d-flex gap-4'>
                           <div className='d-flex flex-wrap align-items-center'>
@@ -803,8 +804,8 @@ const ProductsInner = () => {
               <div className='col-md-4 col-sm-6 col-xs-6'>
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
-                    <a
-                      href='product-details.html'
+                    <Link
+                      href='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -812,7 +813,7 @@ const ProductsInner = () => {
                         alt='Course Image'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
-                    </a>
+                    </Link>
                     <div className='position-absolute inset-block-start-0 inset-inline-start-0 w-100 d-flex align-items-center justify-content-between p-16'>
                       <button className='add-to-cart active-scale-08 w-40 h-40 rounded-8 d-flex justify-content-center align-items-center bg-white box-shadow-md text-neutral-500 text-lg hover-bg-main-100 hover-text-main-600 transition-2 ms-auto'>
                         <i className='ph ph-shopping-cart' />
@@ -823,12 +824,12 @@ const ProductsInner = () => {
                     <div className=''>
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
-                          <a
-                            href='product-details.html'
+                          <Link
+                            href='/product-details'
                             className='link text-line-1'
                           >
                             Pumps classic
-                          </a>
+                          </Link>
                         </h5>
                         <div className='flex-shrink-0 d-flex gap-4'>
                           <div className='d-flex flex-wrap align-items-center'>
@@ -864,8 +865,8 @@ const ProductsInner = () => {
               <div className='col-md-4 col-sm-6 col-xs-6'>
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
-                    <a
-                      href='product-details.html'
+                    <Link
+                      href='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -873,7 +874,7 @@ const ProductsInner = () => {
                         alt='Course Image'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
-                    </a>
+                    </Link>
                     <div className='position-absolute inset-block-start-0 inset-inline-start-0 w-100 d-flex align-items-center justify-content-between p-16'>
                       <button className='add-to-cart active-scale-08 w-40 h-40 rounded-8 d-flex justify-content-center align-items-center bg-white box-shadow-md text-neutral-500 text-lg hover-bg-main-100 hover-text-main-600 transition-2 ms-auto'>
                         <i className='ph ph-shopping-cart' />
@@ -884,12 +885,12 @@ const ProductsInner = () => {
                     <div className=''>
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
-                          <a
-                            href='product-details.html'
+                          <Link
+                            href='/product-details'
                             className='link text-line-1'
                           >
                             Heels stilettos
-                          </a>
+                          </Link>
                         </h5>
                         <div className='flex-shrink-0 d-flex gap-4'>
                           <div className='d-flex flex-wrap align-items-center'>
@@ -925,8 +926,8 @@ const ProductsInner = () => {
               <div className='col-md-4 col-sm-6 col-xs-6'>
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
-                    <a
-                      href='product-details.html'
+                    <Link
+                      href='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -934,7 +935,7 @@ const ProductsInner = () => {
                         alt='Course Image'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
-                    </a>
+                    </Link>
                     <div className='position-absolute inset-block-start-0 inset-inline-start-0 w-100 d-flex align-items-center justify-content-between p-16'>
                       <span className='py-8 px-16 bg-success-600 rounded-8 text-white'>
                         New
@@ -948,12 +949,12 @@ const ProductsInner = () => {
                     <div className=''>
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
-                          <a
-                            href='product-details.html'
+                          <Link
+                            href='/product-details'
                             className='link text-line-1'
                           >
                             Sandals various
-                          </a>
+                          </Link>
                         </h5>
                         <div className='flex-shrink-0 d-flex gap-4'>
                           <div className='d-flex flex-wrap align-items-center'>
@@ -989,8 +990,8 @@ const ProductsInner = () => {
               <div className='col-md-4 col-sm-6 col-xs-6'>
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
-                    <a
-                      href='product-details.html'
+                    <Link
+                      href='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -998,7 +999,7 @@ const ProductsInner = () => {
                         alt='Course Image'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
-                    </a>
+                    </Link>
                     <div className='position-absolute inset-block-start-0 inset-inline-start-0 w-100 d-flex align-items-center justify-content-between p-16'>
                       <button className='add-to-cart active-scale-08 w-40 h-40 rounded-8 d-flex justify-content-center align-items-center bg-white box-shadow-md text-neutral-500 text-lg hover-bg-main-100 hover-text-main-600 transition-2 ms-auto'>
                         <i className='ph ph-shopping-cart' />
@@ -1009,12 +1010,12 @@ const ProductsInner = () => {
                     <div className=''>
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
-                          <a
-                            href='product-details.html'
+                          <Link
+                            href='/product-details'
                             className='link text-line-1'
                           >
                             Heels Wedges
-                          </a>
+                          </Link>
                         </h5>
                         <div className='flex-shrink-0 d-flex gap-4'>
                           <div className='d-flex flex-wrap align-items-center'>
@@ -1050,8 +1051,8 @@ const ProductsInner = () => {
               <div className='col-md-4 col-sm-6 col-xs-6'>
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
-                    <a
-                      href='product-details.html'
+                    <Link
+                      href='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -1059,7 +1060,7 @@ const ProductsInner = () => {
                         alt='Course Image'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
-                    </a>
+                    </Link>
                     <div className='position-absolute inset-block-start-0 inset-inline-start-0 w-100 d-flex align-items-center justify-content-between p-16'>
                       <span className='py-8 px-16 bg-main-two-600 rounded-8 text-white'>
                         Sale
@@ -1073,12 +1074,12 @@ const ProductsInner = () => {
                     <div className=''>
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
-                          <a
-                            href='product-details.html'
+                          <Link
+                            href='/product-details'
                             className='link text-line-1'
                           >
                             Mules flat sole
-                          </a>
+                          </Link>
                         </h5>
                         <div className='flex-shrink-0 d-flex gap-4'>
                           <div className='d-flex flex-wrap align-items-center'>

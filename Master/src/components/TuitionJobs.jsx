@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 import ReactSlider from "react-slider";
 
@@ -543,14 +544,14 @@ const TuitionJobs = () => {
                       <span className='text-neutral-200'>
                         Posted at June 6, 2024
                       </span>
-                      <a
-                        href='contact.html'
+                      <Link
+                        href='/contact'
                         className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                         tabIndex={0}
                       >
                         Apply Now
                         <i className='ph ph-arrow-right' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -685,14 +686,14 @@ const TuitionJobs = () => {
                       <span className='text-neutral-200'>
                         Posted at June 6, 2024
                       </span>
-                      <a
-                        href='contact.html'
+                      <Link
+                        href='/contact'
                         className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                         tabIndex={0}
                       >
                         Apply Now
                         <i className='ph ph-arrow-right' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -825,14 +826,14 @@ const TuitionJobs = () => {
                       <span className='text-neutral-200'>
                         Posted at June 6, 2024
                       </span>
-                      <a
-                        href='contact.html'
+                      <Link
+                        href='/contact'
                         className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                         tabIndex={0}
                       >
                         Apply Now
                         <i className='ph ph-arrow-right' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -965,14 +966,14 @@ const TuitionJobs = () => {
                       <span className='text-neutral-200'>
                         Posted at June 6, 2024
                       </span>
-                      <a
-                        href='contact.html'
+                      <Link
+                        href='/contact'
                         className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                         tabIndex={0}
                       >
                         Apply Now
                         <i className='ph ph-arrow-right' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1105,14 +1106,14 @@ const TuitionJobs = () => {
                       <span className='text-neutral-200'>
                         Posted at June 6, 2024
                       </span>
-                      <a
-                        href='contact.html'
+                      <Link
+                        href='/contact'
                         className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                         tabIndex={0}
                       >
                         Apply Now
                         <i className='ph ph-arrow-right' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

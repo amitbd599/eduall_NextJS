@@ -145,16 +145,15 @@ const HeaderTwo = () => {
                 <select
                   className='js-example-basic-single border-0'
                   name='state'
+                  defaultValue={1}
                 >
-                  <option value={1} selected=''>
-                    Physics
-                  </option>
-                  <option value={1}>Math</option>
-                  <option value={1}>Biology</option>
-                  <option value={1}>English</option>
-                  <option value={1}>Higher Math</option>
-                  <option value={1}>Social Science</option>
-                  <option value={1}>Chemistry</option>
+                  <option value={1}>Physics</option>
+                  <option value={2}>Math</option>
+                  <option value={3}>Biology</option>
+                  <option value={4}>English</option>
+                  <option value={5}>Higher Math</option>
+                  <option value={6}>Social Science</option>
+                  <option value={7}>Chemistry</option>
                 </select>
               </div>
               <form
@@ -240,17 +239,20 @@ const HeaderTwo = () => {
               <ul className='nav-menu flex-align'>
                 {menuItems.map((item, index) =>
                   item.links ? (
-                    <li key={index} className='nav-menu__item has-submenu'>
+                    <li
+                      key={`menu-item-${index}`}
+                      className='nav-menu__item has-submenu'
+                    >
                       <Link href='#' className='nav-menu__link'>
                         {item.label}
                       </Link>
                       <ul className={`nav-submenu scroll-sm`}>
                         {item.links.map((link, linkIndex) => (
                           <li
-                            key={linkIndex}
+                            key={`submenu-item-${linkIndex}`}
                             className={`nav-submenu__item ${
                               pathname == link.href && "activePage"
-                            } `}
+                            }`}
                           >
                             <Link
                               href={link.href}
@@ -263,8 +265,11 @@ const HeaderTwo = () => {
                       </ul>
                     </li>
                   ) : (
-                    <li className='nav-menu__item'>
-                      <a href='/contact' className='nav-menu__link'>
+                    <li
+                      key={`menu-contact-${index}`}
+                      className='nav-menu__item'
+                    >
+                      <a href='contact' className='nav-menu__link'>
                         Contact
                       </a>
                     </li>
@@ -323,7 +328,7 @@ const HeaderTwo = () => {
               {menuItems.map((item, index) =>
                 item.links ? (
                   <li
-                    key={index}
+                    key={`menu-item-${index}`}
                     className={`nav-menu__item has-submenu ${
                       activeSubmenu === index ? "activePage" : ""
                     }`}
@@ -346,8 +351,8 @@ const HeaderTwo = () => {
                     </ul>
                   </li>
                 ) : (
-                  <li className='nav-menu__item'>
-                    <a href='/contact' className='nav-menu__link'>
+                  <li className='nav-menu__item' key={index}>
+                    <a href='contact' className='nav-menu__link'>
                       Contact
                     </a>
                   </li>

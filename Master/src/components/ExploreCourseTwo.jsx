@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const ExploreCourseTwo = () => {
   return (
     <section className='explore-course py-120 bg-main-25 position-relative z-1'>
@@ -139,13 +141,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img1.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -156,32 +158,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Marketing
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Introduction to Digital Marketing
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -234,13 +236,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img2.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -251,32 +253,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Python
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Mastering Python : From Zero to Hero
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -329,13 +331,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -346,32 +348,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Graphic Design
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Beginner's Guide to Adobe Photoshop
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -424,13 +426,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -441,32 +443,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           ART Design
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           The Art of Public Speaking online Course
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -519,13 +521,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img5.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -536,32 +538,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           AI Machine
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Introduction to Machine Learning AI
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -614,49 +616,49 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img6.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
                       <img
-                        src='assets/images/thumbs/user-two-img6.png'
+                        src='assets/images/thumbs/user-two-img3.png'
                         alt=''
                       />
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Yoga
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Yoga for Wellness: A Comprehensive Guide
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -704,13 +706,13 @@ const ExploreCourseTwo = () => {
               </div>
             </div>
             <div className='text-center'>
-              <a
-                href='course.html'
+              <Link
+                href='/course'
                 className='btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8 mt-40'
               >
                 See All Courses
                 <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-              </a>
+              </Link>
             </div>
           </div>
           <div
@@ -728,13 +730,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img1.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -745,32 +747,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Marketing
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Introduction to Digital Marketing
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -823,13 +825,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img2.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -840,32 +842,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Python
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Mastering Python : From Zero to Hero
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -918,13 +920,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -935,32 +937,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Graphic Design
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Beginner's Guide to Adobe Photoshop
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1013,13 +1015,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -1030,32 +1032,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           ART Design
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           The Art of Public Speaking online Course
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1108,13 +1110,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img5.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -1125,32 +1127,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           AI Machine
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Introduction to Machine Learning AI
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1203,49 +1205,49 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img6.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
                       <img
-                        src='assets/images/thumbs/user-two-img6.png'
+                        src='assets/images/thumbs/user-two-img3.png'
                         alt=''
                       />
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Yoga
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Yoga for Wellness: A Comprehensive Guide
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1293,13 +1295,13 @@ const ExploreCourseTwo = () => {
               </div>
             </div>
             <div className='text-center'>
-              <a
-                href='course.html'
+              <Link
+                href='/course'
                 className='btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8 mt-40'
               >
                 See All Courses
                 <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-              </a>
+              </Link>
             </div>
           </div>
           <div
@@ -1317,13 +1319,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img1.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -1334,32 +1336,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Marketing
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Introduction to Digital Marketing
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1412,13 +1414,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img2.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -1429,32 +1431,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Python
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Mastering Python : From Zero to Hero
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1507,13 +1509,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -1524,32 +1526,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Graphic Design
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Beginner's Guide to Adobe Photoshop
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1602,13 +1604,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -1619,32 +1621,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           ART Design
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           The Art of Public Speaking online Course
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1697,13 +1699,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img5.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -1714,32 +1716,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           AI Machine
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Introduction to Machine Learning AI
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1792,49 +1794,49 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img6.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
                       <img
-                        src='assets/images/thumbs/user-two-img6.png'
+                        src='assets/images/thumbs/user-two-img3.png'
                         alt=''
                       />
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Yoga
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Yoga for Wellness: A Comprehensive Guide
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1882,13 +1884,13 @@ const ExploreCourseTwo = () => {
               </div>
             </div>
             <div className='text-center'>
-              <a
-                href='course.html'
+              <Link
+                href='/course'
                 className='btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8 mt-40'
               >
                 See All Courses
                 <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-              </a>
+              </Link>
             </div>
           </div>
           <div
@@ -1906,13 +1908,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img1.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -1923,32 +1925,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Marketing
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Introduction to Digital Marketing
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -2001,13 +2003,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img2.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -2018,32 +2020,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Python
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Mastering Python : From Zero to Hero
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -2096,13 +2098,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -2113,32 +2115,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Graphic Design
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Beginner's Guide to Adobe Photoshop
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -2191,13 +2193,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -2208,32 +2210,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           ART Design
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           The Art of Public Speaking online Course
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -2286,13 +2288,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img5.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -2303,32 +2305,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           AI Machine
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Introduction to Machine Learning AI
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -2381,49 +2383,49 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img6.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
                       <img
-                        src='assets/images/thumbs/user-two-img6.png'
+                        src='assets/images/thumbs/user-two-img3.png'
                         alt=''
                       />
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Yoga
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Yoga for Wellness: A Comprehensive Guide
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -2471,13 +2473,13 @@ const ExploreCourseTwo = () => {
               </div>
             </div>
             <div className='text-center'>
-              <a
-                href='course.html'
+              <Link
+                href='/course'
                 className='btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8 mt-40'
               >
                 See All Courses
                 <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-              </a>
+              </Link>
             </div>
           </div>
           <div
@@ -2495,13 +2497,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img1.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -2512,32 +2514,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Marketing
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Introduction to Digital Marketing
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -2590,13 +2592,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img2.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -2607,32 +2609,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Python
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Mastering Python : From Zero to Hero
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -2685,13 +2687,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -2702,32 +2704,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Graphic Design
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Beginner's Guide to Adobe Photoshop
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -2780,13 +2782,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -2797,32 +2799,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           ART Design
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           The Art of Public Speaking online Course
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -2875,13 +2877,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img5.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -2892,32 +2894,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           AI Machine
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Introduction to Machine Learning AI
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -2970,49 +2972,49 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img6.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
                       <img
-                        src='assets/images/thumbs/user-two-img6.png'
+                        src='assets/images/thumbs/user-two-img3.png'
                         alt=''
                       />
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Yoga
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Yoga for Wellness: A Comprehensive Guide
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -3060,13 +3062,13 @@ const ExploreCourseTwo = () => {
               </div>
             </div>
             <div className='text-center'>
-              <a
-                href='course.html'
+              <Link
+                href='/course'
                 className='btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8 mt-40'
               >
                 See All Courses
                 <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-              </a>
+              </Link>
             </div>
           </div>
           <div
@@ -3084,13 +3086,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img1.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -3101,32 +3103,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Marketing
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Introduction to Digital Marketing
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -3179,13 +3181,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img2.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -3196,32 +3198,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Python
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Mastering Python : From Zero to Hero
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -3274,13 +3276,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -3291,32 +3293,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Graphic Design
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Beginner's Guide to Adobe Photoshop
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -3369,13 +3371,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -3386,32 +3388,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           ART Design
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           The Art of Public Speaking online Course
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -3464,13 +3466,13 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img5.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -3481,32 +3483,32 @@ const ExploreCourseTwo = () => {
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           AI Machine
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Introduction to Machine Learning AI
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -3559,49 +3561,49 @@ const ExploreCourseTwo = () => {
               >
                 <div className='course-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img6.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <span className='course-item__user border border-white flex-center w-60 h-60 bg-white text-main-600 rounded-circle text-2xl transition-2'>
                       <img
-                        src='assets/images/thumbs/user-two-img6.png'
+                        src='assets/images/thumbs/user-two-img3.png'
                         alt=''
                       />
                     </span>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Yoga
-                        </a>
-                        <a
-                          href='course.html'
+                        </Link>
+                        <Link
+                          href='/course'
                           className='py-8 px-20 rounded-pill flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white'
                         >
                           <span className='text-xl d-flex'>
                             <i className='ph-bold ph-squares-four' />
                           </span>
                           Beginner
-                        </a>
+                        </Link>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
+                        <Link
+                          href='/course-details'
                           className='link text-line-2'
                         >
                           Yoga for Wellness: A Comprehensive Guide
-                        </a>
+                        </Link>
                       </h4>
                       <div className='flex-align gap-28 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -3649,13 +3651,13 @@ const ExploreCourseTwo = () => {
               </div>
             </div>
             <div className='text-center'>
-              <a
-                href='course.html'
+              <Link
+                href='/course'
                 className='btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8 mt-40'
               >
                 See All Courses
                 <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const FooterTwo = () => {
   return (
     <footer className='footer bg-neutral-900 position-relative z-1'>
@@ -25,44 +27,44 @@ const FooterTwo = () => {
                 </h4>
                 <ul className='footer-menu'>
                   <li className='mb-16'>
-                    <a
-                      href='about.html'
+                    <Link
+                      href='/about'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       About us
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-16'>
-                    <a
-                      href='courses.html'
+                    <Link
+                      href='/courses'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       Courses
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-16'>
-                    <a
-                      href='instructor.html'
+                    <Link
+                      href='/instructor'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       Instructor
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-16'>
-                    <a
-                      href='faq.html'
+                    <Link
+                      href='/faq'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       FAQs
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='blog.html'
+                    <Link
+                      href='/blog'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       Blogs
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -78,44 +80,44 @@ const FooterTwo = () => {
                 </h4>
                 <ul className='footer-menu'>
                   <li className='mb-16'>
-                    <a
-                      href='courses.html'
+                    <Link
+                      href='/courses'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       UI/UX Design
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-16'>
-                    <a
-                      href='courses.html'
+                    <Link
+                      href='/courses'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       Web Development
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-16'>
-                    <a
-                      href='courses.html'
+                    <Link
+                      href='/courses'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       Python Development
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-16'>
-                    <a
-                      href='courses.html'
+                    <Link
+                      href='/courses'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       Digital Marketing
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-16'>
-                    <a
-                      href='courses.html'
+                    <Link
+                      href='/courses'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       Graphic Design
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -134,18 +136,18 @@ const FooterTwo = () => {
                     <i className='ph ph-phone' />
                   </span>
                   <div className=''>
-                    <a
-                      href='tel:(207)555-0119'
+                    <Link
+                      href='/tel:(207)555-0119'
                       className='text-white d-block hover-text-main-600 mb-4'
                     >
                       (207) 555-0119
-                    </a>
-                    <a
-                      href='tel:(704)555-0127'
+                    </Link>
+                    <Link
+                      href='/tel:(704)555-0127'
                       className='text-white d-block hover-text-main-600 mb-0'
                     >
                       (704) 555-0127
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className='flex-align gap-20 mb-24'>
@@ -153,18 +155,18 @@ const FooterTwo = () => {
                     <i className='ph ph-envelope-open' />
                   </span>
                   <div className=''>
-                    <a
-                      href='mailto:dwallo@gmail.com'
+                    <Link
+                      href='/mailto:dwallo@gmail.com'
                       className='text-white d-block hover-text-main-600 mb-4'
                     >
                       dwallo@gmail.com
-                    </a>
-                    <a
-                      href='mailto:eduAll@gmail.com'
+                    </Link>
+                    <Link
+                      href='/mailto:eduAll@gmail.com'
                       className='text-white d-block hover-text-main-600 mb-0'
                     >
                       eduAll@gmail.com
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className='flex-align gap-20 mb-0'>
@@ -219,10 +221,10 @@ const FooterTwo = () => {
           <div className='container container-two'>
             <div className='bottom-footer__inner flex-between gap-16 flex-wrap'>
               <div className='footer-item__logo mb-0' data-aos='zoom-in-right'>
-                <a href='index.html'>
+                <Link href='/index-1'>
                   {" "}
                   <img src='assets/images/logo/logo-white.png' alt='' />
-                </a>
+                </Link>
               </div>
               <p
                 className='text-white text-line-1 fw-normal'
@@ -237,36 +239,36 @@ const FooterTwo = () => {
                 data-aos='zoom-in-left'
               >
                 <li className='social-list__item'>
-                  <a
+                  <Link
                     href='https://www.facebook.com'
                     className='text-white text-2xl hover-text-main-two-600'
                   >
                     <i className='ph-bold ph-facebook-logo' />
-                  </a>
+                  </Link>
                 </li>
                 <li className='social-list__item'>
-                  <a
+                  <Link
                     href='https://www.twitter.com'
                     className='text-white text-2xl hover-text-main-two-600'
                   >
                     <i className='ph-bold ph-twitter-logo' />
-                  </a>
+                  </Link>
                 </li>
                 <li className='social-list__item'>
-                  <a
+                  <Link
                     href='https://www.linkedin.com'
                     className='text-white text-2xl hover-text-main-two-600'
                   >
                     <i className='ph-bold ph-instagram-logo' />
-                  </a>
+                  </Link>
                 </li>
                 <li className='social-list__item'>
-                  <a
+                  <Link
                     href='https://www.pinterest.com'
                     className='text-white text-2xl hover-text-main-two-600'
                   >
                     <i className='ph-bold ph-pinterest-logo' />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

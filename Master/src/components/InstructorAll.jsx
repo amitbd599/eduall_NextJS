@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const InstructorAll = () => {
   return (
     <section className='instructor py-120 position-relative z-1'>
@@ -23,8 +25,8 @@ const InstructorAll = () => {
           <div className='col-lg-4 col-sm-6'>
             <div className='instructor-item scale-hover-item bg-white rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='rounded-12 overflow-hidden position-relative bg-dark-yellow'>
-                <a
-                  href='instructor-details.html'
+                <Link
+                  href='/instructor-details'
                   className='w-100 h-100 d-flex align-items-end'
                 >
                   <img
@@ -32,7 +34,7 @@ const InstructorAll = () => {
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
               </div>
               <div className='p-24 position-relative'>
                 <div className='social-infos'>
@@ -68,12 +70,12 @@ const InstructorAll = () => {
                 </div>
                 <div className=''>
                   <h4 className='mb-28 pb-24 border-bottom border-neutral-50 mb-24 border-dashed border-0'>
-                    <a
-                      href='instructor-details.html'
+                    <Link
+                      href='/instructor-details'
                       className='link text-line-2'
                     >
                       Devon Lane
-                    </a>
+                    </Link>
                   </h4>
                   <div className='flex-between gap-8 flex-wrap mb-16'>
                     <div className='flex-align gap-8'>
@@ -114,14 +116,14 @@ const InstructorAll = () => {
                   </div>
                 </div>
                 <div className='pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='instructor-details.html'
+                  <Link
+                    href='/instructor-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     View Profile
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -129,8 +131,8 @@ const InstructorAll = () => {
           <div className='col-lg-4 col-sm-6'>
             <div className='instructor-item scale-hover-item bg-white rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='rounded-12 overflow-hidden position-relative bg-dark-yellow'>
-                <a
-                  href='instructor-details.html'
+                <Link
+                  href='/instructor-details'
                   className='w-100 h-100 d-flex align-items-end'
                 >
                   <img
@@ -138,7 +140,7 @@ const InstructorAll = () => {
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
               </div>
               <div className='p-24 position-relative'>
                 <div className='social-infos'>
@@ -174,12 +176,12 @@ const InstructorAll = () => {
                 </div>
                 <div className=''>
                   <h4 className='mb-28 pb-24 border-bottom border-neutral-50 mb-24 border-dashed border-0'>
-                    <a
-                      href='instructor-details.html'
+                    <Link
+                      href='/instructor-details'
                       className='link text-line-2'
                     >
                       John Doe
-                    </a>
+                    </Link>
                   </h4>
                   <div className='flex-between gap-8 flex-wrap mb-16'>
                     <div className='flex-align gap-8'>
@@ -220,14 +222,14 @@ const InstructorAll = () => {
                   </div>
                 </div>
                 <div className='pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='instructor-details.html'
+                  <Link
+                    href='/instructor-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     View Profile
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -235,8 +237,8 @@ const InstructorAll = () => {
           <div className='col-lg-4 col-sm-6'>
             <div className='instructor-item scale-hover-item bg-white rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='rounded-12 overflow-hidden position-relative bg-dark-yellow'>
-                <a
-                  href='instructor-details.html'
+                <Link
+                  href='/instructor-details'
                   className='w-100 h-100 d-flex align-items-end'
                 >
                   <img
@@ -244,7 +246,7 @@ const InstructorAll = () => {
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
               </div>
               <div className='p-24 position-relative'>
                 <div className='social-infos'>
@@ -280,12 +282,12 @@ const InstructorAll = () => {
                 </div>
                 <div className=''>
                   <h4 className='mb-28 pb-24 border-bottom border-neutral-50 mb-24 border-dashed border-0'>
-                    <a
-                      href='instructor-details.html'
+                    <Link
+                      href='/instructor-details'
                       className='link text-line-2'
                     >
                       Alexandar
-                    </a>
+                    </Link>
                   </h4>
                   <div className='flex-between gap-8 flex-wrap mb-16'>
                     <div className='flex-align gap-8'>
@@ -326,14 +328,14 @@ const InstructorAll = () => {
                   </div>
                 </div>
                 <div className='pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='instructor-details.html'
+                  <Link
+                    href='/instructor-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     View Profile
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -341,8 +343,8 @@ const InstructorAll = () => {
           <div className='col-lg-4 col-sm-6'>
             <div className='instructor-item scale-hover-item bg-white rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='rounded-12 overflow-hidden position-relative bg-dark-yellow'>
-                <a
-                  href='instructor-details.html'
+                <Link
+                  href='/instructor-details'
                   className='w-100 h-100 d-flex align-items-end'
                 >
                   <img
@@ -350,7 +352,7 @@ const InstructorAll = () => {
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
               </div>
               <div className='p-24 position-relative'>
                 <div className='social-infos'>
@@ -386,12 +388,12 @@ const InstructorAll = () => {
                 </div>
                 <div className=''>
                   <h4 className='mb-28 pb-24 border-bottom border-neutral-50 mb-24 border-dashed border-0'>
-                    <a
-                      href='instructor-details.html'
+                    <Link
+                      href='/instructor-details'
                       className='link text-line-2'
                     >
                       Arlene McCoy
-                    </a>
+                    </Link>
                   </h4>
                   <div className='flex-between gap-8 flex-wrap mb-16'>
                     <div className='flex-align gap-8'>
@@ -432,14 +434,14 @@ const InstructorAll = () => {
                   </div>
                 </div>
                 <div className='pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='instructor-details.html'
+                  <Link
+                    href='/instructor-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     View Profile
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -447,8 +449,8 @@ const InstructorAll = () => {
           <div className='col-lg-4 col-sm-6'>
             <div className='instructor-item scale-hover-item bg-white rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='rounded-12 overflow-hidden position-relative bg-dark-yellow'>
-                <a
-                  href='instructor-details.html'
+                <Link
+                  href='/instructor-details'
                   className='w-100 h-100 d-flex align-items-end'
                 >
                   <img
@@ -456,7 +458,7 @@ const InstructorAll = () => {
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
               </div>
               <div className='p-24 position-relative'>
                 <div className='social-infos'>
@@ -492,12 +494,12 @@ const InstructorAll = () => {
                 </div>
                 <div className=''>
                   <h4 className='mb-28 pb-24 border-bottom border-neutral-50 mb-24 border-dashed border-0'>
-                    <a
-                      href='instructor-details.html'
+                    <Link
+                      href='/instructor-details'
                       className='link text-line-2'
                     >
                       Albert Flores
-                    </a>
+                    </Link>
                   </h4>
                   <div className='flex-between gap-8 flex-wrap mb-16'>
                     <div className='flex-align gap-8'>
@@ -538,14 +540,14 @@ const InstructorAll = () => {
                   </div>
                 </div>
                 <div className='pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='instructor-details.html'
+                  <Link
+                    href='/instructor-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     View Profile
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -553,8 +555,8 @@ const InstructorAll = () => {
           <div className='col-lg-4 col-sm-6'>
             <div className='instructor-item scale-hover-item bg-white rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='rounded-12 overflow-hidden position-relative bg-dark-yellow'>
-                <a
-                  href='instructor-details.html'
+                <Link
+                  href='/instructor-details'
                   className='w-100 h-100 d-flex align-items-end'
                 >
                   <img
@@ -562,7 +564,7 @@ const InstructorAll = () => {
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
               </div>
               <div className='p-24 position-relative'>
                 <div className='social-infos'>
@@ -598,12 +600,12 @@ const InstructorAll = () => {
                 </div>
                 <div className=''>
                   <h4 className='mb-28 pb-24 border-bottom border-neutral-50 mb-24 border-dashed border-0'>
-                    <a
-                      href='instructor-details.html'
+                    <Link
+                      href='/instructor-details'
                       className='link text-line-2'
                     >
                       Kathryn Murphy
-                    </a>
+                    </Link>
                   </h4>
                   <div className='flex-between gap-8 flex-wrap mb-16'>
                     <div className='flex-align gap-8'>
@@ -644,14 +646,14 @@ const InstructorAll = () => {
                   </div>
                 </div>
                 <div className='pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='instructor-details.html'
+                  <Link
+                    href='/instructor-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     View Profile
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

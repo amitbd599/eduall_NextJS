@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useRef } from "react";
 import Slider from "react-slick";
 
@@ -76,12 +77,12 @@ const CategoryOne = () => {
             <p className='text-neutral-500 text-lg text-line-2'>
               Courses on nutrition, fitness training, yoga...
             </p>
-            <a
-              href='courses.html'
+            <Link
+              href='/courses'
               className='py-12 px-24 bg-white rounded-8 border border-neutral-30 mt-28 fw-semibold text-main-600 hover-bg-main-600 hover-text-white hover-border-main-600'
             >
               14 Course
-            </a>
+            </Link>
           </div>
           <div
             className='category-item animation-item h-100 text-center px-16 py-32 rounded-12 bg-main-two-25 border border-neutral-30 hover-border-main-two-600 transition-2'
@@ -99,12 +100,12 @@ const CategoryOne = () => {
             <p className='text-neutral-500 text-lg text-line-2'>
               Courses on nutrition, fitness training, yoga...
             </p>
-            <a
-              href='courses.html'
+            <Link
+              href='/courses'
               className='py-12 px-24 bg-white rounded-8 border border-neutral-30 mt-28 fw-semibold text-main-two-600 hover-bg-main-two-600 hover-text-white hover-border-main-two-600'
             >
               15 Course
-            </a>
+            </Link>
           </div>
           <div
             className='category-item animation-item h-100 text-center px-16 py-32 rounded-12 bg-main-three-25 border border-neutral-30 hover-border-main-three-600 transition-2'
@@ -124,12 +125,12 @@ const CategoryOne = () => {
             <p className='text-neutral-500 text-lg text-line-2'>
               Courses on nutrition, fitness training, yoga...
             </p>
-            <a
-              href='courses.html'
+            <Link
+              href='/courses'
               className='py-12 px-24 bg-white rounded-8 border border-neutral-30 mt-28 fw-semibold text-main-three-600 hover-bg-main-three-600 hover-text-white hover-border-main-three-600'
             >
               14 Course
-            </a>
+            </Link>
           </div>
           <div
             className='category-item animation-item h-100 text-center px-16 py-32 rounded-12 bg-main-two-25 border border-neutral-30 hover-border-main-two-600 transition-2'
@@ -149,12 +150,12 @@ const CategoryOne = () => {
             <p className='text-neutral-500 text-lg text-line-2'>
               Courses on nutrition, fitness training, yoga...
             </p>
-            <a
-              href='courses.html'
+            <Link
+              href='/courses'
               className='py-12 px-24 bg-white rounded-8 border border-neutral-30 mt-28 fw-semibold text-main-two-600 hover-bg-main-two-600 hover-text-white hover-border-main-two-600'
             >
               21 Course
-            </a>
+            </Link>
           </div>
           <div
             className='category-item animation-item h-100 text-center px-16 py-32 rounded-12 bg-main-three-25 border border-neutral-30 hover-border-main-three-600 transition-2'
@@ -174,12 +175,12 @@ const CategoryOne = () => {
             <p className='text-neutral-500 text-lg text-line-2'>
               Courses on nutrition, fitness training, yoga...
             </p>
-            <a
-              href='courses.html'
+            <Link
+              href='/courses'
               className='py-12 px-24 bg-white rounded-8 border border-neutral-30 mt-28 fw-semibold text-main-three-600 hover-bg-main-three-600 hover-text-white hover-border-main-three-600'
             >
               14 Course
-            </a>
+            </Link>
           </div>
           <div
             className='category-item animation-item h-100 text-center px-16 py-32 rounded-12 bg-main-two-25 border border-neutral-30 hover-border-main-two-600 transition-2'
@@ -197,12 +198,12 @@ const CategoryOne = () => {
             <p className='text-neutral-500 text-lg text-line-2'>
               Courses on nutrition, fitness training, yoga...
             </p>
-            <a
-              href='courses.html'
+            <Link
+              href='/courses'
               className='py-12 px-24 bg-white rounded-8 border border-neutral-30 mt-28 fw-semibold text-main-two-600 hover-bg-main-two-600 hover-text-white hover-border-main-two-600'
             >
               15 Course
-            </a>
+            </Link>
           </div>
         </Slider>
         <div className='flex-align gap-16 mt-40 justify-content-center'>

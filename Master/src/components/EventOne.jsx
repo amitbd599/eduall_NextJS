@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
 const EventOne = () => {
@@ -58,13 +59,13 @@ const EventOne = () => {
                 </div>
                 <span className='border border-neutral-40 border-dashed h-72' />
                 <div className='flex-shrink-0'>
-                  <a
-                    href='about.html'
+                  <Link
+                    href='/about'
                     className='btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8'
                   >
                     Join Now
                     <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div
@@ -100,13 +101,13 @@ const EventOne = () => {
                 </div>
                 <span className='border border-neutral-40 border-dashed h-72' />
                 <div className='flex-shrink-0'>
-                  <a
-                    href='about.html'
+                  <Link
+                    href='/about'
                     className='btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8'
                   >
                     Join Now
                     <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div
@@ -142,23 +143,23 @@ const EventOne = () => {
                 </div>
                 <span className='border border-neutral-40 border-dashed h-72' />
                 <div className='flex-shrink-0'>
-                  <a
-                    href='about.html'
+                  <Link
+                    href='/about'
                     className='btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8'
                   >
                     Join Now
                     <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
-            <a
-              href='course.html'
+            <Link
+              href='/course'
               className='btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8 mt-40'
             >
               See All Events
               <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-            </a>
+            </Link>
           </div>
           <div className='col-lg-4'>
             <div className='event-video rounded-16 overflow-hidden position-relative h-100 wow bounceIn'>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Breadcrumb = ({ title }) => {
   return (
     <section className='breadcrumb py-120 bg-main-25 position-relative z-1 overflow-hidden mb-0'>
@@ -41,13 +43,13 @@ const Breadcrumb = ({ title }) => {
               </h1>
               <ul className='breadcrumb__list d-flex align-items-center justify-content-center gap-4'>
                 <li className='breadcrumb__item'>
-                  <a
-                    href='index.html'
+                  <Link
+                    href='/index-1'
                     className='breadcrumb__link text-neutral-500 hover-text-main-600 fw-medium'
                   >
                     <i className='text-lg d-inline-flex ph-bold ph-house' />{" "}
                     Home
-                  </a>
+                  </Link>
                 </li>
 
                 <li className='breadcrumb__item '>

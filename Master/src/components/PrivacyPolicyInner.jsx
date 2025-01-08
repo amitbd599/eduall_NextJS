@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const PrivacyPolicyInner = () => {
   return (
     <section className='privacy-policy py-120'>
@@ -207,13 +209,13 @@ const PrivacyPolicyInner = () => {
                 </button>
               </div>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
-              <a
-                href='sign-in.html'
+              <Link
+                href='/sign-in'
                 className='h6 mb-0 text-main-600 fw-semibold hover-text-decoration-underline'
               >
                 See All
                 <i className='ph-bold ph-arrow-right' />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

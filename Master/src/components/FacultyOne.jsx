@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const FacultyOne = () => {
   return (
     <section className='faculty pb-120 bg-main-25'>
@@ -25,13 +27,13 @@ const FacultyOne = () => {
           >
             <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <a href='course-details.html' className='w-100 h-100'>
+                <Link href='/course-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/faculty-img1.png'
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <div className=''>
@@ -39,8 +41,8 @@ const FacultyOne = () => {
                     Admission Open
                   </span>
                   <div className='flex-between gap-8 flex-wrap mb-16'>
-                    <a
-                      href='course.html'
+                    <Link
+                      href='/course'
                       className='py-8 px-20 rounded-8 flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                     >
                       <span className='text-xl d-flex'>
@@ -48,7 +50,7 @@ const FacultyOne = () => {
                         <i className='ph-bold ph-squares-four' />
                       </span>
                       CSE
-                    </a>
+                    </Link>
                     <div className='flex-align gap-4'>
                       <span className='text-2xl fw-medium text-warning-600 d-flex'>
                         <i className='ph-fill ph-star' />
@@ -60,9 +62,9 @@ const FacultyOne = () => {
                     </div>
                   </div>
                   <h4 className='mb-28'>
-                    <a href='course-details.html' className='link text-line-2'>
+                    <Link href='/course-details' className='link text-line-2'>
                       Faculty of Engineering Admissions
-                    </a>
+                    </Link>
                   </h4>
                   <ul className='check-list'>
                     <li className='flex-align gap-8'>
@@ -92,14 +94,14 @@ const FacultyOne = () => {
                   </ul>
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='contact.html'
+                  <Link
+                    href='/contact'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Apply Now
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -111,13 +113,13 @@ const FacultyOne = () => {
           >
             <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <a href='course-details.html' className='w-100 h-100'>
+                <Link href='/course-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/faculty-img2.png'
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <div className=''>
@@ -125,15 +127,15 @@ const FacultyOne = () => {
                     Admission Closed
                   </span>
                   <div className='flex-between gap-8 flex-wrap mb-16'>
-                    <a
-                      href='course.html'
+                    <Link
+                      href='/course'
                       className='py-8 px-20 rounded-8 flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                     >
                       <span className='text-xl d-flex'>
                         <i className='ph-bold ph-squares-four' />
                       </span>
                       ARTS
-                    </a>
+                    </Link>
                     <div className='flex-align gap-4'>
                       <span className='text-2xl fw-medium text-warning-600 d-flex'>
                         <i className='ph-fill ph-star' />
@@ -145,9 +147,9 @@ const FacultyOne = () => {
                     </div>
                   </div>
                   <h4 className='mb-28'>
-                    <a href='course-details.html' className='link text-line-2'>
+                    <Link href='/course-details' className='link text-line-2'>
                       Arts and Humanities Admissions
-                    </a>
+                    </Link>
                   </h4>
                   <ul className='check-list'>
                     <li className='flex-align gap-8'>
@@ -177,14 +179,14 @@ const FacultyOne = () => {
                   </ul>
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='contact.html'
+                  <Link
+                    href='/contact'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Apply Now
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -196,13 +198,13 @@ const FacultyOne = () => {
           >
             <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <a href='course-details.html' className='w-100 h-100'>
+                <Link href='/course-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/faculty-img3.png'
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <div className=''>
@@ -210,15 +212,15 @@ const FacultyOne = () => {
                     Admission Open
                   </span>
                   <div className='flex-between gap-8 flex-wrap mb-16'>
-                    <a
-                      href='course.html'
+                    <Link
+                      href='/course'
                       className='py-8 px-20 rounded-8 flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                     >
                       <span className='text-xl d-flex'>
                         <i className='ph-bold ph-squares-four' />
                       </span>
                       BBA
-                    </a>
+                    </Link>
                     <div className='flex-align gap-4'>
                       <span className='text-2xl fw-medium text-warning-600 d-flex'>
                         <i className='ph-fill ph-star' />
@@ -230,9 +232,9 @@ const FacultyOne = () => {
                     </div>
                   </div>
                   <h4 className='mb-28'>
-                    <a href='course-details.html' className='link text-line-2'>
+                    <Link href='/course-details' className='link text-line-2'>
                       Social And Sciences Admissions
-                    </a>
+                    </Link>
                   </h4>
                   <ul className='check-list'>
                     <li className='flex-align gap-8'>
@@ -262,14 +264,14 @@ const FacultyOne = () => {
                   </ul>
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='contact.html'
+                  <Link
+                    href='/contact'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Apply Now
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -281,13 +283,13 @@ const FacultyOne = () => {
           >
             <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <a href='course-details.html' className='w-100 h-100'>
+                <Link href='/course-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/faculty-img4.png'
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <div className=''>
@@ -295,15 +297,15 @@ const FacultyOne = () => {
                     Admission Closed
                   </span>
                   <div className='flex-between gap-8 flex-wrap mb-16'>
-                    <a
-                      href='course.html'
+                    <Link
+                      href='/course'
                       className='py-8 px-20 rounded-8 flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                     >
                       <span className='text-xl d-flex'>
                         <i className='ph-bold ph-squares-four' />
                       </span>
                       CSE
-                    </a>
+                    </Link>
                     <div className='flex-align gap-4'>
                       <span className='text-2xl fw-medium text-warning-600 d-flex'>
                         <i className='ph-fill ph-star' />
@@ -315,9 +317,9 @@ const FacultyOne = () => {
                     </div>
                   </div>
                   <h4 className='mb-28'>
-                    <a href='course-details.html' className='link text-line-2'>
+                    <Link href='/course-details' className='link text-line-2'>
                       Computer Science Admissions
-                    </a>
+                    </Link>
                   </h4>
                   <ul className='check-list'>
                     <li className='flex-align gap-8'>
@@ -347,14 +349,14 @@ const FacultyOne = () => {
                   </ul>
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='contact.html'
+                  <Link
+                    href='/contact'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Apply Now
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -366,13 +368,13 @@ const FacultyOne = () => {
           >
             <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <a href='course-details.html' className='w-100 h-100'>
+                <Link href='/course-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/faculty-img5.png'
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <div className=''>
@@ -380,15 +382,15 @@ const FacultyOne = () => {
                     Admission Open
                   </span>
                   <div className='flex-between gap-8 flex-wrap mb-16'>
-                    <a
-                      href='course.html'
+                    <Link
+                      href='/course'
                       className='py-8 px-20 rounded-8 flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                     >
                       <span className='text-xl d-flex'>
                         <i className='ph-bold ph-squares-four' />
                       </span>
                       BBA
-                    </a>
+                    </Link>
                     <div className='flex-align gap-4'>
                       <span className='text-2xl fw-medium text-warning-600 d-flex'>
                         <i className='ph-fill ph-star' />
@@ -400,9 +402,9 @@ const FacultyOne = () => {
                     </div>
                   </div>
                   <h4 className='mb-28'>
-                    <a href='course-details.html' className='link text-line-2'>
+                    <Link href='/course-details' className='link text-line-2'>
                       Business and Economics Admissions
-                    </a>
+                    </Link>
                   </h4>
                   <ul className='check-list'>
                     <li className='flex-align gap-8'>
@@ -432,14 +434,14 @@ const FacultyOne = () => {
                   </ul>
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='contact.html'
+                  <Link
+                    href='/contact'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Apply Now
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -451,13 +453,13 @@ const FacultyOne = () => {
           >
             <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <a href='course-details.html' className='w-100 h-100'>
+                <Link href='/course-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/faculty-img6.png'
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <div className=''>
@@ -465,15 +467,15 @@ const FacultyOne = () => {
                     Admission Closed
                   </span>
                   <div className='flex-between gap-8 flex-wrap mb-16'>
-                    <a
-                      href='course.html'
+                    <Link
+                      href='/course'
                       className='py-8 px-20 rounded-8 flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                     >
                       <span className='text-xl d-flex'>
                         <i className='ph-bold ph-squares-four' />
                       </span>
                       Medical
-                    </a>
+                    </Link>
                     <div className='flex-align gap-4'>
                       <span className='text-2xl fw-medium text-warning-600 d-flex'>
                         <i className='ph-fill ph-star' />
@@ -485,9 +487,9 @@ const FacultyOne = () => {
                     </div>
                   </div>
                   <h4 className='mb-28'>
-                    <a href='course-details.html' className='link text-line-2'>
+                    <Link href='/course-details' className='link text-line-2'>
                       Medicine and Health Sciences Admissions
-                    </a>
+                    </Link>
                   </h4>
                   <ul className='check-list'>
                     <li className='flex-align gap-8'>
@@ -517,27 +519,27 @@ const FacultyOne = () => {
                   </ul>
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='contact.html'
+                  <Link
+                    href='/contact'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Apply Now
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div className='text-center mt-40'>
-          <a
-            href='about.html'
+          <Link
+            href='/about'
             className='btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8'
           >
             See All University
             <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-          </a>
+          </Link>
         </div>
       </div>
     </section>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const BannerOne = () => {
   return (
     <section className='banner py-80 position-relative overflow-hidden'>
@@ -60,22 +62,22 @@ const BannerOne = () => {
                 you're a student, professional, or lifelong learner...
               </p>
               <div className='buttons-wrapper flex-align flex-wrap gap-24 mt-40'>
-                <a
-                  href='course.html'
+                <Link
+                  href='/course'
                   className='btn btn-main rounded-pill flex-align gap-8'
                   data-aos='fade-right'
                 >
                   Browse Courses
                   <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                </a>
-                <a
-                  href='about.html'
+                </Link>
+                <Link
+                  href='/about'
                   className='btn btn-outline-main rounded-pill flex-align gap-8'
                   data-aos='fade-left'
                 >
                   About Us
                   <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const InstructorAllTwo = () => {
   return (
     <section className='instructor py-120 position-relative z-1'>
@@ -31,40 +33,40 @@ const InstructorAllTwo = () => {
                   />
                   <ul className='social-list flex-center gap-12 d-flex position-absolute start-50 top-50 w-100 h-100 translate-middle'>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.facebook.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-facebook-logo' />
-                      </a>
+                      </Link>
                     </li>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.twitter.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-twitter-logo' />
-                      </a>
+                      </Link>
                     </li>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.linkedin.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-instagram-logo' />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
-                  <a
-                    href='instructor-details.html'
+                  <Link
+                  href='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Esther Howard
-                  </a>
+                  </Link>
                 </h4>
                 <span className='text-neutral-500'>Web Developer</span>
               </div>
@@ -81,40 +83,40 @@ const InstructorAllTwo = () => {
                   />
                   <ul className='social-list flex-center gap-12 d-flex position-absolute start-50 top-50 w-100 h-100 translate-middle'>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.facebook.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-facebook-logo' />
-                      </a>
+                      </Link>
                     </li>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.twitter.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-twitter-logo' />
-                      </a>
+                      </Link>
                     </li>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.linkedin.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-instagram-logo' />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
-                  <a
-                    href='instructor-details.html'
+                  <Link
+                  href='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Jerome Bell
-                  </a>
+                  </Link>
                 </h4>
                 <span className='text-neutral-500'>UI Designer</span>
               </div>
@@ -131,40 +133,40 @@ const InstructorAllTwo = () => {
                   />
                   <ul className='social-list flex-center gap-12 d-flex position-absolute start-50 top-50 w-100 h-100 translate-middle'>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.facebook.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-facebook-logo' />
-                      </a>
+                      </Link>
                     </li>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.twitter.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-twitter-logo' />
-                      </a>
+                      </Link>
                     </li>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.linkedin.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-instagram-logo' />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
-                  <a
-                    href='instructor-details.html'
+                  <Link
+                  href='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Savannah Nguyen
-                  </a>
+                  </Link>
                 </h4>
                 <span className='text-neutral-500'>Digital Marketer</span>
               </div>
@@ -181,40 +183,40 @@ const InstructorAllTwo = () => {
                   />
                   <ul className='social-list flex-center gap-12 d-flex position-absolute start-50 top-50 w-100 h-100 translate-middle'>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.facebook.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-facebook-logo' />
-                      </a>
+                      </Link>
                     </li>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.twitter.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-twitter-logo' />
-                      </a>
+                      </Link>
                     </li>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.linkedin.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-instagram-logo' />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
-                  <a
-                    href='instructor-details.html'
+                  <Link
+                  href='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Jenny Wilson
-                  </a>
+                  </Link>
                 </h4>
                 <span className='text-neutral-500'>WordPress Expert</span>
               </div>
@@ -231,40 +233,40 @@ const InstructorAllTwo = () => {
                   />
                   <ul className='social-list flex-center gap-12 d-flex position-absolute start-50 top-50 w-100 h-100 translate-middle'>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.facebook.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-facebook-logo' />
-                      </a>
+                      </Link>
                     </li>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.twitter.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-twitter-logo' />
-                      </a>
+                      </Link>
                     </li>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.linkedin.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-instagram-logo' />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
-                  <a
-                    href='instructor-details.html'
+                  <Link
+                  href='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Cameron Williamson
-                  </a>
+                  </Link>
                 </h4>
                 <span className='text-neutral-500'>PHP Expert</span>
               </div>
@@ -281,40 +283,40 @@ const InstructorAllTwo = () => {
                   />
                   <ul className='social-list flex-center gap-12 d-flex position-absolute start-50 top-50 w-100 h-100 translate-middle'>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.facebook.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-facebook-logo' />
-                      </a>
+                      </Link>
                     </li>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.twitter.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-twitter-logo' />
-                      </a>
+                      </Link>
                     </li>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.linkedin.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-instagram-logo' />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
-                  <a
-                    href='instructor-details.html'
+                  <Link
+                  href='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Wade Warren
-                  </a>
+                  </Link>
                 </h4>
                 <span className='text-neutral-500'>Python Developer</span>
               </div>
@@ -331,40 +333,40 @@ const InstructorAllTwo = () => {
                   />
                   <ul className='social-list flex-center gap-12 d-flex position-absolute start-50 top-50 w-100 h-100 translate-middle'>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.facebook.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-facebook-logo' />
-                      </a>
+                      </Link>
                     </li>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.twitter.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-twitter-logo' />
-                      </a>
+                      </Link>
                     </li>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.linkedin.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-instagram-logo' />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
-                  <a
-                    href='instructor-details.html'
+                  <Link
+                  href='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Kathryn Murphy
-                  </a>
+                  </Link>
                 </h4>
                 <span className='text-neutral-500'>Java Expert</span>
               </div>
@@ -381,40 +383,40 @@ const InstructorAllTwo = () => {
                   />
                   <ul className='social-list flex-center gap-12 d-flex position-absolute start-50 top-50 w-100 h-100 translate-middle'>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.facebook.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-facebook-logo' />
-                      </a>
+                      </Link>
                     </li>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.twitter.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-twitter-logo' />
-                      </a>
+                      </Link>
                     </li>
                     <li className='social-list__item'>
-                      <a
+                      <Link
                         href='https://www.linkedin.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-instagram-logo' />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
-                  <a
-                    href='instructor-details.html'
+                  <Link
+                  href='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Devon Lane
-                  </a>
+                  </Link>
                 </h4>
                 <span className='text-neutral-500'>C++ Expert</span>
               </div>
@@ -423,52 +425,52 @@ const InstructorAllTwo = () => {
         </div>
         <ul className='pagination mt-40 flex-align gap-12 flex-wrap justify-content-center'>
           <li className='page-item'>
-            <a
+            <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
               href='#'
             >
               <i className='ph-bold ph-caret-left' />
-            </a>
+            </Link>
           </li>
           <li className='page-item'>
-            <a
+            <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
               href='#'
             >
               1
-            </a>
+            </Link>
           </li>
           <li className='page-item'>
-            <a
+            <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
               href='#'
             >
               2
-            </a>
+            </Link>
           </li>
           <li className='page-item'>
-            <a
+            <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
               href='#'
             >
               3
-            </a>
+            </Link>
           </li>
           <li className='page-item'>
-            <a
+            <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
               href='#'
             >
               ...
-            </a>
+            </Link>
           </li>
           <li className='page-item'>
-            <a
+            <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
               href='#'
             >
               <i className='ph-bold ph-caret-right' />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

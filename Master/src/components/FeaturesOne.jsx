@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import Slider from "react-slick";
 
 const FeaturesOne = () => {
@@ -76,13 +77,13 @@ const FeaturesOne = () => {
                 Courses teaching languages such as English, Spanish, French,
                 Mandarin etc
               </p>
-              <a
-                href='course-list-view.html'
+              <Link
+                href='/course-list-view'
                 className='item-hover__text flex-align gap-8 text-main-600 mt-24 hover-text-decoration-underline transition-1'
               >
                 View Category
                 <i className='ph ph-arrow-right' />
-              </a>
+              </Link>
             </div>
           </div>
           <div className='px-8' data-aos='zoom-in' data-aos-duration={800}>
@@ -101,13 +102,13 @@ const FeaturesOne = () => {
                 Courses on graphic design, digital art, photography, video
                 editing
               </p>
-              <a
-                href='course-list-view.html'
+              <Link
+                href='/course-list-view'
                 className='item-hover__text flex-align gap-8 text-main-600 mt-24 hover-text-decoration-underline transition-1'
               >
                 View Category
                 <i className='ph ph-arrow-right' />
-              </a>
+              </Link>
             </div>
           </div>
           <div className='px-8' data-aos='zoom-in' data-aos-duration={1200}>
@@ -126,13 +127,13 @@ const FeaturesOne = () => {
                 Courses on nutrition, fitness training, yoga, meditation,
                 wellness coaching...
               </p>
-              <a
-                href='course-list-view.html'
+              <Link
+                href='/course-list-view'
                 className='item-hover__text flex-align gap-8 text-main-600 mt-24 hover-text-decoration-underline transition-1'
               >
                 View Category
                 <i className='ph ph-arrow-right' />
-              </a>
+              </Link>
             </div>
           </div>
           <div className='px-8' data-aos='zoom-in' data-aos-duration={1600}>
@@ -151,13 +152,13 @@ const FeaturesOne = () => {
                 Courses on graphic design, digital art, photography, video
                 editing
               </p>
-              <a
-                href='course-list-view.html'
+              <Link
+                href='/course-list-view'
                 className='item-hover__text flex-align gap-8 text-main-600 mt-24 hover-text-decoration-underline transition-1'
               >
                 View Category
                 <i className='ph ph-arrow-right' />
-              </a>
+              </Link>
             </div>
           </div>
         </Slider>

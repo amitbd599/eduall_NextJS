@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const BlogOne = () => {
   return (
     <section className='blog py-120 mash-bg-main mash-bg-main-two position-relative'>
@@ -27,13 +29,13 @@ const BlogOne = () => {
           >
             <div className='blog-item scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='rounded-12 overflow-hidden position-relative'>
-                <a href='blog-details.html' className='w-100 h-100'>
+                <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-img1.png'
                     alt='Blog Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
               </div>
               <div className='p-24 pt-32'>
                 <div className=''>
@@ -41,9 +43,9 @@ const BlogOne = () => {
                     Student life
                   </span>
                   <h4 className='mb-28'>
-                    <a href='blog-details.html' className='link text-line-2'>
+                    <Link href='/blog-details' className='link text-line-2'>
                       The Importance of Diversity in Higher Education
-                    </a>
+                    </Link>
                   </h4>
                   <div className='flex-align gap-14 flex-wrap my-20'>
                     <div className='flex-align gap-8'>
@@ -75,14 +77,14 @@ const BlogOne = () => {
                   </p>
                 </div>
                 <div className='pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='blog-details.html'
+                  <Link
+                    href='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Read More
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -94,13 +96,13 @@ const BlogOne = () => {
           >
             <div className='blog-item scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='rounded-12 overflow-hidden position-relative'>
-                <a href='blog-details.html' className='w-100 h-100'>
+                <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-img2.png'
                     alt='Blog Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
               </div>
               <div className='p-24 pt-32'>
                 <div className=''>
@@ -108,9 +110,9 @@ const BlogOne = () => {
                     Freedom
                   </span>
                   <h4 className='mb-28'>
-                    <a href='blog-details.html' className='link text-line-2'>
+                    <Link href='/blog-details' className='link text-line-2'>
                       The Importance of Diversity in Higher Education
-                    </a>
+                    </Link>
                   </h4>
                   <div className='flex-align gap-14 flex-wrap my-20'>
                     <div className='flex-align gap-8'>
@@ -142,14 +144,14 @@ const BlogOne = () => {
                   </p>
                 </div>
                 <div className='pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='blog-details.html'
+                  <Link
+                    href='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Read More
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -161,13 +163,13 @@ const BlogOne = () => {
           >
             <div className='blog-item scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='rounded-12 overflow-hidden position-relative'>
-                <a href='blog-details.html' className='w-100 h-100'>
+                <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-img3.png'
                     alt='Blog Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
               </div>
               <div className='p-24 pt-32'>
                 <div className=''>
@@ -175,9 +177,9 @@ const BlogOne = () => {
                     Online
                   </span>
                   <h4 className='mb-28'>
-                    <a href='blog-details.html' className='link text-line-2'>
+                    <Link href='/blog-details' className='link text-line-2'>
                       The Importance of Diversity in Higher Education
-                    </a>
+                    </Link>
                   </h4>
                   <div className='flex-align gap-14 flex-wrap my-20'>
                     <div className='flex-align gap-8'>
@@ -209,14 +211,14 @@ const BlogOne = () => {
                   </p>
                 </div>
                 <div className='pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
-                  <a
-                    href='blog-details.html'
+                  <Link
+                    href='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
                     Read More
                     <i className='ph ph-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

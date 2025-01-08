@@ -169,17 +169,20 @@ const HeaderOne = () => {
                 <ul className='nav-menu flex-align'>
                   {menuItems.map((item, index) =>
                     item.links ? (
-                      <li key={index} className='nav-menu__item has-submenu'>
+                      <li
+                        key={`menu-item-${index}`}
+                        className='nav-menu__item has-submenu'
+                      >
                         <Link href='#' className='nav-menu__link'>
                           {item.label}
                         </Link>
                         <ul className={`nav-submenu scroll-sm`}>
                           {item.links.map((link, linkIndex) => (
                             <li
-                              key={linkIndex}
+                              key={`submenu-item-${linkIndex}`}
                               className={`nav-submenu__item ${
                                 pathname == link.href && "activePage"
-                              } `}
+                              }`}
                             >
                               <Link
                                 href={link.href}
@@ -192,7 +195,10 @@ const HeaderOne = () => {
                         </ul>
                       </li>
                     ) : (
-                      <li className='nav-menu__item'>
+                      <li
+                        key={`menu-contact-${index}`}
+                        className='nav-menu__item'
+                      >
                         <a href='contact' className='nav-menu__link'>
                           Contact
                         </a>
@@ -249,7 +255,7 @@ const HeaderOne = () => {
           <i className='ph ph-x' />{" "}
         </button>
         <div className='mobile-menu__inner'>
-          <a href='index' className='mobile-menu__logo'>
+          <a href='/index-1' className='mobile-menu__logo'>
             <img src='assets/images/logo/logo.png' alt='Logo' />
           </a>
           <div className='mobile-menu__menu'>
@@ -257,7 +263,7 @@ const HeaderOne = () => {
               {menuItems.map((item, index) =>
                 item.links ? (
                   <li
-                    key={index}
+                    key={`menu-item-${index}`}
                     className={`nav-menu__item has-submenu ${
                       activeSubmenu === index ? "activePage" : ""
                     }`}
@@ -280,7 +286,7 @@ const HeaderOne = () => {
                     </ul>
                   </li>
                 ) : (
-                  <li className='nav-menu__item'>
+                  <li className='nav-menu__item' key={index}>
                     <a href='contact' className='nav-menu__link'>
                       Contact
                     </a>

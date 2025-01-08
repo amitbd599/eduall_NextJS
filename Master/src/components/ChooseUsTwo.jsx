@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const ChooseUsTwo = () => {
   return (
     <section className='choose-us-two pt-120'>
@@ -23,13 +25,13 @@ const ChooseUsTwo = () => {
                 Certainly cordially, sweetness perceived day's end; why
                 knowledge, a perception to cherish deeply.
               </p>
-              <a
-                href='about.html'
+              <Link
+                href='/about'
                 className='btn btn-main rounded-pill flex-align d-inline-flex gap-8 mt-40'
               >
                 Read More
                 <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-              </a>
+              </Link>
             </div>
           </div>
           <div className='col-lg-5'>
@@ -42,58 +44,58 @@ const ChooseUsTwo = () => {
               </h4>
               <ul>
                 <li className='mb-24'>
-                  <a
-                    href='contact.html'
+                  <Link
+                    href='/contact'
                     className='flex-align gap-12 text-white hover-text-decoration-underline'
                   >
                     Admission Notice
                     <i className='text-main-two-600 ph-bold ph-arrow-right d-flex text-xl' />
-                  </a>
+                  </Link>
                 </li>
                 <li className='mb-24'>
-                  <a
-                    href='contact.html'
+                  <Link
+                    href='/contact'
                     className='flex-align gap-12 text-white hover-text-decoration-underline'
                   >
                     Summer Admission 2024
                     <i className='text-main-two-600 ph-bold ph-arrow-right d-flex text-xl' />
-                  </a>
+                  </Link>
                 </li>
                 <li className='mb-24'>
-                  <a
-                    href='contact.html'
+                  <Link
+                    href='/contact'
                     className='flex-align gap-12 text-white hover-text-decoration-underline'
                   >
                     Upcoming Seminar
                     <i className='text-main-two-600 ph-bold ph-arrow-right d-flex text-xl' />
-                  </a>
+                  </Link>
                 </li>
                 <li className='mb-24'>
-                  <a
-                    href='contact.html'
+                  <Link
+                    href='/contact'
                     className='flex-align gap-12 text-white hover-text-decoration-underline'
                   >
                     Download Curriculum
                     <i className='text-main-two-600 ph-bold ph-arrow-right d-flex text-xl' />
-                  </a>
+                  </Link>
                 </li>
                 <li className='mb-24'>
-                  <a
-                    href='contact.html'
+                  <Link
+                    href='/contact'
                     className='flex-align gap-12 text-white hover-text-decoration-underline'
                   >
                     Alumni Seminar
                     <i className='text-main-two-600 ph-bold ph-arrow-right d-flex text-xl' />
-                  </a>
+                  </Link>
                 </li>
                 <li className='mb-0'>
-                  <a
-                    href='contact.html'
+                  <Link
+                    href='/contact'
                     className='flex-align gap-12 text-white hover-text-decoration-underline'
                   >
                     Exam Notice
                     <i className='text-main-two-600 ph-bold ph-arrow-right d-flex text-xl' />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

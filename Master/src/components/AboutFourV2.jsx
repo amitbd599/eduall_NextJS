@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
@@ -164,13 +165,13 @@ const AboutFourV2 = () => {
                   </div>
                 </div>
                 <div className='pt-40 border-top border-neutral-50 mt-40 border-dashed border-0'>
-                  <a
-                    href='tuition-jobs.html'
+                  <Link
+                    href='/tuition-jobs'
                     className='btn btn-main rounded-pill flex-align d-inline-flex gap-8'
                   >
                     <i className='ph-bold ph-magnifying-glass d-flex text-lg' />
                     Find Tution
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
