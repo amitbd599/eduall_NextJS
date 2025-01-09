@@ -1,4 +1,12 @@
+"use client";
+import { useState } from "react";
+
 const SignInInner = () => {
+  const [passwordVisible, setPasswordVisible] = useState(false);
+
+  const togglePasswordVisibility = () => {
+    setPasswordVisible(!passwordVisible);
+  };
   return (
     <div className='account py-120 position-relative'>
       <div className='container'>
@@ -35,15 +43,17 @@ const SignInInner = () => {
                   </label>
                   <div className='position-relative'>
                     <input
-                      type='password'
+                      type={passwordVisible ? "text" : "password"}
                       className='common-input rounded-pill pe-44'
                       id='password'
                       placeholder='Enter Your Password...'
                     />
                     <span
-                      className='toggle-password position-absolute top-50 inset-inline-end-0 me-16 translate-middle-y ph-bold ph-eye-closed'
-                      id='#password'
-                    />
+                      className={`toggle-password position-absolute top-50 inset-inline-end-0 me-16 translate-middle-y ph-bold ${
+                        passwordVisible ? "ph-eye" : "ph-eye-closed"
+                      }`}
+                      onClick={togglePasswordVisibility}
+                    ></span>
                   </div>
                 </div>
                 <div className='mb-16 text-end'>
