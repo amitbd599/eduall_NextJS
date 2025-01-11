@@ -4,20 +4,30 @@ import { useState } from "react";
 import ReactSlider from "react-slider";
 const TutorSectionOne = () => {
   const [values, setValues] = useState([100, 1000]);
+  let [sidebarActive, setSidebarActive] = useState(false);
+  let sidebarControl = () => {
+    setSidebarActive(!sidebarActive);
+  };
   return (
     <section
       className='course-list-view py-120 background-img bg-img'
       data-background-image='assets/images/bg/gradient-bg.png'
     >
+      <div className={`side-overlay ${sidebarActive ? "show" : ""}`}></div>
       <div className='container'>
         <div className='row'>
           <div className='col-lg-4'>
-            <div className='sidebar rounded-12 bg-white p-32 box-shadow-md'>
+            <div
+              className={`sidebar rounded-12 bg-white p-32 box-shadow-md ${
+                sidebarActive ? "active" : ""
+              }`}
+            >
               <form action='#'>
                 <div className='flex-between mb-24'>
                   <h4 className='mb-0'>Filter</h4>
                   <button
                     type='button'
+                    onClick={sidebarControl}
                     className='sidebar-close text-xl text-neutral-500 d-lg-none hover-text-main-600'
                   >
                     <i className='ph-bold ph-x' />
@@ -403,6 +413,7 @@ const TutorSectionOne = () => {
                 </div>
                 <button
                   type='button'
+                  onClick={sidebarControl}
                   className='list-bar-btn text-xl w-40 h-40 bg-main-600 text-white rounded-8 flex-center d-lg-none'
                 >
                   <i className='ph-bold ph-funnel' />
