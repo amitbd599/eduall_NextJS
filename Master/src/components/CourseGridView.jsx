@@ -7,7 +7,7 @@ const CourseGridView = () => {
         <div className='flex-between gap-16 flex-wrap mb-40'>
           <span className='text-neutral-500'>Showing 9 of 600 Results </span>
           <div className='flex-align gap-8'>
-            <span className='text-neutral-500 flex-shrink-0'>Sort By :</span>
+            <span className='text-neutral-500 flex-shrink-0'>Sort By :</span>ss
             <select className='form-select ps-20 pe-28 py-8 fw-semibold rounded-pill bg-main-25 border border-neutral-30 text-neutral-700'>
               <option value={1}>Newest</option>
               <option value={1}>Trending</option>

@@ -6539,3 +6539,15 @@
     background-color: #e6e6e6;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 768px) {
+  .banner__inner .tech-icon {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+}

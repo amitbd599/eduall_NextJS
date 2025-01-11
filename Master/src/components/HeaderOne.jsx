@@ -85,6 +85,10 @@ const HeaderOne = () => {
         { href: "/about-two", label: "About Two" },
         { href: "/about-three", label: "About Three" },
         { href: "/about-four", label: "About Four" },
+        { href: "/product", label: "Product" },
+        { href: "/product-details", label: "Product Details" },
+        { href: "/cart", label: "Cart" },
+        { href: "/checkout", label: "Checkout" },
         { href: "/pricing-plan", label: "Pricing Plan" },
         { href: "/instructor", label: "Instructor" },
         { href: "/instructor-two", label: "Instructor Two" },
@@ -103,15 +107,15 @@ const HeaderOne = () => {
         { href: "/book-online-class", label: "Book Online Class" },
       ],
     },
-    {
-      label: "Product",
-      links: [
-        { href: "/product", label: "Product" },
-        { href: "/product-details", label: "Product Details" },
-        { href: "/cart", label: "Cart" },
-        { href: "/checkout", label: "Checkout" },
-      ],
-    },
+    // {
+    //   label: "Product",
+    //   links: [
+    //     { href: "/product", label: "Product" },
+    //     { href: "/product-details", label: "Product Details" },
+    //     { href: "/cart", label: "Cart" },
+    //     { href: "/checkout", label: "Checkout" },
+    //   ],
+    // },
     {
       label: "Blog",
       links: [

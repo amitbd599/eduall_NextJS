@@ -5,17 +5,27 @@ import Link from "next/link";
 
 const CourseListView = () => {
   const [values, setValues] = useState([100, 1000]);
+  let [sidebarActive, setSidebarActive] = useState(false);
+  let sidebarControl = () => {
+    setSidebarActive(!sidebarActive);
+  };
   return (
     <section className='course-list-view py-120'>
+      <div className={`side-overlay ${sidebarActive ? "show" : ""}`}></div>
       <div className='container'>
         <div className='row'>
           <div className='col-lg-4'>
-            <div className='sidebar rounded-12 bg-main-25 p-32 border border-neutral-30'>
+            <div
+              className={`sidebar rounded-12 bg-main-25 p-32 border border-neutral-30 ${
+                sidebarActive ? "active" : ""
+              } `}
+            >
               <form action='#'>
                 <div className='flex-between mb-24'>
                   <h4 className='mb-0'>Filter</h4>
                   <button
                     type='button'
+                    onClick={sidebarControl}
                     className='sidebar-close text-xl text-neutral-500 d-lg-none hover-text-main-600'
                   >
                     <i className='ph-bold ph-x' />
@@ -216,31 +226,31 @@ const CourseListView = () => {
                 </Link>
                 <span className='d-block border border-neutral-30 border-dashed my-24' />
                 <div>
-                      <h6 className='text-lg mb-20 fw-medium'>Pricing scale</h6>
-                      <div className='custom--range'>
-                        <ReactSlider
-                          className='horizontal-slider'
-                          thumbClassName='thumb'
-                          trackClassName='track'
-                          defaultValue={[100, 1000]}
-                          min={0}
-                          max={1000}
-                          value={values}
-                          onChange={(newValues) => setValues(newValues)}
-                          pearling
-                          minDistance={10}
-                        />
-                        <div className='custom--range__content'>
-                          <input
-                            type='text'
-                            id='amount'
-                            readOnly
-                            className='custom--range__prices text-neutral-600 text-start text-md fw-medium w-100 text-center bg-transparent border-0 outline-0'
-                            value={`$${values[0]} - $${values[1]}`}
-                          />
-                        </div>
-                      </div>
+                  <h6 className='text-lg mb-20 fw-medium'>Pricing scale</h6>
+                  <div className='custom--range'>
+                    <ReactSlider
+                      className='horizontal-slider'
+                      thumbClassName='thumb'
+                      trackClassName='track'
+                      defaultValue={[100, 1000]}
+                      min={0}
+                      max={1000}
+                      value={values}
+                      onChange={(newValues) => setValues(newValues)}
+                      pearling
+                      minDistance={10}
+                    />
+                    <div className='custom--range__content'>
+                      <input
+                        type='text'
+                        id='amount'
+                        readOnly
+                        className='custom--range__prices text-neutral-600 text-start text-md fw-medium w-100 text-center bg-transparent border-0 outline-0'
+                        value={`$${values[0]} - $${values[1]}`}
+                      />
                     </div>
+                  </div>
+                </div>
                 <span className='d-block border border-neutral-30 border-dashed my-24' />
                 <h6 className='text-lg mb-24 fw-medium'>Star Category</h6>
                 <div className='d-flex flex-column gap-16'>
@@ -487,6 +497,7 @@ const CourseListView = () => {
                   </div>
                   <button
                     type='button'
+                    onClick={sidebarControl}
                     className='list-bar-btn text-xl w-40 h-40 bg-main-600 text-white rounded-8 flex-center d-lg-none'
                   >
                     <i className='ph-bold ph-funnel' />
