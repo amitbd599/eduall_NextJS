@@ -1,12 +1,8 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import CertificateOne from "@/components/CertificateOne";
-import CourseAllOne from "@/components/CourseAllOne";
 import FooterOne from "@/components/FooterOne";
 import HeaderOne from "@/components/HeaderOne";
-import InstructorDetails from "@/components/InstructorDetails";
-import TestimonialsTwo from "@/components/TestimonialsTwo";
 import TutorDetails from "@/components/TutorDetails";
-import TutorSectionOne from "@/components/TutorSectionOne";
 import Animation from "@/helper/Animation";
 
 export const metadata = {

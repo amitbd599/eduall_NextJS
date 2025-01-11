@@ -21,7 +21,7 @@ const page = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"Favourite Courses"} />
+      <Breadcrumb title={"Favorite Courses"} />
 
       {/* FavoriteCourseInner */}
       <FavoriteCourseInner />

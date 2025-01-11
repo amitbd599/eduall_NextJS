@@ -3,7 +3,6 @@ import CertificateOne from "@/components/CertificateOne";
 import FooterOne from "@/components/FooterOne";
 import HeaderOne from "@/components/HeaderOne";
 import TuitionJobs from "@/components/TuitionJobs";
-import TutorDetails from "@/components/TutorDetails";
 import Animation from "@/helper/Animation";
 
 export const metadata = {

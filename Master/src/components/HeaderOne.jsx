@@ -107,15 +107,7 @@ const HeaderOne = () => {
         { href: "/book-online-class", label: "Book Online Class" },
       ],
     },
-    // {
-    //   label: "Product",
-    //   links: [
-    //     { href: "/product", label: "Product" },
-    //     { href: "/product-details", label: "Product Details" },
-    //     { href: "/cart", label: "Cart" },
-    //     { href: "/checkout", label: "Checkout" },
-    //   ],
-    // },
+
     {
       label: "Blog",
       links: [
