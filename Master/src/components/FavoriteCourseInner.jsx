@@ -5,10 +5,7 @@ const FavoriteCourseInner = () => {
     <section className='favorite-course py-120'>
       <div className='container'>
         <div className='d-flex flex-wrap align-items-center justify-content-between mb-24'>
-          <span className='text-neutral-700'>
-            {" "}
-            Courses Home Favourite Courses
-          </span>
+          <span className='text-neutral-700'> Favorites Courses</span>
           <button
             type='button'
             className='btn btn-outline-main py-12 px-24 rounded-pill flex-align gap-8 aos-init aos-animate fw-semibold'
