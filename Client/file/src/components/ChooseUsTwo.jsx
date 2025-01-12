@@ -57,7 +57,7 @@ const ChooseUsTwo = () => {
                     href='/contact'
                     className='flex-align gap-12 text-white hover-text-decoration-underline'
                   >
-                    Summer Admission 2024
+                    Summer Admission 2025
                     <i className='text-main-two-600 ph-bold ph-arrow-right d-flex text-xl' />
                   </Link>
                 </li>

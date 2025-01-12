@@ -231,7 +231,7 @@ const FooterThree = () => {
                 data-aos='zoom-in'
               >
                 {" "}
-                Copyright © 2024 <span className='fw-semibold'>EduAll</span> All
+                Copyright © 2025 <span className='fw-semibold'>EduAll</span> All
                 Rights Reserved.
               </p>
               <ul

@@ -247,7 +247,7 @@ const FooterOne = () => {
             <div className='bottom-footer__inner flex-between gap-3 flex-wrap'>
               <p className='bottom-footer__text'>
                 {" "}
-                Copyright © 2024 <span className='fw-semibold'>EduAll</span>
+                Copyright © 2025 <span className='fw-semibold'>EduAll</span>
                 All Rights Reserved.
               </p>
               <div className='footer-links'>

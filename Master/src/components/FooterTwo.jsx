@@ -231,8 +231,10 @@ const FooterTwo = () => {
                 data-aos='zoom-in'
               >
                 {" "}
-                Copyright © 2024 <span className='fw-semibold'>EduAll</span> All
-                Rights Reserved.
+                Copyright © 2025 <span className='fw-semibold'>
+                  EduAll{" "}
+                </span>{" "}
+                All Rights Reserved.
               </p>
               <ul
                 className='social-list flex-align gap-24'

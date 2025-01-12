@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import Marquee from "react-fast-marquee";
-import ScrollToTop from "react-scroll-to-top";
 import Link from "next/link";
 import "./Demo.css";
 const DemoLayer = () => {
