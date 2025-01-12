@@ -82,29 +82,8 @@ const DemoLayer = () => {
     };
   }, []);
 
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    window.addEventListener("load", () => {
-      setLoading(false);
-    });
-
-    return () => {
-      window.removeEventListener("load", () => {
-        setLoading(false);
-      });
-    };
-  }, []);
-
   return (
     <section className='demo'>
-      {/* <>
-        {loading && (
-          <div className='preloader'>
-            <div className='loader'></div>
-          </div>
-        )}
-      </> */}
       {/* <style dangerouslySetInnerHTML={{ __html: style }} /> */}
       {/*==================== Preloader Start ====================*/}
 

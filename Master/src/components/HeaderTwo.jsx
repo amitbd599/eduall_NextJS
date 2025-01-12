@@ -134,9 +134,9 @@ const HeaderTwo = () => {
           <div className='flex-between gap-24'>
             {/* Logo Start */}
             <div className='logo'>
-              <a href='/index' className='link'>
+              <Link href='/index-1' className='link'>
                 <img src='assets/images/logo/logo.png' alt='Logo' />
-              </a>
+              </Link>
             </div>
             {/* Logo End  */}
             {/* Search Start */}
@@ -176,27 +176,27 @@ const HeaderTwo = () => {
             {/* Search End */}
             {/* Buttons Start */}
             <div className='d-lg-flex d-none flex-align flex-md-nowrap flex-wrap gap-16 flex-shrink-0'>
-              <a
+              <Link
                 href='/sign-in'
                 className='btn btn-outline-main rounded-pill flex-align gap-8'
               >
                 Login
                 <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-              </a>
-              <a
+              </Link>
+              <Link
                 href='/sign-up'
                 className='btn btn-main rounded-pill flex-align gap-8'
               >
                 Sign Up
                 <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-              </a>
+              </Link>
             </div>
-            <a
+            <Link
               href='/sign-in'
               className='d-lg-none flex-shrink-0 w-52 h-52 bg-white hover-bg-main-600 border border-neutral-30 rounded-circle flex-center text-2xl text-neutral-500 hover-text-white hover-border-main-600'
             >
               <i className='ph ph-user-circle' />
-            </a>
+            </Link>
             {/* Buttons End */}
           </div>
         </div>
@@ -266,12 +266,12 @@ const HeaderTwo = () => {
                     </li>
                   ) : (
                     <li
-                      key={`menu-contact-${index}`}
-                      className='nav-menu__item'
+                      key={`menu-item-${index}`}
+                      className='nav-menu__item active'
                     >
-                      <a href='contact' className='nav-menu__link'>
-                        Contact
-                      </a>
+                      <Link href={item.href} className='nav-menu__link'>
+                        {item.label}
+                      </Link>
                     </li>
                   )
                 )}
@@ -352,9 +352,9 @@ const HeaderTwo = () => {
                   </li>
                 ) : (
                   <li className='nav-menu__item' key={index}>
-                    <a href='contact' className='nav-menu__link'>
-                      Contact
-                    </a>
+                    <Link href={item.href} className='nav-menu__link'>
+                      {item.label}
+                    </Link>
                   </li>
                 )
               )}

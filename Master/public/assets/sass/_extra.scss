@@ -59,6 +59,19 @@
     padding-top: 10px;
   }
 }
+.not_found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  .display-1 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  a {
+    margin-top: 20px;
+  }
+}
 
 @media only screen and (max-width: 1200px) {
   /*Tablets [601px -> 1200px]*/

@@ -193,11 +193,13 @@ const HeaderOne = () => {
                     ) : (
                       <li
                         key={`menu-contact-${index}`}
-                        className='nav-menu__item'
+                        className={`nav-menu__item ${
+                          pathname == item.href && "activePage"
+                        }`}
                       >
-                        <a href='contact' className='nav-menu__link'>
-                          Contact
-                        </a>
+                        <Link href={item.href} className='nav-menu__link'>
+                          {item.label}
+                        </Link>
                       </li>
                     )
                   )}
@@ -251,9 +253,9 @@ const HeaderOne = () => {
           <i className='ph ph-x' />{" "}
         </button>
         <div className='mobile-menu__inner'>
-          <a href='/index-1' className='mobile-menu__logo'>
+          <Link href='/index-1' className='mobile-menu__logo'>
             <img src='assets/images/logo/logo.png' alt='Logo' />
-          </a>
+          </Link>
           <div className='mobile-menu__menu'>
             <ul className='nav-menu flex-align nav-menu--mobile'>
               {menuItems.map((item, index) =>
@@ -282,10 +284,15 @@ const HeaderOne = () => {
                     </ul>
                   </li>
                 ) : (
-                  <li className='nav-menu__item' key={index}>
-                    <a href='contact' className='nav-menu__link'>
-                      Contact
-                    </a>
+                  <li
+                    className={`nav-menu__item ${
+                      pathname == item.href && "activePage"
+                    }`}
+                    key={index}
+                  >
+                    <Link href={item.href} className='nav-menu__link'>
+                      {item.label}
+                    </Link>
                   </li>
                 )
               )}
