@@ -1,6 +1,7 @@
 import BannerFive from "@/components/BannerFive";
 import FeaturesThree from "@/components/FeaturesThree";
 import HeaderThree from "@/components/HeaderThree";
+import KidsCourses from "@/components/KidsCourses";
 import Animation from "@/helper/Animation";
 
 export const metadata = {
@@ -23,6 +24,9 @@ const page = () => {
 
       {/* FeaturesThree */}
       <FeaturesThree />
+
+      {/* KidsCourses */}
+      <KidsCourses />
     </>
   );
 };
