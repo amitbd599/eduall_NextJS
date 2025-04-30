@@ -6,6 +6,7 @@ import HeaderThree from "@/components/HeaderThree";
 import InstructorTwo from "@/components/InstructorTwo";
 import KidsCourses from "@/components/KidsCourses";
 import MarqueeOne from "@/components/MarqueeOne";
+import PopularTwo from "@/components/PopularTwo";
 import Animation from "@/helper/Animation";
 
 export const metadata = {
@@ -43,6 +44,9 @@ const page = () => {
 
       {/* InstructorTwo */}
       <InstructorTwo />
+
+      {/* PopularTwo */}
+      <PopularTwo />
     </>
   );
 };
