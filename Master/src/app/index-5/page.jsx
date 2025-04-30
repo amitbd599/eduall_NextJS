@@ -1,4 +1,5 @@
 import BannerFive from "@/components/BannerFive";
+import FeaturesThree from "@/components/FeaturesThree";
 import HeaderThree from "@/components/HeaderThree";
 import Animation from "@/helper/Animation";
 
@@ -19,6 +20,9 @@ const page = () => {
 
       {/* BannerFive */}
       <BannerFive />
+
+      {/* FeaturesThree */}
+      <FeaturesThree />
     </>
   );
 };
