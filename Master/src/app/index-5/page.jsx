@@ -3,6 +3,7 @@ import CounterFour from "@/components/CounterFour";
 import FeaturesThree from "@/components/FeaturesThree";
 import HeaderThree from "@/components/HeaderThree";
 import KidsCourses from "@/components/KidsCourses";
+import MarqueeOne from "@/components/MarqueeOne";
 import Animation from "@/helper/Animation";
 
 export const metadata = {
@@ -31,6 +32,9 @@ const page = () => {
 
       {/* CounterFour */}
       <CounterFour />
+
+      {/* MarqueeOne */}
+      <MarqueeOne />
     </>
   );
 };
