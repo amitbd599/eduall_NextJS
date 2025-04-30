@@ -1,6 +1,7 @@
 import BannerFive from "@/components/BannerFive";
 import CounterFour from "@/components/CounterFour";
 import FeaturesThree from "@/components/FeaturesThree";
+import FooterFour from "@/components/FooterFour";
 import GallerySectionTwo from "@/components/GallerySectionTwo";
 import HeaderThree from "@/components/HeaderThree";
 import InstructorTwo from "@/components/InstructorTwo";
@@ -51,6 +52,9 @@ const page = () => {
 
       {/* TestimonialsFour */}
       <TestimonialsFour />
+
+      {/* FooterFour */}
+      <FooterFour />
     </>
   );
 };
