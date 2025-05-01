@@ -5,6 +5,7 @@ import ExploreCourseThree from "@/components/ExploreCourseThree";
 import FaqThree from "@/components/FaqThree";
 import HeaderThree from "@/components/HeaderThree";
 import PopularTeacherTwo from "@/components/PopularTeacherTwo";
+import TestimonialsFive from "@/components/TestimonialsFive";
 import Animation from "@/helper/Animation";
 
 export const metadata = {
@@ -39,6 +40,9 @@ const page = () => {
 
       {/* FaqThree */}
       <FaqThree />
+
+      {/* TestimonialsFive */}
+      <TestimonialsFive />
     </>
   );
 };
