@@ -1,5 +1,6 @@
 import AboutFive from "@/components/AboutFive";
 import BannerSix from "@/components/BannerSix";
+import ChildFuture from "@/components/ChildFuture";
 import ExploreCourseThree from "@/components/ExploreCourseThree";
 import HeaderThree from "@/components/HeaderThree";
 import Animation from "@/helper/Animation";
@@ -27,6 +28,9 @@ const page = () => {
 
       {/* ExploreCourseThree */}
       <ExploreCourseThree />
+
+      {/* ChildFuture */}
+      <ChildFuture />
     </>
   );
 };
