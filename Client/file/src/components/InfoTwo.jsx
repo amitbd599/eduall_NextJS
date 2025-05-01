@@ -62,7 +62,7 @@ const InfoTwo = () => {
                 <div>
                   <h4 className='mb-16'>Diverse Programs</h4>
                   <p className='text-neutral-700'>
-                    From undergraduate degrees to postgraduate research
+                    From undergraduate degrees to postgraduate research{" "}
                   </p>
                 </div>
               </div>

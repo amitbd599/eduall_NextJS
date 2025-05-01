@@ -31,7 +31,7 @@ const HowItWorkOne = () => {
                     />
                   </span>
                   <h4 className='mb-16 item-hover__text transition-2'>
-                    Search for Tutors
+                    Search for Tutors{" "}
                   </h4>
                   <p className='item-hover__text text-neutral-500 transition-2'>
                     Post Tuition by creating Account or without Account.

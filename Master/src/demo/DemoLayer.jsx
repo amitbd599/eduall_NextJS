@@ -2,8 +2,8 @@
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import Marquee from "react-fast-marquee";
-import Link from "next/link";
 import "./Demo.css";
+import Link from "next/link";
 const DemoLayer = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState("");
@@ -269,7 +269,7 @@ const DemoLayer = () => {
                       Education Tutors LMS & Online Course Template Multipurpose
                     </h1>
                     <p className='max-w-772 ms-auto me-auto wow bounceInUp'>
-                      EduAll is a developer-friendly, ready-to-use NEXT JS
+                      EduAll is a developer-friendly, ready-to-use React JS
                       template designed for building attractive, scalable, and
                       high-performing web applications
                     </p>
@@ -372,7 +372,7 @@ const DemoLayer = () => {
           <div className='container'>
             <div className='section-heading'>
               <h4 className='mb-16 wow bounceIn'>
-                EduAll - Education Tutors LMS NEXT JS Template
+                EduAll - Education Tutors LMS React JS Template
               </h4>
               <p className='text-md wow bounceInUp'>
                 Ready-to-use features are included with this template. Its
@@ -555,7 +555,7 @@ const DemoLayer = () => {
         <section className='demo-section py-120 bg-img' id='demos'>
           <div className='container'>
             <div className='section-heading'>
-              <h1 className='section-heading__title'>4+</h1>
+              <h1 className='section-heading__title'>5+</h1>
               <h4 className='mb-16 wow bounceIn'>Complete Demo Template</h4>
               <p className='text-md wow bounceInUp'>
                 EduAll website template provides Outstanding workable template
@@ -701,24 +701,30 @@ const DemoLayer = () => {
                     className='col-lg-4 col-sm-6 col-xs-6 wow flipInX'
                     data-wow-duration='0.65s'
                   >
-                    <div className='demo-item upcoming-item position-relative'>
-                      <div className='demo-item__inner bg-light-gradient-2'>
+                    <div className='demo-item position-relative'>
+                      <div className='demo-item__inner bg-light-gradient-1'>
                         <div className='demo-item__thumbs position-relative'>
                           <img
-                            src='assets_demo/images/thumbs/demo-img4.png'
+                            src='assets_demo/images/thumbs/demo-img5.png'
                             alt=''
                           />
-                          <div className='demo-item__overlay visible opacity-100 transform-scale-1'>
-                            <span className='py-8 px-16 rounded-8 bg-black text-white'>
-                              Upcoming
-                            </span>
+                          <div className='demo-item__overlay'>
+                            <Link
+                              href='/index-5'
+                              className='btn btn-main btn-sm'
+                            >
+                              View Demo
+                            </Link>
                           </div>
                         </div>
                       </div>
                       <div className='text-center'>
-                        <span className='text-heading fw-medium text-lg mt-12'>
-                          Home 5
-                        </span>
+                        <Link
+                          href='/index-5'
+                          className='text-heading fw-medium text-lg mt-12 hover-text-main-600'
+                        >
+                          Home Kindergarten
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -726,24 +732,30 @@ const DemoLayer = () => {
                     className='col-lg-4 col-sm-6 col-xs-6 wow flipInX'
                     data-wow-duration='0.65s'
                   >
-                    <div className='demo-item upcoming-item position-relative'>
+                    <div className='demo-item position-relative'>
                       <div className='demo-item__inner bg-light-gradient-1'>
                         <div className='demo-item__thumbs position-relative'>
                           <img
-                            src='assets_demo/images/thumbs/demo-img4.png'
+                            src='assets_demo/images/thumbs/demo-img6.png'
                             alt=''
                           />
-                          <div className='demo-item__overlay visible opacity-100 transform-scale-1'>
-                            <span className='py-8 px-16 rounded-8 bg-black text-white'>
-                              Upcoming
-                            </span>
+                          <div className='demo-item__overlay'>
+                            <Link
+                              href='/index-6'
+                              className='btn btn-main btn-sm'
+                            >
+                              View Demo
+                            </Link>
                           </div>
                         </div>
                       </div>
                       <div className='text-center'>
-                        <span className='text-heading fw-medium text-lg mt-12'>
-                          Home 6
-                        </span>
+                        <Link
+                          href='/index-6'
+                          className='text-heading fw-medium text-lg mt-12 hover-text-main-600'
+                        >
+                          Home Kindergarten two
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -760,7 +772,7 @@ const DemoLayer = () => {
           className='application py-120 bg-img'
           id='application'
           style={{
-            backgroundImage: "url(assets_demo/images/bg/application-bg.png)",
+            backgroundImage: "url(/assets_demo/images/bg/application-bg.png)",
           }}
         >
           <div className='container'>

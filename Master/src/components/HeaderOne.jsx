@@ -67,6 +67,8 @@ const HeaderOne = () => {
         { href: "/index-2", label: "Home Online Course" },
         { href: "/index-3", label: "Home University" },
         { href: "/index-4", label: "Home Tutor" },
+        { href: "/index-5", label: "Home Kindergarten" },
+        { href: "/index-6", label: " Home Kindergarten two" },
       ],
     },
     {
