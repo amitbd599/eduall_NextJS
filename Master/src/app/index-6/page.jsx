@@ -2,7 +2,9 @@ import AboutFive from "@/components/AboutFive";
 import BannerSix from "@/components/BannerSix";
 import ChildFuture from "@/components/ChildFuture";
 import ExploreCourseThree from "@/components/ExploreCourseThree";
+import FaqThree from "@/components/FaqThree";
 import HeaderThree from "@/components/HeaderThree";
+import PopularTeacherTwo from "@/components/PopularTeacherTwo";
 import Animation from "@/helper/Animation";
 
 export const metadata = {
@@ -31,6 +33,12 @@ const page = () => {
 
       {/* ChildFuture */}
       <ChildFuture />
+
+      {/* PopularTeacherTwo */}
+      <PopularTeacherTwo />
+
+      {/* FaqThree */}
+      <FaqThree />
     </>
   );
 };
